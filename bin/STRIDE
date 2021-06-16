@@ -18,7 +18,7 @@ def main():
     """
     Add main function argument parsers.
     """
-    parser = ap.ArgumentParser(description = "STRIDE (Spatial TRanscRIptomics DEconvolution by topic modelling) is a cell-type deconvolution tool for spatial transcriptomics by using single-cell transcriptomics data. ")
+    parser = ap.ArgumentParser(description = "STRIDE (Spatial TRanscrIptomics DEconvolution by topic modelling) is a cell-type deconvolution tool for spatial transcriptomics by using single-cell transcriptomics data. ")
     parser.add_argument("-v", "--version", action = "store_true", help = "Print version info.")
 
     subparsers = parser.add_subparsers(dest = "subcommand")
