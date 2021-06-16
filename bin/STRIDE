@@ -11,6 +11,7 @@ import logging
 import argparse as ap
 
 from STRIDE.Deconvolution import DeconvolveParser, Deconvolve
+from STRIDE.Plot import PlotParser, Plot
 
 
 def main():
@@ -22,11 +23,13 @@ def main():
 
     subparsers = parser.add_subparsers(dest = "subcommand")
     DeconvolveParser(subparsers)
+    PlotParser(subparsers)
+
     logging.basicConfig(format="%(levelname)s: %(message)s", stream=sys.stderr)
     args = parser.parse_args()
 
     SCRIPT_PATH = os.path.dirname(__file__)
-    version = open(os.path.join(SCRIPT_PATH, "version.txt"), "r").readline().strip()
+    version = open(os.path.join(SCRIPT_PATH, "../version.txt"), "r").readline().strip()
 
     if args.version:
         print(version)
@@ -36,6 +39,10 @@ def main():
                    sc_scale_factor = args.sc_scale_factor, st_scale_factor = args.st_scale_factor,
                    out_dir = args.out_dir, out_prefix = args.out_prefix, 
                    normalize = args.normalize, gene_use = args.gene_use, ntopics_list = args.ntopics_list)
+    elif args.subcommand == "plot":
+        Plot(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file, 
+             plot_type = args.plot_type, pt_size = args.pt_size,
+             out_dir = args.out_dir, out_prefix = args.out_prefix)
     else:
         parser.print_help()
         exit(1)

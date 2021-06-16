@@ -3,7 +3,8 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:56:08
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-11 11:33:12
+# @Last Modified time: 2021-06-17 02:08:33
+
 
 import os
 import scipy
@@ -12,12 +13,12 @@ import gensim
 import numpy as np
 import pandas as pd
 import argparse as ap
-import rpy2.robjects as ro
 
 from gensim.models import LdaModel
-from rpy2.robjects.packages import importr
 from sklearn.preprocessing import StandardScaler
+
 from STRIDE.ModelTrain import scProcess, stProcess, scLDA
+from STRIDE.utility.MarkerFind import MarkerFind
 
 
 def DeconvolveParser(subparsers):
@@ -41,18 +42,18 @@ def DeconvolveParser(subparsers):
         "If not specified, STRIDE will find differential marker genes for each celltype, and use them to run the model. ")
 
     group_output = workflow.add_argument_group("Output arguments")
-    group_output.add_argument("--outdir", dest = "out_dir", default = "STRIDE", 
-        help = "Path to the directory where the result file shall be stored. DEFAULT: STRIDE. ")
+    group_output.add_argument("--outdir", dest = "out_dir", default = ".", 
+        help = "Path to the directory where the result file shall be stored. DEFAULT: current directory. ")
     group_output.add_argument("--outprefix", dest = "out_prefix", default = "STRIDE", 
         help = "Prefix of output files. DEFAULT: STRIDE. ")
 
     group_model = workflow.add_argument_group("Model arguments")
     group_model.add_argument("--sc-scale-factor", dest = "sc_scale_factor", type = float, default = None,
         help = "The scale factor for cell-level normalization. For example, 10000. "
-        "If not specified, STRIDE will set the 75% quantile of nCount as default. ")
+        "If not specified, STRIDE will set the 75%% quantile of nCount as default. ")
     group_model.add_argument("--st-scale-factor", dest = "st_scale_factor", type = float, default = None,
         help = "The scale factor for spot-level normalization. For example, 10000. "
-        "If not specified, STRIDE will set the 75% quantile of nCount for ST as default. ")
+        "If not specified, STRIDE will set the 75%% quantile of nCount for ST as default. ")
     group_model.add_argument("--normalize", dest = "normalize", action = "store_true", 
         help = "Whether or not to normalize the single-cell and the spatial count matrix. "
         "If set, the two matrices will be normalized by the SD for each gene. ")
@@ -86,19 +87,21 @@ def SpatialDeconvolve(st_count_mat, st_count_genes, st_count_spots, genes_shared
         topic_spot_mat = gensim.matutils.corpus2csc(topic_spot)
         scipy.sparse.save_npz(topic_spot_file, topic_spot_mat)
     if model_selected == "Raw":
-        spot_celltype_array_norm_df = SpatialDeconvolveRaw(st_count_spots, ntopics_selected, topic_spot_mat, out_dir, out_prefix)
+        spot_celltype_array_norm_df = SpatialDeconvolveRaw(st_count_spots, ntopics_selected, topic_spot_mat, out_dir)
     if model_selected == "Norm":
-        spot_celltype_array_norm_df = SpatialDeconvolveNorm(st_count_spots, ntopics_selected, topic_spot_mat, out_dir, out_prefix)
+        spot_celltype_array_norm_df = SpatialDeconvolveNorm(st_count_spots, ntopics_selected, topic_spot_mat, out_dir)
     if model_selected == "NormBySD":
-        spot_celltype_array_norm_df = SpatialDeconvolveNormBySD(st_count_spots, ntopics_selected, topic_spot_mat, out_dir, out_prefix)
+        spot_celltype_array_norm_df = SpatialDeconvolveNormBySD(st_count_spots, ntopics_selected, topic_spot_mat, out_dir)
     if model_selected == "Bayes":
-        spot_celltype_array_norm_df = SpatialDeconvolveBayes(st_count_spots, ntopics_selected, topic_spot_mat, out_dir, out_prefix)
+        spot_celltype_array_norm_df = SpatialDeconvolveBayes(st_count_spots, ntopics_selected, topic_spot_mat, out_dir)
     if model_selected == "BayesNorm":
-        spot_celltype_array_norm_df = SpatialDeconvolveBayesNorm(st_count_spots, ntopics_selected, topic_spot_mat, out_dir, out_prefix)
+        spot_celltype_array_norm_df = SpatialDeconvolveBayesNorm(st_count_spots, ntopics_selected, topic_spot_mat, out_dir)
+    spot_celltype_array_norm_df_file = os.path.join(out_dir, "%s_spot_celltype_frac.txt" %(out_prefix))
+    spot_celltype_array_norm_df.to_csv(spot_celltype_array_norm_df_file, sep = "\t")
     return(spot_celltype_array_norm_df)
 
 
-def SpatialDeconvolveRaw(st_count_spots, ntopics, topic_spot_mat, out_dir, out_prefix):
+def SpatialDeconvolveRaw(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # read the celltype-topic file
     model_dir = os.path.join(out_dir, "model")
     topic_celltype_file = os.path.join(model_dir,"topic_celltype_mat_%s.txt" %(ntopics))
@@ -111,13 +114,11 @@ def SpatialDeconvolveRaw(st_count_spots, ntopics, topic_spot_mat, out_dir, out_p
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_df.index
     spot_celltype_array_norm_df.index = st_count_spots
-    spot_celltype_array_norm_df_file = os.path.join(out_dir, "%s_spot_celltype_Raw_%s.txt" %(out_prefix, ntopics))
-    spot_celltype_array_norm_df.to_csv(spot_celltype_array_norm_df_file, sep = "\t")
 
     return(spot_celltype_array_norm_df)
 
 
-def SpatialDeconvolveNorm(st_count_spots, ntopics, topic_spot_mat, out_dir, out_prefix):
+def SpatialDeconvolveNorm(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # read the celltype-topic file
     model_dir = os.path.join(out_dir, "model")
     topic_celltype_file = os.path.join(model_dir,"topic_celltype_mat_%s.txt" %(ntopics))
@@ -131,8 +132,7 @@ def SpatialDeconvolveNorm(st_count_spots, ntopics, topic_spot_mat, out_dir, out_
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_norm_df.index
     spot_celltype_array_norm_df.index = st_count_spots
-    spot_celltype_array_norm_df_file = os.path.join(out_dir, "%s_spot_celltype_Norm_%s.txt" %(out_prefix, ntopics))
-    spot_celltype_array_norm_df.to_csv(spot_celltype_array_norm_df_file, sep = "\t")
+
     return(spot_celltype_array_norm_df)
 
 
@@ -150,8 +150,7 @@ def SpatialDeconvolveNormBySD(st_count_spots, ntopics, topic_spot_mat, out_dir, 
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_df.index
     spot_celltype_array_norm_df.index = st_count_spots
-    spot_celltype_array_norm_df_file = os.path.join(out_dir, "%s_spot_celltype_NormBySD_%s.txt" %(out_prefix, ntopics))
-    spot_celltype_array_norm_df.to_csv(spot_celltype_array_norm_df_file, sep = "\t")
+
     return(spot_celltype_array_norm_df)
 
 
@@ -167,8 +166,7 @@ def SpatialDeconvolveBayes(st_count_spots, ntopics, topic_spot_mat, out_dir, out
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_bayes_df.index
     spot_celltype_array_norm_df.index = st_count_spots
-    spot_celltype_array_norm_df_file = os.path.join(out_dir, "%s_spot_celltype_Bayes_%s.txt" %(out_prefix, ntopics))
-    spot_celltype_array_norm_df.to_csv(spot_celltype_array_norm_df_file, sep = "\t")
+
     return(spot_celltype_array_norm_df)
 
 
@@ -185,8 +183,7 @@ def SpatialDeconvolveBayesNorm(st_count_spots, ntopics, topic_spot_mat, out_dir,
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_norm_df.index
     spot_celltype_array_norm_df.index = st_count_spots
-    spot_celltype_array_norm_df_file = os.path.join(out_dir, "%s_spot_celltype_BayesNorm_%s.txt" %(out_prefix, ntopics))
-    spot_celltype_array_norm_df.to_csv(spot_celltype_array_norm_df_file, sep = "\t")
+    
     return(spot_celltype_array_norm_df)
 
 
@@ -195,6 +192,7 @@ def Deconvolve(sc_count_file, sc_anno_file, st_count_file, sc_scale_factor, st_s
     print("Reading single-cell count matrix...")
     sc_info = scProcess(sc_count_file, sc_anno_file, out_dir, out_prefix, sc_scale_factor)
     sc_count_scale_mat = sc_info["scale_matrix"]
+    sc_count_raw_mat = sc_info["raw_matrix"]
     sc_count_genes = sc_info["genes"]
     sc_count_cells = sc_info["cells"]
     cell_celltype_dict = sc_info["cell_celltype"]
@@ -217,13 +215,7 @@ def Deconvolve(sc_count_file, sc_anno_file, st_count_file, sc_scale_factor, st_s
         print("Identifying markers...")
         findmarker = True
     if findmarker:
-        RSCRIPT_PATH = os.path.join(os.path.dirname(__file__), "R")
-        sc_count_raw_file = sc_info["raw_matrix"]
-        cmd = "Rscript %s/FindMarker.R --sc_count_file %s --sc_anno_file %s --out_dir %s --out_prefix %s" %(RSCRIPT_PATH, sc_count_raw_file, sc_anno_file, out_dir, out_prefix)
-        os.system(cmd)
-        gene_use = os.path.join(out_dir, "%s_markers_top.txt" %(out_prefix))
-        gene_use = open(gene_use, "r").readlines()
-        gene_use = [i.strip() for i in gene_use]
+        gene_use = MarkerFind(sc_count_raw_mat, sc_count_genes, sc_count_cells, sc_anno_file, ntop = 200)
     celltypes = set(cell_celltype_dict.values())
     if not ntopics_list:
         ntopics_list = list(range(len(celltypes), 3*len(celltypes)+1))
@@ -236,5 +228,4 @@ def Deconvolve(sc_count_file, sc_anno_file, st_count_file, sc_scale_factor, st_s
     ntopics_selected = lda_res["ntopics_selected"]
     print("Deconvolving spatial transcriptomics...")
     spot_celltype_array_norm_df = SpatialDeconvolve(st_count_mat, st_count_genes, st_count_spots, genes_shared, model_selected, ntopics_selected, normalize, out_dir, out_prefix)
-
 

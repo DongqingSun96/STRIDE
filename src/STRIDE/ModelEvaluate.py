@@ -3,7 +3,8 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:51:09
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-10 16:50:54
+# @Last Modified time: 2021-06-16 17:14:37
+
 
 import os
 import numpy as np
@@ -115,5 +116,4 @@ def ModelEvaluateBayesNorm(topic_cell_mat, celltype_topic_bayes_df, cell_celltyp
     accuracy = iftrue_num/len(cell_celltype_array_norm_df_macloc)
 
     return({"accuracy": accuracy, "celltype_prediction": cell_celltype_array_norm_df_macloc})
-
 

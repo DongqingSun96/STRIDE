@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-07 22:11:05
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-11 11:03:32
+# @Last Modified time: 2021-06-17 02:08:19
 
 
 import os
@@ -66,7 +66,7 @@ def scProcess(sc_count_file, sc_anno_file, out_dir, out_prefix, sc_scale_factor 
         items = line.strip().split("\t")
         cell_celltype_dict[items[0]] = items[1]
 
-    return({'scale_matrix': sc_count_scale_mat, "raw_matrix": h5_filename,
+    return({'scale_matrix': sc_count_scale_mat, "raw_matrix": sc_count_mat,
         "genes": sc_count_genes, "cells": sc_count_cells, "cell_celltype": cell_celltype_dict})
 
 
@@ -215,7 +215,7 @@ def ModelSelect(sc_corpus, genes_dict, genes_shared, ntopics_list, cell_gene_lis
     ax = sns.barplot(x="Topic", y=model_selected, data=metrics_df, ci = None, color = "#3C5488FF")
     ax.set(xlabel='Number of topics', ylabel='Accuracy')
     ax.grid(linewidth = 0.7, color = "#DBDBDB")
-    plt.savefig(os.path.join(out_dir,"Model_accuracy_plot.png"), dpi = 300, bbox_inches = "tight")
+    plt.savefig(os.path.join(out_dir,"Model_accuracy_plot.pdf"), dpi = 300, bbox_inches = "tight")
     plt.close(f)
     plt.clf()
     # compare between the prediction and truth
@@ -230,7 +230,7 @@ def ModelSelect(sc_corpus, genes_dict, genes_shared, ntopics_list, cell_gene_lis
     celltype_pair_table_norm = np.divide(celltype_pair_table,celltype_pair_table_sum_by_col)
     f, ax = plt.subplots(figsize=(8, 6.6))
     ax = sns.heatmap(celltype_pair_table_norm, cmap="YlGnBu", annot = celltype_pair_table, fmt = "d",linewidths=.5)
-    plt.savefig(os.path.join(model_dir,"Prediction_truth_heatmap_%s.pdf" %(ntopic_selected)), dpi = 300, bbox_inches = "tight")
+    plt.savefig(os.path.join(model_dir,"Prediction_truth_heatmap_%s_%s.pdf" %(model_selected.split("_")[0], ntopic_selected)), dpi = 300, bbox_inches = "tight")
     plt.close(f)
     plt.clf()
 
@@ -273,5 +273,4 @@ def scLDA(sc_count_mat, sc_count_genes, sc_count_cells, cell_celltype_dict,
     ntopics_selected = model_selection_res["ntopics"]
 
     return({"genes_shared": genes_shared, "model_selected": model_selected, "ntopics_selected": ntopics_selected})
-
 
