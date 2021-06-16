@@ -17,7 +17,7 @@ python setup.py install
 STRIDE --help
 usage: STRIDE [-h] [-v] {deconvolve,plot} ...
 
-STRIDE (Spatial TRanscRIptomics DEconvolution by topic modelling) is a cell-
+STRIDE (Spatial TRanscrIptomics DEconvolution by topic modelling) is a cell-
 type deconvolution tool for spatial transcriptomics by using single-cell
 transcriptomics data.
 
