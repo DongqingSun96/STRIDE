@@ -12,6 +12,7 @@ import argparse as ap
 
 from STRIDE.Deconvolution import DeconvolveParser, Deconvolve
 from STRIDE.Plot import PlotParser, Plot
+from STRIDE.Clustering import ClusterParser, Clustering
 
 
 def main():
@@ -24,6 +25,7 @@ def main():
     subparsers = parser.add_subparsers(dest = "subcommand")
     DeconvolveParser(subparsers)
     PlotParser(subparsers)
+    ClusterParser(subparsers)
 
     logging.basicConfig(format="%(levelname)s: %(message)s", stream=sys.stderr)
     args = parser.parse_args()
@@ -42,6 +44,11 @@ def main():
     elif args.subcommand == "plot":
         Plot(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file, 
              plot_type = args.plot_type, pt_size = args.pt_size,
+             out_dir = args.out_dir, out_prefix = args.out_prefix)
+    elif args.subcommand == "cluster":
+        Clustering(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file,
+             weight = args.weight, n_clusters = args.n_clusters,
+             plot = args.plot, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
     else:
         parser.print_help()
