@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-16 15:19:50
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-16 22:38:28
+# @Last Modified time: 2021-06-24 16:17:46
 
 
 import os
@@ -56,7 +56,7 @@ def PlotParser(subparsers):
         help = "Prefix of output files. DEFAULT: STRIDE. ")
 
 
-def PieMarker(xloc, yloc, frac_list, size, color_list):
+def PieMarker(loc_list, frac_list, size, color_list):
     '''
     Return marker list for a point
     '''
@@ -75,7 +75,7 @@ def PieMarker(xloc, yloc, frac_list, size, color_list):
     # scatter each of the pie pieces to create pies
     point_marker_list = []
     for marker in marker_list:
-        point_marker_list.append([xloc, yloc, marker])
+        point_marker_list.append(loc_list + [marker])
     return(point_marker_list)
 
 
@@ -89,10 +89,10 @@ def ScatterpiePlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 
     ax = fig.add_subplot()
     for i in st_deconv_df.index:
         deconv_list = st_deconv_df.loc[i,:]
-        loc_list = st_loc_df.loc[i,:]
-        point_marker_list = PieMarker(loc_list[0], loc_list[1], deconv_list, pt_size**2, DefaulfColorPalette)
+        loc_list = st_loc_df.loc[i,:].tolist()
+        point_marker_list = PieMarker(loc_list[0:2], deconv_list, pt_size**2, DefaulfColorPalette)
         for point_marker in point_marker_list:
-            ax.scatter(point_marker[0], point_marker[1], **point_marker[2])
+            ax.scatter(point_marker[0], point_marker[1], **point_marker[-1])
     # add legends
     celltypes = st_deconv_df.columns
     patch_list = []

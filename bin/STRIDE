@@ -13,6 +13,7 @@ import argparse as ap
 from STRIDE.Deconvolution import DeconvolveParser, Deconvolve
 from STRIDE.Plot import PlotParser, Plot
 from STRIDE.Clustering import ClusterParser, Clustering
+from STRIDE.Integration import IntegrateParser, Integrate
 
 
 def main():
@@ -26,6 +27,7 @@ def main():
     DeconvolveParser(subparsers)
     PlotParser(subparsers)
     ClusterParser(subparsers)
+    IntegrateParser(subparsers)
 
     logging.basicConfig(format="%(levelname)s: %(message)s", stream=sys.stderr)
     args = parser.parse_args()
@@ -49,6 +51,10 @@ def main():
         Clustering(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file,
              weight = args.weight, n_clusters = args.n_clusters,
              plot = args.plot, pt_size = args.pt_size,
+             out_dir = args.out_dir, out_prefix = args.out_prefix)
+    elif args.subcommand == "integrate":
+        Integrate(topic_spot_file = args.topic_spot_file, deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file,
+             alpha = args.alpha, plot = args.plot, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
     else:
         parser.print_help()

@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 08:42:54
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-22 19:20:12
+# @Last Modified time: 2021-06-24 15:01:52
 
 
 import os
@@ -17,15 +17,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-
-DefaulfColorPalette = [
-    "#E58606", "#5D69B1", "#52BCA3", "#99C945", "#CC61B0", "#24796C",
-    "#DAA51B", "#2F8AC4", "#764E9F", "#ED645A", "#A5AA99", "#BCBD22",
-    "#B279A2", "#EECA3B", "#17BECF", "#FF9DA6", "#778AAE", "#1B9E77",
-    "#A6761D", "#526A83", "#B82E2E", "#80B1D3", "#68855C", "#D95F02",
-    "#BEBADA", "#AF6458", "#D9AF6B", "#9C9C5E", "#625377", "#8C785D",
-    "#88CCEE", "#E73F74", "#FFFFB3", "#CCEBC5", "#332288", "#A65628"
-]
+from STRIDE.Plot import DefaulfColorPalette
 
 
 def ClusterParser(subparsers):
