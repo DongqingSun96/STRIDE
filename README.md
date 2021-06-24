@@ -15,19 +15,22 @@ python setup.py install
 ## Usage
 ```bash
 STRIDE --help
-usage: STRIDE [-h] [-v] {deconvolve,plot} ...
+usage: STRIDE [-h] [-v] {deconvolve,plot,cluster,integrate} ...
 
 STRIDE (Spatial TRanscrIptomics DEconvolution by topic modelling) is a cell-
 type deconvolution tool for spatial transcriptomics by using single-cell
 transcriptomics data.
 
 positional arguments:
-  {deconvolve,plot}
-    deconvolve       Decompose celltype proportion for spatial
-                     transcriptomics.
-    plot             Visualize the deconvolution result.
+  {deconvolve,plot,cluster,integrate}
+    deconvolve          Decompose celltype proportion for spatial
+                        transcriptomics.
+    plot                Visualize the deconvolution result.
+    cluster             Neighbourhood analysis based on cell-type composition
+                        and local cell population
+    integrate           Integrate multiple samples from the same tissue.
 
 optional arguments:
-  -h, --help         show this help message and exit
-  -v, --version      Print version info.
+  -h, --help            show this help message and exit
+  -v, --version         Print version info.
 ```
