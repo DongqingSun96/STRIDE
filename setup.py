@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-10 15:25:08
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-17 02:10:19
+# @Last Modified time: 2021-07-01 14:38:19
 
 
 import sys,os
@@ -13,16 +13,18 @@ try:
 except ImportError:
     print("Could not load setuptools. Please install the setuptools package.")
 
-with open("version.txt", "r") as infile:
-    version = infile.readline().strip()
+exec(open('src/STRIDE/version.py').read())
 
 def main():
     setup(
         name = "STRIDE",
         package_dir = {'':'src'},
-        version = version,
+        version = __version__,
         packages = find_packages(where="src"),
         scripts = ['bin/STRIDE'],
+        package_data={
+            "":["*.txt"]
+        },
         include_package_data = True,
         author = "Dongqing Sun",
         author_email = "Dongqingsun96@gmail.com",
@@ -30,7 +32,6 @@ def main():
         license = "GPL-3.0",
         url = "https://github.com/dongqingsun96/STRIDE",
         
-        # entry_points = {"console_scripts": ["strap = strap:main"]},
         classifiers = [
             "Development Status :: 4 - Beta",
             "Environment :: Console",

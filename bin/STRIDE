@@ -10,6 +10,7 @@ import sys
 import logging
 import argparse as ap
 
+from STRIDE.version import __version__
 from STRIDE.Deconvolution import DeconvolveParser, Deconvolve
 from STRIDE.Plot import PlotParser, Plot
 from STRIDE.Clustering import ClusterParser, Clustering
@@ -32,8 +33,7 @@ def main():
     logging.basicConfig(format="%(levelname)s: %(message)s", stream=sys.stderr)
     args = parser.parse_args()
 
-    SCRIPT_PATH = os.path.dirname(__file__)
-    version = open(os.path.join(SCRIPT_PATH, "../version.txt"), "r").readline().strip()
+    version = __version__
 
     if args.version:
         print(version)
