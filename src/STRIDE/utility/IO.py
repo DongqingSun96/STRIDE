@@ -3,8 +3,9 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-07 21:31:28
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-11 11:02:49
+# @Last Modified time: 2021-06-30 14:42:48
 
+import numpy
 import h5py
 import tables
 import collections
@@ -74,8 +75,6 @@ def write_10X_h5(filename, matrix, features, barcodes):
     mat.create_dataset('indptr', data=M.indptr)
     mat.create_dataset('shape', data=M.shape)
     fet = mat.create_group('features')
-    fet.create_dataset('_all_tag_keys', data=AT)
-    fet.create_dataset('feature_type', data=FT)
     fet.create_dataset('id', data=P)
     fet.create_dataset('name', data=P)
     f.close()

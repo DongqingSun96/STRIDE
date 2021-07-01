@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:56:08
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-17 02:08:33
+# @Last Modified time: 2021-06-30 14:56:12
 
 
 import os
@@ -28,14 +28,14 @@ def DeconvolveParser(subparsers):
     group_input = workflow.add_argument_group("Input arguments")
     group_input.add_argument("--sc-count", dest = "sc_count_file", required = True,
         help = "Location of the single-cell count matrix file. "
-        "It could be '.h5' or plain-text file with genes as rows and cells as columns. ")
+        "It could be '.h5' or tab-separated plain-text file with genes as rows and cells as columns. ")
     group_input.add_argument("--sc-celltype", dest = "sc_anno_file", required = True,
         help = "Location of the single-cell celltype annotation file. "
         "The file should be a tab-separated plain-text file without header. "
         "The first column should be the cell name, and the second column should be the corresponding celltype labels. ")
     group_input.add_argument("--st-count", dest = "st_count_file", required = True,
         help = "Location of the spatial gene count file. "
-        "It could be '.h5' or plain-text file with genes as rows and spots as columns. ")
+        "It could be '.h5' or tab-separated plain-text file with genes as rows and spots as columns. ")
     group_input.add_argument("--gene-use", dest = "gene_use", default = None,
         help = "Location of the gene list file used to train the model. "
         "It can also be specified as 'All', but it will take a longer time. "
@@ -190,6 +190,8 @@ def SpatialDeconvolveBayesNorm(st_count_spots, ntopics, topic_spot_mat, out_dir,
 def Deconvolve(sc_count_file, sc_anno_file, st_count_file, sc_scale_factor, st_scale_factor,
                out_dir, out_prefix, normalize, gene_use = None, ntopics_list = None):
     print("Reading single-cell count matrix...")
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
     sc_info = scProcess(sc_count_file, sc_anno_file, out_dir, out_prefix, sc_scale_factor)
     sc_count_scale_mat = sc_info["scale_matrix"]
     sc_count_raw_mat = sc_info["raw_matrix"]

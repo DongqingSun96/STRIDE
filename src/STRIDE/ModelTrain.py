@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-07 22:11:05
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-17 02:08:19
+# @Last Modified time: 2021-06-30 14:16:19
 
 
 import os
@@ -21,7 +21,7 @@ from gensim.models import LdaModel
 from gensim.models import CoherenceModel
 from gensim.corpora.dictionary import Dictionary
 
-from STRIDE.utility.IO import read_10X_h5, read_count
+from STRIDE.utility.IO import read_10X_h5, read_count, write_10X_h5
 from STRIDE.ModelEvaluate import *
 
 
@@ -44,7 +44,7 @@ def scProcess(sc_count_file, sc_anno_file, out_dir, out_prefix, sc_scale_factor 
     else:
         sc_count = read_count(sc_count_file)
         sc_count_mat = sc_count["matrix"]
-        sc_count_mat = sp_sparse.csc_matrix(sc_count_mat, dtype=numpy.float32)
+        sc_count_mat = sp_sparse.csc_matrix(sc_count_mat, dtype=np.float32)
         sc_count_genes = sc_count["features"]
         sc_count_cells = sc_count["barcodes"]
         h5_filename = os.path.join(out_dir, "%s_scRNA_count.h5" %(out_prefix))
@@ -84,7 +84,7 @@ def stProcess(st_count_file, st_scale_factor = None):
     else:
         st_count = read_count(st_count_file)
         st_count_mat = st_count["matrix"]
-        st_count_mat = sp_sparse.csc_matrix(st_count_mat, dtype=numpy.float32)
+        st_count_mat = sp_sparse.csc_matrix(st_count_mat, dtype=np.float32)
         st_count_genes = st_count["features"]
         st_count_spots = st_count["barcodes"]
     # scale the count matrix
