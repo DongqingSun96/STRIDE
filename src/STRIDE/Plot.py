@@ -3,16 +3,19 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-16 15:19:50
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-24 16:17:46
+# @Last Modified time: 2021-07-15 16:25:06
 
 
 import os
 import matplotlib
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
+sns.set_style("ticks")
+sns.set_context("notebook", font_scale=1.5)
 matplotlib.rcParams['font.family'] = 'sans-serif'
 matplotlib.rcParams['font.sans-serif'] = ['Arial']
 
@@ -103,6 +106,7 @@ def ScatterpiePlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 
     ax.axis('equal')
     ax.set_xlabel(st_loc_df.columns[0])
     ax.set_ylabel(st_loc_df.columns[1])
+    ax.set_title(out_prefix, pad = 15)
     # save figure
     plot_file = os.path.join(out_dir, "%s_deconv_scatterpie_plot.pdf" %(out_prefix))
     fig.savefig(plot_file, bbox_inches = "tight")
@@ -111,7 +115,7 @@ def ScatterpiePlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 
 
 def ScatterPlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 2):
     '''
-    Draw scatter pie plot to visualize the deconvolution result
+    Draw scatter plot to visualize the deconvolution result
     '''
     st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
     st_loc_df = pd.read_csv(st_loc_file, sep = "\t", index_col = 0, header = 0)
@@ -129,6 +133,9 @@ def ScatterPlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 2):
     lgd = plt.legend(cluster_list, celltypes, bbox_to_anchor=(1, 0.5), 
                loc='center left', markerscale = 1, frameon = False, handlelength=1, handleheight=1, fontsize = 'small')
     ax.axis('equal')
+    ax.set_xlabel(st_loc_df.columns[0])
+    ax.set_ylabel(st_loc_df.columns[1])
+    ax.set_title(out_prefix, pad = 15)
     plot_file = os.path.join(out_dir, "%s_deconv_scatter_plot.pdf" %(out_prefix))
     fig.savefig(plot_file, bbox_inches = "tight")
     plt.close(fig)

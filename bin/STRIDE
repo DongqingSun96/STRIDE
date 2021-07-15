@@ -39,7 +39,7 @@ def main():
         print(version)
         exit(0)
     elif args.subcommand == "deconvolve":
-        Deconvolve(sc_count_file = args.sc_count_file, sc_anno_file = args.sc_anno_file, st_count_file = args.st_count_file, 
+        Deconvolve(sc_count_file = args.sc_count_file, sc_anno_file = args.sc_anno_file, st_count_file = args.st_count_file, model_dir = args.model_dir, 
                    sc_scale_factor = args.sc_scale_factor, st_scale_factor = args.st_scale_factor,
                    out_dir = args.out_dir, out_prefix = args.out_prefix, 
                    normalize = args.normalize, gene_use = args.gene_use, ntopics_list = args.ntopics_list)

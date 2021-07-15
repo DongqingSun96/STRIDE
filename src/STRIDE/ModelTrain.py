@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-07 22:11:05
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-30 14:16:19
+# @Last Modified time: 2021-07-16 01:36:56
 
 
 import os
@@ -237,6 +237,17 @@ def ModelSelect(sc_corpus, genes_dict, genes_shared, ntopics_list, cell_gene_lis
     return({"model":model_selected.split("_")[0], "ntopics":ntopic_selected})
 
 
+def ModelRetrieve(model_dir, st_count_genes):
+    metrics_df = pd.read_csv(os.path.join(model_dir, "..", "Model_selection.txt"), sep="\t", index_col=False, header=0)
+    # select the model and the optimal topic number
+    model_selected = metrics_df.iloc[:, range(4,9)].max().idxmax()
+    ntopic_selected = metrics_df.iloc[metrics_df.loc[:, model_selected].idxmax(), 0]
+    genes_dict_file = os.path.join(model_dir, "..", "Gene_dict.txt")
+    genes_dict = Dictionary.load_from_text(genes_dict_file)
+
+    return({"model":model_selected.split("_")[0], "ntopics":ntopic_selected, "genes_dict":genes_dict})
+
+
 def scLDA(sc_count_mat, sc_count_genes, sc_count_cells, cell_celltype_dict,
           st_count_mat, st_count_genes, st_count_spots,
           normalize, gene_use, ntopics_list, out_dir):
@@ -248,6 +259,7 @@ def scLDA(sc_count_mat, sc_count_genes, sc_count_cells, cell_celltype_dict,
         genes_shared = list(set(st_count_genes) & set(sc_count_genes))
     else:
         genes_shared = list(set(st_count_genes) & set(sc_count_genes) & set(gene_use))
+    genes_shared = sorted(genes_shared)
     genes_shared_array = np.array(genes_shared)
     genes_shared_index = sc_count_genes_sorter[np.searchsorted(sc_count_genes_array, genes_shared_array, sorter = sc_count_genes_sorter)]
     sc_count_mat_use = sc_count_mat[genes_shared_index,:]
@@ -261,6 +273,8 @@ def scLDA(sc_count_mat, sc_count_genes, sc_count_cells, cell_celltype_dict,
     # construct single-cell gene corpus
     sc_corpus = gensim.matutils.Sparse2Corpus(sc_count_mat_use)
     genes_dict = Dictionary([genes_shared])
+    genes_dict_file = os.path.join(out_dir, "Gene_dict.txt")
+    genes_dict.save_as_text(genes_dict_file)
     cell_celltype_list = []
     for i in range(len(sc_count_cells)):
         cell_celltype = cell_celltype_dict[sc_count_cells[i]]
@@ -272,5 +286,5 @@ def scLDA(sc_count_mat, sc_count_genes, sc_count_cells, cell_celltype_dict,
     model_selected = model_selection_res["model"]
     ntopics_selected = model_selection_res["ntopics"]
 
-    return({"genes_shared": genes_shared, "model_selected": model_selected, "ntopics_selected": ntopics_selected})
+    return({"genes_dict": genes_dict, "model_selected": model_selected, "ntopics_selected": ntopics_selected})
 
