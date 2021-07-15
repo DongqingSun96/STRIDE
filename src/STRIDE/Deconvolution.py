@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:56:08
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-30 14:56:12
+# @Last Modified time: 2021-07-01 16:16:27
 
 
 import os
@@ -136,7 +136,7 @@ def SpatialDeconvolveNorm(st_count_spots, ntopics, topic_spot_mat, out_dir):
     return(spot_celltype_array_norm_df)
 
 
-def SpatialDeconvolveNormBySD(st_count_spots, ntopics, topic_spot_mat, out_dir, out_prefix):
+def SpatialDeconvolveNormBySD(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # read the celltype-topic file
     model_dir = os.path.join(out_dir, "model")
     topic_celltype_file = os.path.join(model_dir,"topic_celltype_mat_%s.txt" %(ntopics))
@@ -154,7 +154,7 @@ def SpatialDeconvolveNormBySD(st_count_spots, ntopics, topic_spot_mat, out_dir, 
     return(spot_celltype_array_norm_df)
 
 
-def SpatialDeconvolveBayes(st_count_spots, ntopics, topic_spot_mat, out_dir, out_prefix):
+def SpatialDeconvolveBayes(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # read the celltype-topic file
     model_dir = os.path.join(out_dir, "model")
     celltype_topic_file = os.path.join(model_dir,"celltype_topic_mat_bayes_%s.txt" %(ntopics))
@@ -170,7 +170,7 @@ def SpatialDeconvolveBayes(st_count_spots, ntopics, topic_spot_mat, out_dir, out
     return(spot_celltype_array_norm_df)
 
 
-def SpatialDeconvolveBayesNorm(st_count_spots, ntopics, topic_spot_mat, out_dir, out_prefix):
+def SpatialDeconvolveBayesNorm(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # read the celltype-topic file
     model_dir = os.path.join(out_dir, "model")
     celltype_topic_file = os.path.join(model_dir,"celltype_topic_mat_bayes_%s.txt" %(ntopics))
