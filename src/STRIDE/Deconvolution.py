@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:56:08
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-16 01:42:10
+# @Last Modified time: 2021-07-16 02:39:08
 
 
 import os
@@ -121,7 +121,7 @@ def SpatialDeconvolveRaw(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_df.iloc[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
-    spot_celltype_array_norm = np.divide(spot_celltype_array, spot_celltype_array.sum(axis = 1)[:,None])
+    spot_celltype_array_norm = np.divide(spot_celltype_array, np.array([spot_celltype_array.sum(axis = 1)]).T)
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_df.index
     spot_celltype_array_norm_df.index = st_count_spots
@@ -135,11 +135,11 @@ def SpatialDeconvolveNorm(st_count_spots, ntopics, topic_spot_mat, out_dir):
     topic_celltype_file = os.path.join(model_dir,"topic_celltype_mat_%s.txt" %(ntopics))
     topic_celltype_df = pd.read_csv(topic_celltype_file, sep="\t", index_col = 0)
     celltype_topic_df = topic_celltype_df.transpose()
-    celltype_topic_norm_df = np.divide(celltype_topic_df, celltype_topic_df.sum(axis = 0)[None,:])
+    celltype_topic_norm_df = np.divide(celltype_topic_df, np.array([celltype_topic_df.sum(axis = 0)]))
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_norm_df.iloc[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
-    spot_celltype_array_norm = np.divide(spot_celltype_array, spot_celltype_array.sum(axis = 1)[:,None])
+    spot_celltype_array_norm = np.divide(spot_celltype_array, np.array([spot_celltype_array.sum(axis = 1)]).T)
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_norm_df.index
     spot_celltype_array_norm_df.index = st_count_spots
@@ -157,7 +157,7 @@ def SpatialDeconvolveNormBySD(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_norm_array[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
-    spot_celltype_array_norm = np.divide(spot_celltype_array, spot_celltype_array.sum(axis = 1)[:,None])
+    spot_celltype_array_norm = np.divide(spot_celltype_array, np.array([spot_celltype_array.sum(axis = 1)]).T)
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_df.index
     spot_celltype_array_norm_df.index = st_count_spots
@@ -173,7 +173,7 @@ def SpatialDeconvolveBayes(st_count_spots, ntopics, topic_spot_mat, out_dir):
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_bayes_df.iloc[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
-    spot_celltype_array_norm = np.divide(spot_celltype_array, spot_celltype_array.sum(axis = 1)[:,None])
+    spot_celltype_array_norm = np.divide(spot_celltype_array, np.array([spot_celltype_array.sum(axis = 1)]).T)
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_bayes_df.index
     spot_celltype_array_norm_df.index = st_count_spots
@@ -186,11 +186,11 @@ def SpatialDeconvolveBayesNorm(st_count_spots, ntopics, topic_spot_mat, out_dir)
     model_dir = os.path.join(out_dir, "model")
     celltype_topic_file = os.path.join(model_dir,"celltype_topic_mat_bayes_%s.txt" %(ntopics))
     celltype_topic_bayes_df = pd.read_csv(celltype_topic_file, sep="\t", index_col = 0)
-    celltype_topic_norm_df = np.divide(celltype_topic_bayes_df, celltype_topic_bayes_df.sum(axis = 0)[None,:])
+    celltype_topic_norm_df = np.divide(celltype_topic_bayes_df, np.array([celltype_topic_bayes_df.sum(axis = 0)]))
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_norm_df.iloc[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
-    spot_celltype_array_norm = np.divide(spot_celltype_array, spot_celltype_array.sum(axis = 1)[:,None])
+    spot_celltype_array_norm = np.divide(spot_celltype_array, np.array([spot_celltype_array.sum(axis = 1)]).T)
     spot_celltype_array_norm_df = pd.DataFrame(spot_celltype_array_norm)
     spot_celltype_array_norm_df.columns = celltype_topic_norm_df.index
     spot_celltype_array_norm_df.index = st_count_spots

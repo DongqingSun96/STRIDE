@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:51:09
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-16 17:14:37
+# @Last Modified time: 2021-07-16 02:39:59
 
 
 import os
@@ -20,7 +20,7 @@ def ModelEvaluateRaw(topic_cell_mat, topic_celltype_df, cell_celltype_list):
     celltype_topic_df = topic_celltype_df.transpose()
     celltype_cell_array = np.dot(celltype_topic_df, topic_cell_mat.toarray())
     cell_celltype_array = celltype_cell_array.transpose()
-    cell_celltype_array_norm = np.divide(cell_celltype_array, cell_celltype_array.sum(axis = 1)[:,None])
+    cell_celltype_array_norm = np.divide(cell_celltype_array, np.array([cell_celltype_array.sum(axis = 1)]).T)
     cell_celltype_array_norm_df = pd.DataFrame(cell_celltype_array_norm)
     cell_celltype_array_norm_df.columns = celltype_topic_df.index
     cell_celltype_array_norm_df_macloc = cell_celltype_array_norm_df.idxmax(axis = 1).tolist()
@@ -39,11 +39,11 @@ def ModelEvaluateRaw(topic_cell_mat, topic_celltype_df, cell_celltype_list):
 def ModelEvaluateNorm(topic_cell_mat, topic_celltype_df, cell_celltype_list):
     # calculate accuracy according to backward
     celltype_topic_df = topic_celltype_df.transpose()
-    celltype_topic_norm_df = np.divide(celltype_topic_df, celltype_topic_df.sum(axis = 0)[None,:])
+    celltype_topic_norm_df = np.divide(celltype_topic_df, np.array([celltype_topic_df.sum(axis = 0)]))
     celltype_topic_norm_df = celltype_topic_norm_df.fillna(0)
     celltype_cell_array = np.dot(celltype_topic_norm_df, topic_cell_mat.toarray())
     cell_celltype_array = celltype_cell_array.transpose()
-    cell_celltype_array_norm = np.divide(cell_celltype_array, cell_celltype_array.sum(axis = 1)[:,None])
+    cell_celltype_array_norm = np.divide(cell_celltype_array, np.array([cell_celltype_array.sum(axis = 1)]).T)
     cell_celltype_array_norm_df = pd.DataFrame(cell_celltype_array_norm)
     cell_celltype_array_norm_df.columns = celltype_topic_df.index
     cell_celltype_array_norm_df_macloc = cell_celltype_array_norm_df.idxmax(axis = 1).tolist()
@@ -62,7 +62,7 @@ def ModelEvaluateNormBySD(topic_cell_mat, topic_celltype_df, cell_celltype_list)
     celltype_topic_norm_df = celltype_topic_norm_df.fillna(0)
     celltype_cell_array = np.dot(celltype_topic_norm_df, topic_cell_mat.toarray())
     cell_celltype_array = celltype_cell_array.transpose()
-    cell_celltype_array_norm = np.divide(cell_celltype_array, cell_celltype_array.sum(axis = 1)[:,None])
+    cell_celltype_array_norm = np.divide(cell_celltype_array, np.array([cell_celltype_array.sum(axis = 1)]).T)
     cell_celltype_array_norm_df = pd.DataFrame(cell_celltype_array_norm)
     cell_celltype_array_norm_df.columns = celltype_topic_df.index
     cell_celltype_array_norm_df_macloc = cell_celltype_array_norm_df.idxmax(axis = 1).tolist()
@@ -75,7 +75,7 @@ def ModelEvaluateNormBySD(topic_cell_mat, topic_celltype_df, cell_celltype_list)
 
 def ModelEvaluateBayes(topic_cell_mat, topic_celltype_df, cell_celltype_list, celltype_num_dict, model_dir):
     # bayes
-    topic_prob_array = np.array(topic_celltype_df.sum(axis = 1))[:,None]
+    topic_prob_array = np.array([topic_celltype_df.sum(axis = 1)]).T
     topic_prob_array = topic_prob_array/topic_prob_array.sum()
     celltype_prob_list = []
     for celltype in celltype_num_dict:
@@ -88,7 +88,7 @@ def ModelEvaluateBayes(topic_cell_mat, topic_celltype_df, cell_celltype_list, ce
     # calculate accuracy according to backward
     celltype_cell_array = np.dot(celltype_topic_bayes_df, topic_cell_mat.toarray())
     cell_celltype_array = celltype_cell_array.transpose()
-    cell_celltype_array_norm = np.divide(cell_celltype_array, cell_celltype_array.sum(axis = 1)[:,None])
+    cell_celltype_array_norm = np.divide(cell_celltype_array, np.array([cell_celltype_array.sum(axis = 1)]).T)
     cell_celltype_array_norm_df = pd.DataFrame(cell_celltype_array_norm)
     cell_celltype_array_norm_df.columns = celltype_topic_bayes_df.index
     cell_celltype_array_norm_df_macloc = cell_celltype_array_norm_df.idxmax(axis = 1).tolist()
@@ -102,12 +102,12 @@ def ModelEvaluateBayes(topic_cell_mat, topic_celltype_df, cell_celltype_list, ce
 
 def ModelEvaluateBayesNorm(topic_cell_mat, celltype_topic_bayes_df, cell_celltype_list, celltype_num_dict):
     # bayes
-    celltype_topic_norm_df = np.divide(celltype_topic_bayes_df, celltype_topic_bayes_df.sum(axis = 0)[None,:])
+    celltype_topic_norm_df = np.divide(celltype_topic_bayes_df, np.array([celltype_topic_bayes_df.sum(axis = 0)]))
     celltype_topic_norm_df = celltype_topic_norm_df.fillna(0)
     # calculate accuracy according to backward
     celltype_cell_array = np.dot(celltype_topic_norm_df, topic_cell_mat.toarray())
     cell_celltype_array = celltype_cell_array.transpose()
-    cell_celltype_array_norm = np.divide(cell_celltype_array, cell_celltype_array.sum(axis = 1)[:,None])
+    cell_celltype_array_norm = np.divide(cell_celltype_array, np.array([cell_celltype_array.sum(axis = 1)]).T)
     cell_celltype_array_norm_df = pd.DataFrame(cell_celltype_array_norm)
     cell_celltype_array_norm_df.columns = celltype_topic_norm_df.index
     cell_celltype_array_norm_df_macloc = cell_celltype_array_norm_df.idxmax(axis = 1).tolist()
