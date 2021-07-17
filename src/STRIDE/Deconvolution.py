@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:56:08
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-16 02:39:08
+# @Last Modified time: 2021-07-16 13:52:19
 
 
 import os
@@ -88,6 +88,7 @@ def SpatialDeconvolve(st_count_mat, st_count_genes, st_count_spots, genes_dict, 
         st_genes_nonzero_count = st_count_mat_use[st_genes_nonzero_index, i].toarray().flatten().tolist()
         st_corpus.append(list(zip(st_genes_nonzero_index_corpus, st_genes_nonzero_count)))
     topic_spot_file = os.path.join(out_dir, "%s_topic_spot_mat_%s.npz" %(out_prefix, ntopics_selected))
+    topic_spot_df_file = os.path.join(out_dir, "%s_topic_spot_mat_%s.txt" %(out_prefix, ntopics_selected))
     if os.path.exists(topic_spot_file):
         topic_spot_mat = scipy.sparse.load_npz(topic_spot_file)
     else:
@@ -97,6 +98,10 @@ def SpatialDeconvolve(st_count_mat, st_count_genes, st_count_spots, genes_dict, 
         topic_spot = lda.get_document_topics(st_corpus)
         topic_spot_mat = gensim.matutils.corpus2csc(topic_spot)
         scipy.sparse.save_npz(topic_spot_file, topic_spot_mat)
+        topic_spot_df = pd.DataFrame(topic_spot_mat.todense(), 
+            index = ["Topic %s" %i for i in range(1, 1 + topic_spot_mat.shape[0])], 
+            columns = st_count_spots)
+        topic_spot_df.to_csv(topic_spot_df_file, sep = "\t", index = True, header = True)
     if model_selected == "Raw":
         spot_celltype_array_norm_df = SpatialDeconvolveRaw(st_count_spots, ntopics_selected, topic_spot_mat, out_dir)
     if model_selected == "Norm":

@@ -3,13 +3,14 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 08:42:54
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-24 15:01:52
+# @Last Modified time: 2021-07-16 14:36:51
 
 
 import os
 import matplotlib
 import numpy as np
 import pandas as pd
+import seaborn as sns
 
 from scipy.spatial import distance
 from scipy.spatial import KDTree
@@ -18,6 +19,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
 from STRIDE.Plot import DefaulfColorPalette
+
+matplotlib.rcParams['font.family'] = 'sans-serif'
+matplotlib.rcParams['font.sans-serif'] = ['Arial']
 
 
 def ClusterParser(subparsers):
@@ -34,10 +38,10 @@ def ClusterParser(subparsers):
     group_input.add_argument("--plot", dest = "plot", action = "store_true",
         help = "Whether or not to visualize the neighbourhood analysis result. "
         "If set, the neighbourhood analysis result will be visualized. ")
-    group_input.add_argument("--pt-size", dest = "pt_size", default = 2, type = float,
+    group_input.add_argument("--pt-size", dest = "pt_size", default = 4, type = float,
         help = "The size of point in the plot (only needed when 'plot' is set True). "
-        "The size is set as 2 by default. "
-        "For recommendation, the size should be set from 1 to 4. ")
+        "The size is set as 4 by default. "
+        "For recommendation, the size should be increased as the number of point decreases. ")
 
     group_analysis = workflow.add_argument_group("Analysis arguments")
     group_analysis.add_argument("--weight", dest = "weight", type = float, default = 0.5, 
@@ -75,10 +79,12 @@ def NeighbourAvgFrac(st_deconv_df, neighbour_dict):
     return(neighbour_frac_df)
 
 
-def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, pt_size = 2):
+def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, pt_size = 4):
     '''
     Draw scatter pie plot to visualize the deconvolution result
     '''
+    sns.set_style("ticks")
+    sns.set_context("notebook", font_scale=1.5)
     fig = plt.figure()
     ax = fig.add_subplot()
     clusters = sorted(list(set(st_loc_df["Cluster"])))
@@ -92,12 +98,15 @@ def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, pt_size = 2):
     lgd = plt.legend(cluster_list, clusters, bbox_to_anchor=(1, 0.5), 
                loc='center left', markerscale = 1, frameon = False, handlelength=1, handleheight=1, fontsize = 'small')
     ax.axis('equal')
+    ax.set_xlabel(st_loc_df.columns[0])
+    ax.set_ylabel(st_loc_df.columns[1])
+    ax.set_title(out_prefix, pad = 15)
     plot_file = os.path.join(out_dir, "%s_cluster_scatter_plot.pdf" %(out_prefix))
     fig.savefig(plot_file, bbox_inches = "tight")
     plt.close(fig)
 
 
-def Clustering(deconv_res_file, st_loc_file, out_dir, out_prefix, plot, weight = 0.5, n_clusters = 5, pt_size = 2):
+def Clustering(deconv_res_file, st_loc_file, out_dir, out_prefix, plot, weight = 0.5, n_clusters = 5, pt_size = 4):
     st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
     st_loc_df = pd.read_csv(st_loc_file, sep = "\t", index_col = 0, header = 0)
     neighbour_dict = FindNeighbours(st_loc_df)

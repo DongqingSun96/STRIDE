@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 19:54:39
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-06-24 17:48:18
+# @Last Modified time: 2021-07-16 14:31:18
 
 
 import os
@@ -25,32 +25,36 @@ def IntegrateParser(subparsers):
         help = "Integrate multiple samples from the same tissue. ")
 
     group_input = workflow.add_argument_group("Input arguments")
-    group_input.add_argument("--deconv-file", dest = "deconv_res_file", required = True,
-        help = "Location of the deconvolution result file including all samples to be integrated (i.e., outdir/outprefix_spot_celltype_frac.txt). "
-        "Note: In the step of deconvolution, the count matrices from all samples should be merged together to perform deconvolution on. ")
-    group_input.add_argument("--topic-file", dest = "topic_spot_file", required = True,
-        help = "Location of the topic distribution file including all samples to be integrated (i.e., outdir/outprefix_topic_spot_mat_topicnumber.npz). ")
-    group_input.add_argument("--st-loc", dest = "st_loc_file", required = True,
-        help = "Location of the ST spot information file only containing samples to be integrated. "
-        "The file should be a tab-separated plain-text file with header. "
+    group_input.add_argument("--deconv-file", dest = "deconv_res_file_list", default = [], nargs = "+", type = str, required = True,
+        help = "Location of the deconvolution result file of all samples to be integrated. "
+        "If the count matrices for individual samples are merged together to run 'STRIDE deconvolve', "
+        "the deconvolution result can be directly provided here (i.e., outdir/outprefix_spot_celltype_frac.txt). "
+        "If users perform deconvolution for each sample separately, please provide the result file list. "
+        "For example, --deconv-file outdir/S1_spot_celltype_frac.txt outdir/S2_spot_celltype_frac.txt outdir/S3_spot_celltype_frac.txt. "
+        "STRIDE will integrate the samples in the order of 'S1, S2, S3'. ")
+    group_input.add_argument("--topic-file", dest = "topic_spot_file_list", default = [], nargs = "+", type = str, required = True,
+        help = "Location of the topic distribution file for all samples to be integrated. "
+        "If the count matrices for individual samples are merged together to run 'STRIDE deconvolve', "
+        "the topic distribution file can be directly provided here (i.e., outdir/outprefix_topic_spot_mat_topicnumber.npz). "
+        "If users perform deconvolution for each sample separately, please provide the topic distribution file list in the order of deconvolution files. "
+        "For example, --topic-file outdir/S1_spot_topic_spot_mat_topicnumber.npz outdir/S2_topic_spot_mat_topicnumber.npz outdir/S3_topic_spot_mat_topicnumber.npz. ")
+    group_input.add_argument("--st-loc", dest = "st_loc_file_list", default = [], nargs = "+", type = str, required = True,
+        help = "Location of the ST spot information file. The file should be a tab-separated plain-text file with header. "
+        "Users can provide either the merged location file or location file list of multiple samples, which depends on the way to perform deconvolution in the previous step. "
+        "If users provide a merged location file, the file should have four columns. "
         "The first column should be the spot name, the second and the third column should be the row and column coordinate, "
         "and the last column should be the sample id. "
-        "Note: STRIDE will integrate all the samples by the alphabetic order of sample ids if the sample ids are of type 'strings'. "
-        "If the sample ids provided are integers, STRIDE will integrate all the samples according to the natural order. ")
+        "STRIDE will integrate all the samples by the alphabetic order of sample ids if the sample ids are of type 'strings'. "
+        "If the sample ids provided are integers, STRIDE will integrate all the samples according to the natural order. "
+        "If users proveide location file list, the files should be listed according to the order of provided deconvolution files. "
+        "For example, --st-loc S1_location.txt S2_location.txt S3_location.txt ")
     group_input.add_argument("--plot", dest = "plot", action = "store_true",
         help = "Whether or not to visualize the integration analysis result. "
         "If set, the integration analysis result will be visualized. ")
-    group_input.add_argument("--plot-type", dest = "plot_type", default = "scatterpie",
-        choices = ["scatterpie", "scatter"],
-        help = "Which type of plot, scatterpie or scatter. "
-        "If 'scatterpie', each spot will be shown as a pie where the proportions represent different cell-type fractions. "
-        "If 'scatter', each spot will be colored according to the celltype with the maximum fraction. ")
-    group_input.add_argument("--pt-size", dest = "pt_size", default = None, type = float,
+    group_input.add_argument("--pt-size", dest = "pt_size", default = 2, type = float,
         help = "The size of point in the plot. "
-        "If the plot type is 'scatterpie', the size will be set as 8 by default. "
-        "If the plot type is 'scatter', the size will be set as 2 by default. "
-        "For reference, if the plot type is 'scatterpie', the size is recommended to set from 5 to 10. "
-        "If the plot type is 'scatter', the size is recommended to set from 1 to 4. ")
+        "The size is recommended to set from 2 to 4. "
+        "DEFAULT: 5. ")
 
     group_analysis = workflow.add_argument_group("Analysis arguments")
     group_analysis.add_argument("--alpha", dest = "alpha", type = float, default = 0.5, 
@@ -77,15 +81,15 @@ def KLDivergency(sample1_topic, sample2_topic):
     return(kl_divergency)
 
 
-def Alignment(sample1_id, sample2_id, st_loc_df, topic_spot_mat, alpha = 0.2):
+def Alignment(sample1_id, sample2_id, st_loc_df, topic_spot_df, alpha = 0.2):
     # extract location of given slides
     s1_loc_df = st_loc_df[st_loc_df.iloc[:,2] == sample1_id]
     s2_loc_df = st_loc_df[st_loc_df.iloc[:,2] == sample2_id]
-    s1_distance = distance_matrix(s1_loc_df[["X","Y"]], s1_loc_df[["X","Y"]])
-    s2_distance = distance_matrix(s2_loc_df[["X","Y"]], s2_loc_df[["X","Y"]])
+    s1_distance = distance_matrix(s1_loc_df.iloc[:,0:2], s1_loc_df.iloc[:,0:2])
+    s2_distance = distance_matrix(s2_loc_df.iloc[:,0:2], s2_loc_df.iloc[:,0:2])
     # extract topic distribution of given slides
-    s1_topic = np.array(topic_spot_mat.T[s1_loc_df.index,:]) + 0.0000000001
-    s2_topic = np.array(topic_spot_mat.T[s2_loc_df.index,:]) + 0.0000000001
+    s1_topic = np.array(topic_spot_df.T.loc[s1_loc_df.index,:]) + 0.0000000001
+    s2_topic = np.array(topic_spot_df.T.loc[s2_loc_df.index,:]) + 0.0000000001
     # calculate distance of two topic matrices
     M = KLDivergency(s1_topic, s2_topic)
     # weight of spots
@@ -125,10 +129,38 @@ def IntegrationPlot(sample_all_loc_centered_df, st_deconv_df, sample_list, pt_si
     fig.savefig(fig_file, bbox_inches = "tight")
 
 
-def Integrate(topic_spot_file, deconv_res_file, st_loc_file, alpha, plot, pt_size, out_dir, out_prefix):
-    topic_spot_mat = scipy.sparse.load_npz(topic_spot_file).todense()
-    st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
-    st_loc_df = pd.read_csv(st_loc_file, sep = '\t', index_col = 0, header = 0)
+def Integrate(topic_spot_file_list, deconv_res_file_list, st_loc_file_list, alpha, plot, pt_size, out_dir, out_prefix):
+    if len(topic_spot_file_list) == 1:
+        topic_spot_file = topic_spot_file_list[0]
+        deconv_res_file = deconv_res_file_list[0]
+        st_loc_file = st_loc_file_list[0]
+        topic_spot_mat = scipy.sparse.load_npz(topic_spot_file).todense()
+        topic_spot_df = pd.read_csv(topic_spot_file, sep = "\t", index_col = 0, header = 0)
+        st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
+        st_loc_df = pd.read_csv(st_loc_file, sep = '\t', index_col = 0, header = 0)
+    else:
+        topic_spot_df_list = []
+        st_deconv_df_list = []
+        st_loc_df_list = []
+        for s in range(0, len(topic_spot_file_list)):
+            sample_id = "S%s" %(s+1)
+            topic_spot_file = topic_spot_file_list[s]
+            deconv_res_file = deconv_res_file_list[s]
+            st_loc_file = st_loc_file_list[s]
+            topic_spot_df = pd.read_csv(topic_spot_file, sep = "\t", index_col = 0, header = 0)
+            topic_spot_df = topic_spot_df.rename(columns = dict(zip(topic_spot_df.columns, ["%s_%s" %(sample_id, i) for i in topic_spot_df.columns])))
+            st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
+            st_deconv_df = st_deconv_df.rename(index = dict(zip(st_deconv_df.index, ["%s_%s" %(sample_id, i) for i in st_deconv_df.index])))
+            st_loc_df = pd.read_csv(st_loc_file, sep = '\t', index_col = 0, header = 0)
+            st_loc_df = st_loc_df.rename(index = dict(zip(st_loc_df.index, ["%s_%s" %(sample_id, i) for i in st_loc_df.index])))
+            st_loc_df["Sample"] = sample_id
+            topic_spot_df_list.append(topic_spot_df)
+            st_deconv_df_list.append(st_deconv_df)
+            st_loc_df_list.append(st_loc_df)
+        topic_spot_df = pd.concat(topic_spot_df_list, axis = 1)
+        st_deconv_df = pd.concat(st_deconv_df_list)
+        st_loc_df = pd.concat(st_loc_df_list)
+        st_loc_df = st_loc_df.iloc[:,[0,1,-1]]
     st_loc_df.iloc[:,2] = st_loc_df.iloc[:,2].astype(str)
     sample_list = sorted(list(set(st_loc_df.iloc[:,2])))
     sample_1st = st_loc_df[st_loc_df.iloc[:,2] == sample_list[0]]
@@ -145,7 +177,7 @@ def Integrate(topic_spot_file, deconv_res_file, st_loc_file, alpha, plot, pt_siz
     for i in range(len(sample_list)-1):
         print("Computing transport between %s and %s" %(sample_list[i], sample_list[i + 1]))
         s1_loc_df, s2_loc_df, g1, g2, pi_df = Alignment(sample1_id = sample_list[i], sample2_id = sample_list[i + 1], 
-            st_loc_df = st_loc_df, topic_spot_mat = topic_spot_mat, alpha = alpha)
+            st_loc_df = st_loc_df, topic_spot_df = topic_spot_df, alpha = alpha)
         alignment_file = os.path.join(alignment_dir, "%s_%s.txt" %(sample_list[i], sample_list[i + 1]))
         pi_df.to_csv(alignment_file, sep = "\t")
         pi_array = np.array(pi_df)

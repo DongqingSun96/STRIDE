@@ -44,7 +44,7 @@ def main():
                    out_dir = args.out_dir, out_prefix = args.out_prefix, 
                    normalize = args.normalize, gene_use = args.gene_use, ntopics_list = args.ntopics_list)
     elif args.subcommand == "plot":
-        Plot(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file, 
+        Plot(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file, sample_id = args.sample_id,
              plot_type = args.plot_type, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
     elif args.subcommand == "cluster":
@@ -53,7 +53,7 @@ def main():
              plot = args.plot, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
     elif args.subcommand == "integrate":
-        Integrate(topic_spot_file = args.topic_spot_file, deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file,
+        Integrate(topic_spot_file_list = args.topic_spot_file_list, deconv_res_file_list = args.deconv_res_file_list, st_loc_file_list = args.st_loc_file_list,
              alpha = args.alpha, plot = args.plot, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
     else:

@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-16 15:19:50
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-15 16:25:06
+# @Last Modified time: 2021-07-16 23:25:40
 
 
 import os
@@ -40,6 +40,8 @@ def PlotParser(subparsers):
         help = "Location of the ST spot position file. "
         "The file should be a tab-separated plain-text file with header. "
         "The first column should be the spot name, and the second and the third column should be the row and column coordinate. ")
+    group_input.add_argument("--sample-id", dest = "sample_id", default = None, type = str, 
+        help = "If the count matrices are merged together to perform deconvolution, please specify the sample id of interest. ")
     group_input.add_argument("--plot-type", dest = "plot_type", default = "scatterpie",
         choices = ["scatterpie", "scatter"],
         help = "Which type of plot, scatterpie or scatter. "
@@ -82,12 +84,16 @@ def PieMarker(loc_list, frac_list, size, color_list):
     return(point_marker_list)
 
 
-def ScatterpiePlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 8):
+def ScatterpiePlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, pt_size = 8):
     '''
     Draw scatter pie plot to visualize the deconvolution result
     '''
     st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
     st_loc_df = pd.read_csv(st_loc_file, sep = "\t", index_col = 0, header = 0)
+    if sample_id:
+        st_loc_df.iloc[:,2] = st_loc_df.iloc[:,2].astype(str)
+        st_loc_df = st_loc_df[st_loc_df.iloc[:,2] == sample_id]
+        st_deconv_df = st_deconv_df.loc[st_loc_df.index,:]
     fig = plt.figure()
     ax = fig.add_subplot()
     for i in st_deconv_df.index:
@@ -113,12 +119,16 @@ def ScatterpiePlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 
     plt.close(fig)
 
 
-def ScatterPlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 2):
+def ScatterPlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, pt_size = 2):
     '''
     Draw scatter plot to visualize the deconvolution result
     '''
     st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
     st_loc_df = pd.read_csv(st_loc_file, sep = "\t", index_col = 0, header = 0)
+    if sample_id:
+        st_loc_df.iloc[:,2] = st_loc_df.iloc[:,2].astype(str)
+        st_loc_df = st_loc_df[st_loc_df.iloc[:,2] == sample_id]
+        st_deconv_df = st_deconv_df.loc[st_loc_df.index,:]
     st_deconv_df['Celltype'] = st_deconv_df.idxmax(axis = 1)
     fig = plt.figure()
     ax = fig.add_subplot()
@@ -141,13 +151,13 @@ def ScatterPlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size = 2):
     plt.close(fig)
 
 
-def Plot(deconv_res_file, st_loc_file, plot_type, pt_size, out_dir, out_prefix):
+def Plot(deconv_res_file, st_loc_file, plot_type, sample_id, pt_size, out_dir, out_prefix):
     if not pt_size:
         if plot_type == "scatterpie":
             pt_size = 8
         else:
             pt_size = 2
     if plot_type == "scatterpie":
-        ScatterpiePlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size)
+        ScatterpiePlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, pt_size)
     if plot_type == "scatter":
-        ScatterPlot(deconv_res_file, st_loc_file, out_dir, out_prefix, pt_size)
+        ScatterPlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, pt_size)
