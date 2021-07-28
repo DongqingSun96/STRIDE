@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-07 22:11:05
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-16 01:36:56
+# @Last Modified time: 2021-07-26 22:35:04
 
 
 import os
@@ -230,7 +230,7 @@ def ModelSelect(sc_corpus, genes_dict, genes_shared, ntopics_list, cell_gene_lis
     celltype_pair_table_norm = np.divide(celltype_pair_table,celltype_pair_table_sum_by_col)
     f, ax = plt.subplots(figsize=(8, 6.6))
     ax = sns.heatmap(celltype_pair_table_norm, cmap="YlGnBu", annot = celltype_pair_table, fmt = "d",linewidths=.5)
-    plt.savefig(os.path.join(model_dir,"Prediction_truth_heatmap_%s_%s.pdf" %(model_selected.split("_")[0], ntopic_selected)), dpi = 300, bbox_inches = "tight")
+    plt.savefig(os.path.join(out_dir,"Prediction_truth_heatmap_%s_%s.pdf" %(model_selected.split("_")[0], ntopic_selected)), dpi = 300, bbox_inches = "tight")
     plt.close(f)
     plt.clf()
 

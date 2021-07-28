@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 08:42:54
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-16 14:36:51
+# @Last Modified time: 2021-07-28 16:17:37
 
 
 import os
@@ -79,7 +79,7 @@ def NeighbourAvgFrac(st_deconv_df, neighbour_dict):
     return(neighbour_frac_df)
 
 
-def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, pt_size = 4):
+def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, n_clusters, pt_size = 4):
     '''
     Draw scatter pie plot to visualize the deconvolution result
     '''
@@ -101,7 +101,7 @@ def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, pt_size = 4):
     ax.set_xlabel(st_loc_df.columns[0])
     ax.set_ylabel(st_loc_df.columns[1])
     ax.set_title(out_prefix, pad = 15)
-    plot_file = os.path.join(out_dir, "%s_cluster_scatter_plot.pdf" %(out_prefix))
+    plot_file = os.path.join(out_dir, "%s_%scluster_scatter_plot.pdf" %(out_prefix, n_clusters))
     fig.savefig(plot_file, bbox_inches = "tight")
     plt.close(fig)
 
@@ -113,10 +113,11 @@ def Clustering(deconv_res_file, st_loc_file, out_dir, out_prefix, plot, weight =
     neighbour_frac_df = NeighbourAvgFrac(st_deconv_df, neighbour_dict)
     combined_frac_df = pd.concat([weight*st_deconv_df, (1-weight)*neighbour_frac_df], axis=1)
     kmeans_res = KMeans(n_clusters = n_clusters, random_state = 0, max_iter = 1000).fit(combined_frac_df)
-    st_loc_df["Cluster"] = kmeans_res.labels_
+    st_deconv_df["Cluster"] = kmeans_res.labels_
+    st_loc_df["Cluster"] = st_deconv_df.loc[st_loc_df.index, "Cluster"]
     st_cluster_df = st_loc_df["Cluster"]
-    cluster_file = os.path.join(out_dir, "%s_spot_cluster.txt" %(out_prefix))
+    cluster_file = os.path.join(out_dir, "%s_spot_%scluster.txt" %(out_prefix, n_clusters))
     st_cluster_df.to_csv(cluster_file, sep = "\t")
     if plot:
-        ClusterScatterPlot(st_loc_df, out_dir, out_prefix, pt_size = pt_size)
+        ClusterScatterPlot(st_loc_df, out_dir, out_prefix, n_clusters, pt_size = pt_size)
 
