@@ -9,6 +9,7 @@ STRIDE (Spatial TRanscrIptomics DEconvolution by topic modelling) is a cell-type
 ```bash
 git clone https://github.com/DongqingSun96/STRIDE.git
 cd STRIDE
+pip install -r requirements.txt
 python setup.py install
 ```
 
