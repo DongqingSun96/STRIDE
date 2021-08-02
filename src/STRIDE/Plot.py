@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-16 15:19:50
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-16 23:25:40
+# @Last Modified time: 2021-08-02 16:06:44
 
 
 import os
@@ -21,13 +21,12 @@ matplotlib.rcParams['font.sans-serif'] = ['Arial']
 
 DefaulfColorPalette = [
     "#E58606", "#5D69B1", "#52BCA3", "#99C945", "#CC61B0", "#24796C",
-    "#DAA51B", "#2F8AC4", "#764E9F", "#ED645A", "#A5AA99", "#BCBD22",
+    "#DAA51B", "#2F8AC4", "#764E9F", "#ED645A", "#9EB4C7", "#BCBD22",
     "#B279A2", "#EECA3B", "#17BECF", "#FF9DA6", "#778AAE", "#1B9E77",
     "#A6761D", "#526A83", "#B82E2E", "#80B1D3", "#68855C", "#D95F02",
     "#BEBADA", "#AF6458", "#D9AF6B", "#9C9C5E", "#625377", "#8C785D",
     "#88CCEE", "#E73F74", "#FFFFB3", "#CCEBC5", "#332288", "#A65628"
 ]
-
 
 def PlotParser(subparsers):
     workflow = subparsers.add_parser("plot", 
@@ -94,19 +93,23 @@ def ScatterpiePlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix,
         st_loc_df.iloc[:,2] = st_loc_df.iloc[:,2].astype(str)
         st_loc_df = st_loc_df[st_loc_df.iloc[:,2] == sample_id]
         st_deconv_df = st_deconv_df.loc[st_loc_df.index,:]
+    if len(st_deconv_df.columns) > 15:
+        color_pal = sns.color_palette("Spectral", len(st_deconv_df.columns))
+    else:
+        color_pal = DefaulfColorPalette
     fig = plt.figure()
     ax = fig.add_subplot()
     for i in st_deconv_df.index:
         deconv_list = st_deconv_df.loc[i,:]
         loc_list = st_loc_df.loc[i,:].tolist()
-        point_marker_list = PieMarker(loc_list[0:2], deconv_list, pt_size**2, DefaulfColorPalette)
+        point_marker_list = PieMarker(loc_list[0:2], deconv_list, pt_size**2, color_pal)
         for point_marker in point_marker_list:
             ax.scatter(point_marker[0], point_marker[1], **point_marker[-1])
     # add legends
     celltypes = st_deconv_df.columns
     patch_list = []
     for i in range(len(celltypes)):
-        patch_list.append(mpatches.Patch(facecolor = DefaulfColorPalette[i], label = celltypes[i], edgecolor = "darkgrey", linewidth=0.1))
+        patch_list.append(mpatches.Patch(facecolor = color_pal[i], label = celltypes[i], edgecolor = "darkgrey", linewidth=0.1))
     ax.legend(handles = patch_list, loc='center left', bbox_to_anchor=(1, 0.5), fontsize = 'small', frameon = False,
         handlelength=1, handleheight=1)
     ax.axis('equal')
@@ -133,12 +136,16 @@ def ScatterPlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, pt
     fig = plt.figure()
     ax = fig.add_subplot()
     celltypes = sorted(st_deconv_df.columns[0:-1])
+    if len(st_deconv_df.columns) > 15:
+        color_pal = sns.color_palette("Spectral", len(celltypes))
+    else:
+        color_pal = DefaulfColorPalette
     cluster_list = []
     for i, label in enumerate(celltypes):
         #add data points 
         points = plt.scatter(x = st_loc_df.loc[st_deconv_df.index[st_deconv_df['Celltype']==label], st_loc_df.columns[0]], 
                     y = st_loc_df.loc[st_deconv_df.index[st_deconv_df['Celltype']==label], st_loc_df.columns[1]], 
-                    color = DefaulfColorPalette[i], alpha=1, s = pt_size**2)
+                    color = color_pal[i], alpha=1, s = pt_size**2)
         cluster_list.append(points)
     lgd = plt.legend(cluster_list, celltypes, bbox_to_anchor=(1, 0.5), 
                loc='center left', markerscale = 1, frameon = False, handlelength=1, handleheight=1, fontsize = 'small')
