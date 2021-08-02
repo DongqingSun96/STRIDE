@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 08:42:54
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-28 16:17:37
+# @Last Modified time: 2021-08-02 16:30:09
 
 
 import os
@@ -35,6 +35,8 @@ def ClusterParser(subparsers):
         help = "Location of the ST spot position file. "
         "The file should be a tab-separated plain-text file with header. "
         "The first column should be the spot name, and the second and the third column should be the row and column coordinate. ")
+    group_input.add_argument("--sample-id", dest = "sample_id", default = None, type = str, 
+        help = "If the count matrices are merged together to perform deconvolution, please specify the sample id of interest. ")
     group_input.add_argument("--plot", dest = "plot", action = "store_true",
         help = "Whether or not to visualize the neighbourhood analysis result. "
         "If set, the neighbourhood analysis result will be visualized. ")
@@ -106,9 +108,13 @@ def ClusterScatterPlot(st_loc_df, out_dir, out_prefix, n_clusters, pt_size = 4):
     plt.close(fig)
 
 
-def Clustering(deconv_res_file, st_loc_file, out_dir, out_prefix, plot, weight = 0.5, n_clusters = 5, pt_size = 4):
+def Clustering(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, plot, weight = 0.5, n_clusters = 5, pt_size = 4):
     st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
     st_loc_df = pd.read_csv(st_loc_file, sep = "\t", index_col = 0, header = 0)
+    if sample_id:
+        st_loc_df.iloc[:,2] = st_loc_df.iloc[:,2].astype(str)
+        st_loc_df = st_loc_df[st_loc_df.iloc[:,2] == sample_id]
+        st_deconv_df = st_deconv_df.loc[st_loc_df.index,:]
     neighbour_dict = FindNeighbours(st_loc_df)
     neighbour_frac_df = NeighbourAvgFrac(st_deconv_df, neighbour_dict)
     combined_frac_df = pd.concat([weight*st_deconv_df, (1-weight)*neighbour_frac_df], axis=1)

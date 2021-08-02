@@ -48,7 +48,7 @@ def main():
              plot_type = args.plot_type, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
     elif args.subcommand == "cluster":
-        Clustering(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file,
+        Clustering(deconv_res_file = args.deconv_res_file, st_loc_file = args.st_loc_file, sample_id = args.sample_id,
              weight = args.weight, n_clusters = args.n_clusters,
              plot = args.plot, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
