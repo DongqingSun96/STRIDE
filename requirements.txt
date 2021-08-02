@@ -1,5 +1,5 @@
 gensim==3.8.3
-scikit-learn>=0.24"
+scikit-learn>=0.24
 wheel>=0.36.2
 numpy>=1.20.3
 pandas>=1.1.4
@@ -9,3 +9,4 @@ seaborn>=0.11.1
 scanpy>=1.6.0
 h5py>=2.10.0
 tables>=3.6.1
+pot>=0.7.0
