@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 08:42:54
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-08-02 16:30:09
+# @Last Modified time: 2021-08-02 23:22:34
 
 
 import os
@@ -125,5 +125,6 @@ def Clustering(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, plo
     cluster_file = os.path.join(out_dir, "%s_spot_%scluster.txt" %(out_prefix, n_clusters))
     st_cluster_df.to_csv(cluster_file, sep = "\t")
     if plot:
+        sns.set_context("notebook", font_scale=1.5)
         ClusterScatterPlot(st_loc_df, out_dir, out_prefix, n_clusters, pt_size = pt_size)
 

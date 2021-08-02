@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-16 15:19:50
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-08-02 16:06:44
+# @Last Modified time: 2021-08-02 23:22:10
 
 
 import os
@@ -15,7 +15,6 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
 sns.set_style("ticks")
-sns.set_context("notebook", font_scale=1.5)
 matplotlib.rcParams['font.family'] = 'sans-serif'
 matplotlib.rcParams['font.sans-serif'] = ['Arial']
 
@@ -159,6 +158,7 @@ def ScatterPlot(deconv_res_file, st_loc_file, sample_id, out_dir, out_prefix, pt
 
 
 def Plot(deconv_res_file, st_loc_file, plot_type, sample_id, pt_size, out_dir, out_prefix):
+    sns.set_context("notebook", font_scale=1.5)
     if not pt_size:
         if plot_type == "scatterpie":
             pt_size = 8

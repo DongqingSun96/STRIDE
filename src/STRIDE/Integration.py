@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 19:54:39
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-07-16 14:31:18
+# @Last Modified time: 2021-08-02 23:34:53
 
 
 import os
@@ -26,18 +26,24 @@ def IntegrateParser(subparsers):
 
     group_input = workflow.add_argument_group("Input arguments")
     group_input.add_argument("--deconv-file", dest = "deconv_res_file_list", default = [], nargs = "+", type = str, required = True,
-        help = "Location of the deconvolution result file of all samples to be integrated. "
+        help = "Location of the deconvolution result file of samples to be integrated. "
         "If the count matrices for individual samples are merged together to run 'STRIDE deconvolve', "
         "the deconvolution result can be directly provided here (i.e., outdir/outprefix_spot_celltype_frac.txt). "
         "If users perform deconvolution for each sample separately, please provide the result file list. "
         "For example, --deconv-file outdir/S1_spot_celltype_frac.txt outdir/S2_spot_celltype_frac.txt outdir/S3_spot_celltype_frac.txt. "
         "STRIDE will integrate the samples in the order of 'S1, S2, S3'. ")
+    group_input.add_argument("--sample-id", dest = "sample_id_list", default = [], nargs = "+", type = str, 
+        help = "Sample IDs to be integrated. "
+        "If the count matrices for individual samples are merged together to run 'STRIDE deconvolve', "
+        "please specify the samples to be integrated. For example, --sample-id 1 2 3. "
+        "Otherwise, all samples will be integrated together. "
+        "If users perform deconvolution for each sample separately, please ignore the argument. ")
     group_input.add_argument("--topic-file", dest = "topic_spot_file_list", default = [], nargs = "+", type = str, required = True,
         help = "Location of the topic distribution file for all samples to be integrated. "
         "If the count matrices for individual samples are merged together to run 'STRIDE deconvolve', "
-        "the topic distribution file can be directly provided here (i.e., outdir/outprefix_topic_spot_mat_topicnumber.npz). "
+        "the topic distribution file can be directly provided here (i.e., outdir/outprefix_topic_spot_mat_topicnumber.txt). "
         "If users perform deconvolution for each sample separately, please provide the topic distribution file list in the order of deconvolution files. "
-        "For example, --topic-file outdir/S1_spot_topic_spot_mat_topicnumber.npz outdir/S2_topic_spot_mat_topicnumber.npz outdir/S3_topic_spot_mat_topicnumber.npz. ")
+        "For example, --topic-file outdir/S1_spot_topic_spot_mat_topicnumber.txt outdir/S2_topic_spot_mat_topicnumber.txt outdir/S3_topic_spot_mat_topicnumber.txt. ")
     group_input.add_argument("--st-loc", dest = "st_loc_file_list", default = [], nargs = "+", type = str, required = True,
         help = "Location of the ST spot information file. The file should be a tab-separated plain-text file with header. "
         "Users can provide either the merged location file or location file list of multiple samples, which depends on the way to perform deconvolution in the previous step. "
@@ -104,10 +110,14 @@ def Alignment(sample1_id, sample2_id, st_loc_df, topic_spot_df, alpha = 0.2):
 def IntegrationPlot(sample_all_loc_centered_df, st_deconv_df, sample_list, pt_size, out_dir, out_prefix):
     fig = plt.figure()
     ax = fig.add_subplot(projection='3d')
+    if len(st_deconv_df.columns) > 15:
+        color_pal = sns.color_palette("Spectral", len(celltypes))
+    else:
+        color_pal = DefaulfColorPalette
     for i in sample_all_loc_centered_df.index:
         loc_list = sample_all_loc_centered_df.loc[i,:].tolist()
         frac_list = st_deconv_df.loc[i,:]
-        point_marker_list = PieMarker(loc_list, frac_list, pt_size**2, DefaulfColorPalette)
+        point_marker_list = PieMarker(loc_list, frac_list, pt_size**2, color_pal)
         for point_marker in point_marker_list:
             ax.scatter(point_marker[0], point_marker[1], point_marker[2], **point_marker[3])
     # adjust axes
@@ -121,7 +131,7 @@ def IntegrationPlot(sample_all_loc_centered_df, st_deconv_df, sample_list, pt_si
     celltypes = st_deconv_df.columns
     patch_list = []
     for i in range(len(celltypes)):
-        patch_list.append(mpatches.Patch(facecolor = DefaulfColorPalette[i], label=celltypes[i], edgecolor = "darkgrey", linewidth=0.1))
+        patch_list.append(mpatches.Patch(facecolor = color_pal[i], label=celltypes[i], edgecolor = "darkgrey", linewidth=0.1))
     ax.legend(handles = patch_list, loc='center left', bbox_to_anchor=(1.05, 0.5), fontsize = 'small', frameon = False,
         handlelength=1, handleheight=1)
     # save figure
@@ -129,15 +139,23 @@ def IntegrationPlot(sample_all_loc_centered_df, st_deconv_df, sample_list, pt_si
     fig.savefig(fig_file, bbox_inches = "tight")
 
 
-def Integrate(topic_spot_file_list, deconv_res_file_list, st_loc_file_list, alpha, plot, pt_size, out_dir, out_prefix):
+def Integrate(topic_spot_file_list, sample_id_list, deconv_res_file_list, st_loc_file_list, alpha, plot, pt_size, out_dir, out_prefix):
     if len(topic_spot_file_list) == 1:
         topic_spot_file = topic_spot_file_list[0]
         deconv_res_file = deconv_res_file_list[0]
         st_loc_file = st_loc_file_list[0]
-        topic_spot_mat = scipy.sparse.load_npz(topic_spot_file).todense()
         topic_spot_df = pd.read_csv(topic_spot_file, sep = "\t", index_col = 0, header = 0)
         st_deconv_df = pd.read_csv(deconv_res_file, sep = "\t", index_col = 0, header = 0)
         st_loc_df = pd.read_csv(st_loc_file, sep = '\t', index_col = 0, header = 0)
+        if sample_id_list:
+            if st_loc_df.iloc[:,2].dtype == np.int64:
+                sample_id_list = [int(sample) for sample in sample_id_list]
+            st_loc_df = st_loc_df.loc[st_loc_df.iloc[:,2].isin(sample_id_list), :]
+            st_deconv_df = st_deconv_df.loc[st_loc_df.index, :]
+            topic_spot_df = topic_spot_df.loc[:, st_loc_df.index]
+            sample_list = sample_id_list
+        else:
+            sample_list = sorted(list(set(st_loc_df.iloc[:,2])))
     else:
         topic_spot_df_list = []
         st_deconv_df_list = []
@@ -160,9 +178,8 @@ def Integrate(topic_spot_file_list, deconv_res_file_list, st_loc_file_list, alph
         topic_spot_df = pd.concat(topic_spot_df_list, axis = 1)
         st_deconv_df = pd.concat(st_deconv_df_list)
         st_loc_df = pd.concat(st_loc_df_list)
-        st_loc_df = st_loc_df.iloc[:,[0,1,-1]]
-    st_loc_df.iloc[:,2] = st_loc_df.iloc[:,2].astype(str)
-    sample_list = sorted(list(set(st_loc_df.iloc[:,2])))
+        st_loc_df = st_loc_df.iloc[:,[0,1,2]]
+        sample_list = sorted(list(set(st_loc_df.iloc[:,2])))
     sample_1st = st_loc_df[st_loc_df.iloc[:,2] == sample_list[0]]
     sample_1st_array = np.array(sample_1st.iloc[:, [0, 1]]).T
     g_1st = np.ones((sample_1st.shape[0], 1))/sample_1st.shape[0]
@@ -200,6 +217,7 @@ def Integrate(topic_spot_file_list, deconv_res_file_list, st_loc_file_list, alph
     sample_all_loc_centered_df = sample_all_loc_centered_df[[sample_all_loc_centered_df.columns[2],"X_trans","Y_trans"]]
     sample_all_loc_centered_df.to_csv(loc_trans_file, sep = "\t")
     if plot:
+        sns.set_context("notebook", font_scale = 1.2)
         for i, sample_id in enumerate(sample_list):
             sample_all_loc_centered_df.iloc[sample_all_loc_centered_df.iloc[:,0] == sample_id, 0] = i
         sample_all_loc_centered_df.iloc[:,0] = sample_all_loc_centered_df.iloc[:,0].astype(str).astype(int)
