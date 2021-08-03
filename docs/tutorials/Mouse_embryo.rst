@@ -7,7 +7,7 @@
 Mouse embryo GEO-seq data
 -------------------------
 
-Here we use a small GEO-seq dataset to demonstrate the simple usage of STRIDE. The GEO-seq data was derived from the study of early mouse embryo (`Peng et al., Nature, 2019 <https://www.nature.com/articles/s41586-019-1469-8>`_), and the scRNA-seq data was collected from another multi-omics study (`Argelaguet et al., Nature, 2019 <https://www.nature.com/articles/s41586-019-1825-8>`_). Only data of E7.5 are used in this example. Users can download the demo data from `here`.
+Here we use a small GEO-seq dataset to demonstrate the simple usage of STRIDE. The GEO-seq data was derived from the study of early mouse embryo (`Peng et al., Nature, 2019 <https://www.nature.com/articles/s41586-019-1469-8>`_), and the scRNA-seq data was collected from another multi-omics study (`Argelaguet et al., Nature, 2019 <https://www.nature.com/articles/s41586-019-1825-8>`_). Only data of E7.5 are used in this example. Users can download the demo data from `here <https://github.com/DongqingSun96/STRIDE/tree/main/test>`_.
 
 Step 1 Deconvolve the cell-type composition of GEO-seq data
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

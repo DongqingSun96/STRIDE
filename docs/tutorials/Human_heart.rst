@@ -8,7 +8,7 @@ Developing human heart data
 
 
 
-Here we use a developing human heart dataset (`Ji et al., Cell, 2020 <https://www.sciencedirect.com/science/article/pii/S0092867420306723>`_) to demonstrate the advanced usage of STRIDE. The original study provided 4, 9 and 6 heart sections from three timepoints, 4.5-6, 6.5, and 9 PCW, respectively, which were profiled by ST technology. They also provided a single-cell transcriptional profile of the 6.5 PCW tissue sample, generated through 10X Genomics Chromium platform. Users can download the processed data from `here`.
+Here we use a developing human heart dataset (`Ji et al., Cell, 2020 <https://www.sciencedirect.com/science/article/pii/S0092867420306723>`_) to demonstrate the advanced usage of STRIDE. The original study provided 4, 9 and 6 heart sections from three timepoints, 4.5-6, 6.5, and 9 PCW, respectively, which were profiled by ST technology. They also provided a single-cell transcriptional profile of the 6.5 PCW tissue sample, generated through 10X Genomics Chromium platform. Users can download the processed data from `here <https://github.com/DongqingSun96/STRIDE/tree/main/test>`_.
 
 Step 1 Deconvolve the cell-type composition of ST data
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
