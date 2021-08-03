@@ -12,11 +12,11 @@ Welcome to STRIDE's documentation!
 
 |PyPI| |PyPIDownloads| |Docs|
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/stlearn?logo=PyPI
-   :target: https://pypi.org/project/stlearn
-.. |PyPIDownloads| image:: https://pepy.tech/badge/stlearn
-.. |Docs| image:: https://readthedocs.org/projects/stlearn/badge/?version=latest
-   :target: https://stlearn.readthedocs.io
+.. |PyPI| image:: https://img.shields.io/pypi/v/stridespatial
+   :target: https://pypi.org/project/stridespatial
+.. |PyPIDownloads| image:: https://pepy.tech/badge/stridespatial
+.. |Docs| image:: https://readthedocs.org/projects/stridespatial/badge/?version=latest
+   :target: https://stridespatial.readthedocs.io
 
 
 Spatial TRanscrIptomics DEconvolution by topic modeling (**STRIDE**), is a computational method to decompose cell types from spatial mixtures by leveraging topic profiles trained from single-cell transcriptomics. Besides the cell-type composition deconvolution, STRIDE also provides several downstream analysis functions, including (1) signature (i.e., topic) detection and visualization, (2) spatial clustering and domain identification based on neighborhood cell populations and (3) reconstruction of three-dimensional architecture from sequential ST slides of the same tissue. 
