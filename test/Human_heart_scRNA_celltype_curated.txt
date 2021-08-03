@@ -1,0 +1,3760 @@
+AAACCTGAGAAACCAT.1	Erythrocytes
+AAACCTGGTGGTACAG.1	Fibroblast-like
+AAACGGGAGATGTAAC.1	Fibroblast-like
+AAACGGGAGGCAGTCA.1	Smooth muscle cells
+AAACGGGAGGTCATCT.1	Smooth muscle cells
+AAACGGGAGTAGCCGA.1	Ventricular cardiomyocytes
+AAACGGGAGTTCGCGC.1	Smooth muscle cells
+AAACGGGCAAGCCTAT.1	Fibroblast-like
+AAACGGGTCATTATCC.1	Smooth muscle cells
+AAAGATGAGCGCCTCA.1	Endothelium / pericytes / adventitia
+AAAGATGGTGTGGCTC.1	Fibroblast-like
+AAAGATGTCATGCATG.1	Fibroblast-like
+AAAGATGTCCTTTCGG.1	Fibroblast-like
+AAAGATGTCGCGGATC.1	Smooth muscle cells
+AAAGCAACACGAAGCA.1	Smooth muscle cells
+AAAGCAAGTCACTGGC.1	Ventricular cardiomyocytes
+AAAGCAAGTGCCTGGT.1	Fibroblast-like
+AAAGCAATCGCCAAAT.1	Fibroblast-like
+AAAGCAATCTGTCAAG.1	Endothelium / pericytes / adventitia
+AAAGTAGAGTGTACCT.1	Smooth muscle cells
+AAAGTAGCAGTAACGG.1	Cardiac neural crest cells & Schwann progenitor cells
+AAATGCCAGTACGACG.1	Smooth muscle cells
+AAATGCCCATTGCGGC.1	Capillary endothelium
+AAATGCCTCATTATCC.1	Capillary endothelium
+AAATGCCTCCTCTAGC.1	Smooth muscle cells
+AAATGCCTCTTGTTTG.1	Capillary endothelium
+AACACGTAGTAGATGT.1	Smooth muscle cells
+AACACGTCAGTTCATG.1	Erythrocytes
+AACACGTCATGCGCAC.1	Fibroblast-like
+AACACGTGTAAACCTC.1	Fibroblast-like
+AACACGTGTAGCGTCC.1	Erythrocytes
+AACACGTGTCGAACAG.1	Epicardial cells
+AACACGTGTGGTTTCA.1	Smooth muscle cells
+AACACGTTCTGCCAGG.1	Ventricular cardiomyocytes
+AACCATGCACCAACCG.1	Capillary endothelium
+AACCATGGTACATCCA.1	Smooth muscle cells
+AACCATGGTCGTTGTA.1	Capillary endothelium
+AACCATGGTCTGGTCG.1	Capillary endothelium
+AACCATGGTGCTAGCC.1	Smooth muscle cells
+AACCATGTCGTCACGG.1	Erythrocytes
+AACCATGTCTCCGGTT.1	Epicardium-derived cells
+AACCATGTCTTGCCGT.1	Smooth muscle cells
+AACGTTGGTCTAAACC.1	Smooth muscle cells
+AACTCAGGTCTCTTAT.1	Capillary endothelium
+AACTCCCCAACACGCC.1	Fibroblast-like
+AACTCCCTCTTTAGGG.1	Fibroblast-like
+AACTCTTAGGCATGGT.1	Fibroblast-like
+AACTCTTGTAGGCATG.1	Capillary endothelium
+AACTGGTAGTAGCGGT.1	Epicardium-derived cells
+AACTTTCGTCTAGCCG.1	Fibroblast-like
+AAGACCTTCGGTCTAA.1	Capillary endothelium
+AAGCCGCCAATTGCTG.1	Capillary endothelium
+AAGCCGCGTACGACCC.1	Fibroblast-like
+AAGCCGCGTGCGATAG.1	Epicardium-derived cells
+AAGCCGCTCTTTACGT.1	Atrial cardiomyocytes
+AAGGAGCAGTGCTGCC.1	Capillary endothelium
+AAGGAGCGTCTAGTGT.1	Fibroblast-like
+AAGGAGCGTGCAACGA.1	Cardiac neural crest cells & Schwann progenitor cells
+AAGGAGCTCACATGCA.1	Fibroblast-like
+AAGGAGCTCTAACTTC.1	Atrial cardiomyocytes
+AAGGCAGAGAGAACAG.1	Fibroblast-like
+AAGGCAGAGTGTCTCA.1	Fibroblast-like
+AAGGCAGCACTCAGGC.1	Fibroblast-like
+AAGGCAGCAGTACACT.1	Capillary endothelium
+AAGGCAGGTGCAGGTA.1	Fibroblast-like
+AAGGCAGGTTCAACCA.1	Fibroblast-like
+AAGGCAGGTTCATGGT.1	Fibroblast-like
+AAGGTTCAGCGACGTA.1	Atrial cardiomyocytes
+AAGGTTCCAAGCCGTC.1	Immune cells
+AAGGTTCGTTCATGGT.1	Capillary endothelium
+AAGGTTCTCAGCACAT.1	Fibroblast-like
+AAGTCTGAGTCGAGTG.1	Smooth muscle cells
+AATCCAGAGGGTTCCC.1	Ventricular cardiomyocytes
+AATCCAGAGTCTCCTC.1	Capillary endothelium
+AATCCAGCAGGCTCAC.1	Fibroblast-like
+AATCGGTAGAGTAATC.1	Smooth muscle cells
+AATCGGTAGATGTCGG.1	Epicardium-derived cells
+AATCGGTGTGTTTGTG.1	Capillary endothelium
+AATCGGTTCCCAACGG.1	Fibroblast-like
+ACACCAAAGATGTTAG.1	Epicardium-derived cells
+ACACCAAAGCTAGTTC.1	Fibroblast-like
+ACACCAAAGTTGCAGG.1	Fibroblast-like
+ACACCAATCAGGTTCA.1	Capillary endothelium
+ACACCAATCGTGACAT.1	Atrial cardiomyocytes
+ACACCCTAGCCGGTAA.1	Fibroblast-like
+ACACCCTCACATTAGC.1	Immune cells
+ACACCCTCACGCTTTC.1	Smooth muscle cells
+ACACCCTCATCCGTGG.1	Ventricular cardiomyocytes
+ACACCCTGTCTCATCC.1	Epicardium-derived cells
+ACACCCTGTCTGCCAG.1	Fibroblast-like
+ACACCCTGTTAAGTAG.1	Smooth muscle cells
+ACACCCTGTTGAGTTC.1	Smooth muscle cells
+ACACCGGAGATCGGGT.1	Epicardium-derived cells
+ACACCGGGTATTAGCC.1	Epicardium-derived cells
+ACACCGGGTGTTTGGT.1	Smooth muscle cells
+ACACTGAAGAATTGTG.1	Smooth muscle cells
+ACACTGAGTATGAAAC.1	Fibroblast-like
+ACACTGATCGCGGATC.1	Capillary endothelium
+ACACTGATCTGTCTAT.1	Endothelium / pericytes / adventitia
+ACAGCCGAGGTCATCT.1	Epicardial cells
+ACAGCCGGTAAGTTCC.1	Capillary endothelium
+ACAGCCGGTCTCTTTA.1	Epicardium-derived cells
+ACAGCTAAGTGTGGCA.1	Fibroblast-like
+ACAGCTACAGACAGGT.1	Erythrocytes
+ACAGCTACAGCTGGCT.1	Fibroblast-like
+ACAGCTAGTACCATCA.1	Immune cells
+ACAGCTAGTCAAACTC.1	Smooth muscle cells
+ACATACGCACAAGACG.1	Erythrocytes
+ACATACGCACCTTGTC.1	Endothelium / pericytes / adventitia
+ACATACGTCCACGTTC.1	Epicardium-derived cells
+ACATACGTCTTGCATT.1	Fibroblast-like
+ACATACGTCTTGCCGT.1	Epicardium-derived cells
+ACATCAGAGCAGACTG.1	Cardiac neural crest cells & Schwann progenitor cells
+ACATCAGAGTCGTACT.1	Fibroblast-like
+ACATCAGGTACAAGTA.1	Ventricular cardiomyocytes
+ACATCAGGTACCAGTT.1	Capillary endothelium
+ACATCAGGTTTCGCTC.1	Fibroblast-like
+ACATCAGTCCCAGGTG.1	Epicardium-derived cells
+ACATCAGTCCGCATAA.1	Ventricular cardiomyocytes
+ACATGGTAGAATAGGG.1	Epicardium-derived cells
+ACATGGTAGGACGAAA.1	Smooth muscle cells
+ACATGGTAGGGCTTCC.1	Smooth muscle cells
+ACATGGTAGTGGAGTC.1	Capillary endothelium
+ACATGGTCAAGGTGTG.1	Fibroblast-like
+ACATGGTGTCAATGTC.1	Atrial cardiomyocytes
+ACCAGTAAGTCGAGTG.1	Fibroblast-like
+ACCAGTACAAAGGAAG.1	Epicardium-derived cells
+ACCAGTACACAGCGTC.1	Capillary endothelium
+ACCAGTACAGGATCGA.1	Erythrocytes
+ACCAGTATCAGCACAT.1	Ventricular cardiomyocytes
+ACCAGTATCTCCTATA.1	Erythrocytes
+ACCCACTAGGTAAACT.1	Ventricular cardiomyocytes
+ACCCACTGTACGCACC.1	Epicardium-derived cells
+ACCCACTGTATAGTAG.1	Ventricular cardiomyocytes
+ACCGTAACACGAGGTA.1	Atrial cardiomyocytes
+ACCTTTACAAGCGTAG.1	Epicardial cells
+ACCTTTACAGTCCTTC.1	Immune cells
+ACCTTTAGTTTGCATG.1	Fibroblast-like
+ACCTTTATCTCCTATA.1	Fibroblast-like
+ACGAGCCAGGGTTCCC.1	Ventricular cardiomyocytes
+ACGAGCCCAAGTTAAG.1	Fibroblast-like
+ACGAGCCGTAGCAAAT.1	Smooth muscle cells
+ACGAGCCGTCTCCCTA.1	Atrial cardiomyocytes
+ACGAGCCTCCATGAGT.1	Epicardial cells
+ACGAGGAAGTACGCGA.1	Smooth muscle cells
+ACGAGGACATACGCCG.1	Capillary endothelium
+ACGAGGAGTCGCTTTC.1	Smooth muscle cells
+ACGATACGTCCCTTGT.1	Fibroblast-like
+ACGATACGTCGCATCG.1	Fibroblast-like
+ACGATACTCAGAGCTT.1	Ventricular cardiomyocytes
+ACGATGTGTCATCGGC.1	Erythrocytes
+ACGATGTGTCGAACAG.1	Immune cells
+ACGATGTTCACCTCGT.1	Epicardial cells
+ACGATGTTCGGTGTCG.1	Fibroblast-like
+ACGCAGCAGTCCCACG.1	Fibroblast-like
+ACGCAGCAGTGAATTG.1	Fibroblast-like
+ACGCAGCGTGATGCCC.1	Ventricular cardiomyocytes
+ACGCCAGCAGGTCTCG.1	Erythrocytes
+ACGCCAGGTCCAACTA.1	Atrial cardiomyocytes
+ACGCCAGGTTTGGCGC.1	Fibroblast-like
+ACGCCGACAATGGAAT.1	Erythrocytes
+ACGCCGACATGCGCAC.1	Capillary endothelium
+ACGCCGAGTTATCGGT.1	Capillary endothelium
+ACGGAGAAGATGGGTC.1	Atrial cardiomyocytes
+ACGGAGAAGTTAGCGG.1	Epicardial cells
+ACGGAGACATATGGTC.1	Smooth muscle cells
+ACGGAGAGTGCACTTA.1	Fibroblast-like
+ACGGAGAGTGGTTTCA.1	Immune cells
+ACGGCCAAGCTATGCT.1	Atrial cardiomyocytes
+ACGGCCAAGGTGTTAA.1	Smooth muscle cells
+ACGGCCAAGTCGATAA.1	Immune cells
+ACGGCCAGTCTAGAGG.1	Smooth muscle cells
+ACGGCCAGTGAAATCA.1	Smooth muscle cells
+ACGGGCTGTACGCACC.1	Fibroblast-like
+ACGGGCTGTCCGTCAG.1	Erythrocytes
+ACGGGTCGTCTGCCAG.1	Erythrocytes
+ACGGGTCTCATCATTC.1	Smooth muscle cells
+ACGGGTCTCTTCTGGC.1	Fibroblast-like
+ACGTCAACAGGAATGC.1	Epicardium-derived cells
+ACGTCAAGTGGAAAGA.1	Capillary endothelium
+ACGTCAAGTGTTAAGA.1	Fibroblast-like
+ACTATCTAGCAATATG.1	Cardiac neural crest cells & Schwann progenitor cells
+ACTATCTCAAGTACCT.1	Fibroblast-like
+ACTATCTCATTAGGCT.1	Capillary endothelium
+ACTATCTGTGACGGTA.1	Smooth muscle cells
+ACTATCTGTTCAGGCC.1	Fibroblast-like
+ACTGAACAGAGAGCTC.1	Erythrocytes
+ACTGAACCAGTTCCCT.1	Capillary endothelium
+ACTGAACGTATCAGTC.1	Smooth muscle cells
+ACTGAACGTTACTGAC.1	Fibroblast-like
+ACTGAACTCGAACGGA.1	Smooth muscle cells
+ACTGAACTCTACCTGC.1	Smooth muscle cells
+ACTGAGTAGCTAAGAT.1	Capillary endothelium
+ACTGAGTGTACCGCTG.1	Fibroblast-like
+ACTGAGTGTCGCCATG.1	Epicardial cells
+ACTGAGTGTTGAGGTG.1	Smooth muscle cells
+ACTGATGGTCCGTGAC.1	Fibroblast-like
+ACTGATGTCACCATAG.1	Capillary endothelium
+ACTGATGTCGTTTAGG.1	Ventricular cardiomyocytes
+ACTGCTCAGCGATAGC.1	Smooth muscle cells
+ACTGCTCCAGGTCTCG.1	Epicardial cells
+ACTGTCCCAAGCCCAC.1	Fibroblast-like
+ACTGTCCTCTCTGAGA.1	Fibroblast-like
+ACTTACTTCAGCATGT.1	Ventricular cardiomyocytes
+ACTTACTTCATAGCAC.1	Smooth muscle cells
+ACTTACTTCCATGAAC.1	Smooth muscle cells
+ACTTACTTCTCTGCTG.1	Capillary endothelium
+ACTTGTTAGCCCGAAA.1	Erythrocytes
+ACTTGTTAGCTAGTGG.1	Capillary endothelium
+ACTTGTTAGCTCCCAG.1	Atrial cardiomyocytes
+ACTTGTTCAATAGCGG.1	Capillary endothelium
+ACTTGTTCAGTTCATG.1	Smooth muscle cells
+ACTTGTTGTACTTCTT.1	Smooth muscle cells
+ACTTTCACATATGGTC.1	Cardiac neural crest cells & Schwann progenitor cells
+ACTTTCAGTGTTCTTT.1	Fibroblast-like
+AGAATAGAGCTCCTCT.1	Fibroblast-like
+AGAATAGCACGCATCG.1	Cardiac neural crest cells & Schwann progenitor cells
+AGAATAGTCTCTAAGG.1	Ventricular cardiomyocytes
+AGACGTTCAATTCCTT.1	Ventricular cardiomyocytes
+AGACGTTCAGGAATGC.1	Fibroblast-like
+AGACGTTCATGCATGT.1	Capillary endothelium
+AGAGCGAAGGGCTTCC.1	Smooth muscle cells
+AGAGCGAGTGTGTGCC.1	Capillary endothelium
+AGAGCGATCAACGGGA.1	Smooth muscle cells
+AGAGCGATCAGAGGTG.1	Fibroblast-like
+AGAGCGATCATTGCGA.1	Erythrocytes
+AGAGCGATCTCCGGTT.1	Ventricular cardiomyocytes
+AGAGCTTAGCCGCCTA.1	Epicardium-derived cells
+AGAGCTTCAAGTTAAG.1	Smooth muscle cells
+AGAGCTTCACCGTTGG.1	Atrial cardiomyocytes
+AGAGCTTGTCACACGC.1	Fibroblast-like
+AGAGCTTTCAGAGACG.1	Smooth muscle cells
+AGAGCTTTCAGGTTCA.1	Smooth muscle cells
+AGAGTGGAGTTACGGG.1	Epicardium-derived cells
+AGAGTGGCACGGTAGA.1	Fibroblast-like
+AGAGTGGCATAAAGGT.1	Smooth muscle cells
+AGAGTGGGTACTCTCC.1	Capillary endothelium
+AGAGTGGTCGGAAATA.1	Fibroblast-like
+AGATCTGAGCATCATC.1	Endothelium / pericytes / adventitia
+AGATTGCAGGCAGGTT.1	Atrial cardiomyocytes
+AGATTGCAGGCATGTG.1	Fibroblast-like
+AGATTGCAGTGGTAAT.1	Fibroblast-like
+AGATTGCGTGGTGTAG.1	Capillary endothelium
+AGCAGCCAGAGACTTA.1	Fibroblast-like
+AGCAGCCCAAGCCCAC.1	Epicardium-derived cells
+AGCAGCCCAGTTAACC.1	Ventricular cardiomyocytes
+AGCAGCCGTCCGTCAG.1	Erythrocytes
+AGCAGCCGTGCGCTTG.1	Capillary endothelium
+AGCATACAGTTACCCA.1	Fibroblast-like
+AGCATACGTTGTACAC.1	Epicardium-derived cells
+AGCCTAAAGTTCGCGC.1	Smooth muscle cells
+AGCGGTCAGACAGGCT.1	Smooth muscle cells
+AGCGGTCCATTGGTAC.1	Fibroblast-like
+AGCGGTCGTCATCGGC.1	Epicardial cells
+AGCGGTCGTGTGGTTT.1	Ventricular cardiomyocytes
+AGCGGTCGTTCACCTC.1	Fibroblast-like
+AGCGGTCGTTGACGTT.1	Smooth muscle cells
+AGCGTATAGTGCTGCC.1	Smooth muscle cells
+AGCGTATGTACACCGC.1	Capillary endothelium
+AGCGTATGTGTGTGCC.1	Ventricular cardiomyocytes
+AGCGTATTCAACACCA.1	Smooth muscle cells
+AGCGTATTCGCGATCG.1	Epicardium-derived cells
+AGCGTATTCGGTTAAC.1	Smooth muscle cells
+AGCGTCGCACCCATTC.1	Fibroblast-like
+AGCGTCGGTACCGTAT.1	Capillary endothelium
+AGCGTCGGTACCTACA.1	Erythrocytes
+AGCGTCGGTGATGATA.1	Capillary endothelium
+AGCGTCGGTTCGCTAA.1	Epicardial cells
+AGCGTCGTCCCAGGTG.1	Capillary endothelium
+AGCTCCTCATCAGTAC.1	Atrial cardiomyocytes
+AGCTCCTGTGGCCCTA.1	Fibroblast-like
+AGCTCCTGTTCATGGT.1	Fibroblast-like
+AGCTCTCCAAACGTGG.1	Fibroblast-like
+AGCTTGAAGTATTGGA.1	Immune cells
+AGCTTGACAAGTCTAC.1	Smooth muscle cells
+AGCTTGACACGCATCG.1	Smooth muscle cells
+AGCTTGACAGGGTACA.1	Fibroblast-like
+AGCTTGAGTCTTTCAT.1	Fibroblast-like
+AGGCCACAGTCCCACG.1	Epicardial cells
+AGGCCACTCATTTGGG.1	Fibroblast-like
+AGGCCGTAGTGACTCT.1	Immune cells
+AGGCCGTCACTGAAGG.1	Fibroblast-like
+AGGCCGTCAGCGTTCG.1	Smooth muscle cells
+AGGCCGTGTAAGGGCT.1	Ventricular cardiomyocytes
+AGGCCGTGTAGCAAAT.1	Epicardial cells
+AGGGAGTAGTCAAGCG.1	Epicardium-derived cells
+AGGGAGTGTGCCTGGT.1	Smooth muscle cells
+AGGGAGTTCTGATTCT.1	Ventricular cardiomyocytes
+AGGGATGCACCGATAT.1	Capillary endothelium
+AGGGATGTCGATCCCT.1	Fibroblast-like
+AGGGTGAAGGACGAAA.1	Atrial cardiomyocytes
+AGGGTGACAGATGGGT.1	Cardiac neural crest cells & Schwann progenitor cells
+AGGGTGACAGTGAGTG.1	Fibroblast-like
+AGGGTGAGTTTCCACC.1	Fibroblast-like
+AGGGTGATCCGTACAA.1	Smooth muscle cells
+AGGTCATGTCTAGTGT.1	Fibroblast-like
+AGGTCATTCAGGATCT.1	Ventricular cardiomyocytes
+AGGTCCGAGTACATGA.1	Erythrocytes
+AGGTCCGAGTCCATAC.1	Capillary endothelium
+AGGTCCGAGTGCCAGA.1	Epicardium-derived cells
+AGGTCCGCAATGGATA.1	Atrial cardiomyocytes
+AGGTCCGGTAAATGTG.1	Capillary endothelium
+AGGTCCGTCGACCAGC.1	Epicardial cells
+AGGTCCGTCGGAAACG.1	Fibroblast-like
+AGTAGTCAGCTAGTGG.1	Ventricular cardiomyocytes
+AGTAGTCAGGCTATCT.1	Fibroblast-like
+AGTAGTCAGGTAGCTG.1	Smooth muscle cells
+AGTAGTCGTCGAACAG.1	Smooth muscle cells
+AGTAGTCTCACGATGT.1	Fibroblast-like
+AGTAGTCTCAGCATGT.1	Capillary endothelium
+AGTAGTCTCTGCCAGG.1	Smooth muscle cells
+AGTAGTCTCTTACCTA.1	Erythrocytes
+AGTCTTTCAAGCCGCT.1	Smooth muscle cells
+AGTGAGGTCGTACGGC.1	Erythrocytes
+AGTGAGGTCTCAAGTG.1	Capillary endothelium
+AGTGGGAAGACCACGA.1	Capillary endothelium
+AGTGGGAAGAGTCGGT.1	Smooth muscle cells
+AGTGGGACAACGATGG.1	Erythrocytes
+AGTGGGACAGATTGCT.1	Epicardial cells
+AGTGTCAGTATAGGTA.1	Epicardium-derived cells
+AGTGTCATCTGTGCAA.1	Cardiac neural crest cells & Schwann progenitor cells
+AGTGTCATCTTATCTG.1	Capillary endothelium
+ATAACGCAGCCATCGC.1	Smooth muscle cells
+ATAACGCGTGTTGGGA.1	Endothelium / pericytes / adventitia
+ATAACGCTCCAACCAA.1	Ventricular cardiomyocytes
+ATAGACCAGGGTGTTG.1	Erythrocytes
+ATAGACCGTCGGCATC.1	Capillary endothelium
+ATAGACCGTGCGCTTG.1	Erythrocytes
+ATAGACCGTGTCAATC.1	Erythrocytes
+ATAGACCGTTGCGCAC.1	Erythrocytes
+ATAGACCTCAGTTTGG.1	Fibroblast-like
+ATAGACCTCGGTGTTA.1	Atrial cardiomyocytes
+ATCACGAAGATGCCTT.1	Endothelium / pericytes / adventitia
+ATCACGAAGGGCTCTC.1	Epicardium-derived cells
+ATCACGAGTCTCTTAT.1	Capillary endothelium
+ATCACGATCCTGCTTG.1	Fibroblast-like
+ATCACGATCGAATGGG.1	Fibroblast-like
+ATCATCTAGCGATATA.1	Erythrocytes
+ATCATCTGTGACAAAT.1	Fibroblast-like
+ATCATCTGTGGCGAAT.1	Fibroblast-like
+ATCATCTGTTTACTCT.1	Capillary endothelium
+ATCATCTTCAGCAACT.1	Atrial cardiomyocytes
+ATCATCTTCATGTGGT.1	Fibroblast-like
+ATCATGGAGCGAGAAA.1	Atrial cardiomyocytes
+ATCATGGGTCACCCAG.1	Atrial cardiomyocytes
+ATCCACCCAGGGTACA.1	Fibroblast-like
+ATCCACCGTTGGTAAA.1	Smooth muscle cells
+ATCCACCTCGGATGGA.1	Cardiac neural crest cells & Schwann progenitor cells
+ATCCACCTCTGCCAGG.1	Fibroblast-like
+ATCCGAAAGCGTTCCG.1	Fibroblast-like
+ATCCGAACACGGATAG.1	Fibroblast-like
+ATCCGAAGTCTTGTCC.1	Capillary endothelium
+ATCGAGTAGCCTATGT.1	Capillary endothelium
+ATCGAGTCACCGCTAG.1	Fibroblast-like
+ATCGAGTCACGCTTTC.1	Atrial cardiomyocytes
+ATCGAGTCAGCGTTCG.1	Capillary endothelium
+ATCGAGTGTTAGGGTG.1	Ventricular cardiomyocytes
+ATCGAGTTCAGGCAAG.1	Epicardium-derived cells
+ATCGAGTTCGGGAGTA.1	Epicardial cells
+ATCTACTAGGCCCGTT.1	Ventricular cardiomyocytes
+ATCTACTAGGGTGTTG.1	Fibroblast-like
+ATCTACTAGTACGTAA.1	Capillary endothelium
+ATCTACTCATCCCATC.1	Capillary endothelium
+ATCTACTGTTCCTCCA.1	Fibroblast-like
+ATCTGCCAGCTAAACA.1	Erythrocytes
+ATCTGCCCAAGCCGTC.1	Fibroblast-like
+ATCTGCCCAGACGTAG.1	Smooth muscle cells
+ATCTGCCCAGTGGGAT.1	Fibroblast-like
+ATCTGCCCATCGGTTA.1	Fibroblast-like
+ATCTGCCGTAGGCATG.1	Capillary endothelium
+ATGAGGGAGCACGCCT.1	Smooth muscle cells
+ATGAGGGCACGAAGCA.1	Smooth muscle cells
+ATGAGGGCAGGCTGAA.1	Smooth muscle cells
+ATGAGGGTCAAGGCTT.1	Endothelium / pericytes / adventitia
+ATGAGGGTCATCGCTC.1	Fibroblast-like
+ATGAGGGTCGCCAAAT.1	Ventricular cardiomyocytes
+ATGCGATCAAACAACA.1	Atrial cardiomyocytes
+ATGCGATGTACTTCTT.1	Atrial cardiomyocytes
+ATGCGATGTATATGAG.1	Smooth muscle cells
+ATGCGATGTTCCATGA.1	Smooth muscle cells
+ATGGGAGAGACAAGCC.1	Capillary endothelium
+ATGGGAGCATTCACTT.1	Epicardial cells
+ATTACTCAGGACGAAA.1	Epicardial cells
+ATTACTCAGTGAAGTT.1	Endothelium / pericytes / adventitia
+ATTACTCCAACACCCG.1	Fibroblast-like
+ATTACTCCAAGGGTCA.1	Capillary endothelium
+ATTACTCCACCCAGTG.1	Cardiac neural crest cells & Schwann progenitor cells
+ATTACTCCATTATCTC.1	Smooth muscle cells
+ATTACTCGTGGTGTAG.1	Ventricular cardiomyocytes
+ATTACTCTCAAACGGG.1	Smooth muscle cells
+ATTACTCTCCAAGCCG.1	Epicardial cells
+ATTACTCTCCTCGCAT.1	Smooth muscle cells
+ATTATCCAGGAGTACC.1	Fibroblast-like
+ATTATCCCATGTCTCC.1	Capillary endothelium
+ATTATCCTCCCAGGTG.1	Smooth muscle cells
+ATTATCCTCTTGAGGT.1	Ventricular cardiomyocytes
+ATTCTACAGACTAGAT.1	Smooth muscle cells
+ATTCTACGTAAACGCG.1	Epicardial cells
+ATTCTACGTTCACGGC.1	Fibroblast-like
+ATTCTACTCTAACTTC.1	Fibroblast-like
+ATTCTACTCTACTATC.1	Endothelium / pericytes / adventitia
+ATTGGACCAGTGACAG.1	Epicardium-derived cells
+ATTGGACCATAGTAAG.1	Smooth muscle cells
+ATTGGACGTCTGGTCG.1	Capillary endothelium
+ATTGGTGCACTGAAGG.1	Ventricular cardiomyocytes
+ATTGGTGCAGATCTGT.1	Fibroblast-like
+ATTGGTGCAGCCTTGG.1	Epicardial cells
+ATTGGTGGTAGCTTGT.1	Erythrocytes
+ATTTCTGCATAGAAAC.1	Ventricular cardiomyocytes
+ATTTCTGGTCTCGTTC.1	Epicardial cells
+ATTTCTGTCGTCCAGG.1	Fibroblast-like
+CAACCAAAGCAGATCG.1	Endothelium / pericytes / adventitia
+CAACCAACAGGGCATA.1	Fibroblast-like
+CAACCAAGTAAAGTCA.1	Epicardium-derived cells
+CAACCAAGTCATGCCG.1	Ventricular cardiomyocytes
+CAACCAATCAACGCTA.1	Fibroblast-like
+CAACCAATCTTGCAAG.1	Fibroblast-like
+CAACCTCAGGCACATG.1	Ventricular cardiomyocytes
+CAACCTCGTCGCGGTT.1	Smooth muscle cells
+CAACTAGCATATGAGA.1	Fibroblast-like
+CAAGAAAAGAATGTGT.1	Erythrocytes
+CAAGAAAAGCTAGTTC.1	Endothelium / pericytes / adventitia
+CAAGAAACAGTCGATT.1	Epicardial cells
+CAAGAAAGTCACCTAA.1	Atrial cardiomyocytes
+CAAGAAAGTGACAAAT.1	Erythrocytes
+CAAGAAATCGCTGATA.1	Smooth muscle cells
+CAAGATCAGGAACTGC.1	Capillary endothelium
+CAAGATCCAGACAAGC.1	Capillary endothelium
+CAAGATCGTTCGCGAC.1	Capillary endothelium
+CAAGATCTCAGTTTGG.1	Capillary endothelium
+CAAGATCTCTCTTGAT.1	Fibroblast-like
+CAAGGCCAGGACATTA.1	Fibroblast-like
+CAAGGCCCAGACAAAT.1	Capillary endothelium
+CAAGTTGAGGCCGAAT.1	Atrial cardiomyocytes
+CAAGTTGAGTACTTGC.1	Fibroblast-like
+CAAGTTGGTACAGCAG.1	Epicardium-derived cells
+CACAAACAGAGGTTGC.1	Ventricular cardiomyocytes
+CACAAACAGCCGGTAA.1	Capillary endothelium
+CACAAACCACTATCTT.1	Fibroblast-like
+CACAAACCAGGAACGT.1	Epicardial cells
+CACAAACTCTGGAGCC.1	Atrial cardiomyocytes
+CACACAAAGGCGCTCT.1	Fibroblast-like
+CACACAAAGGCTCATT.1	Atrial cardiomyocytes
+CACACAATCATTTGGG.1	Smooth muscle cells
+CACACAATCGAACGGA.1	Smooth muscle cells
+CACACCTAGACTAGGC.1	Capillary endothelium
+CACACCTAGCTGCCCA.1	Fibroblast-like
+CACACCTAGGACAGCT.1	Fibroblast-like
+CACACCTAGTGGGATC.1	Capillary endothelium
+CACACCTAGTGTCTCA.1	Capillary endothelium
+CACACCTCATATGGTC.1	Smooth muscle cells
+CACACCTTCAAACGGG.1	Fibroblast-like
+CACACTCAGTAGGTGC.1	Capillary endothelium
+CACACTCGTGCTGTAT.1	Capillary endothelium
+CACACTCTCCGAATGT.1	Fibroblast-like
+CACACTCTCTCTTATG.1	Immune cells
+CACAGGCAGAAGGACA.1	Endothelium / pericytes / adventitia
+CACAGGCCATAGGATA.1	Epicardium-derived cells
+CACAGGCCATTCACTT.1	Fibroblast-like
+CACAGTAAGCGTAATA.1	Smooth muscle cells
+CACAGTAAGGACAGCT.1	Fibroblast-like
+CACAGTAGTTGGTGGA.1	Capillary endothelium
+CACAGTATCAGCTCTC.1	Fibroblast-like
+CACATAGAGCCACCTG.1	Immune cells
+CACATAGCACCGAATT.1	Cardiac neural crest cells & Schwann progenitor cells
+CACATAGGTGCGATAG.1	Fibroblast-like
+CACATAGTCGCGTTTC.1	Erythrocytes
+CACATAGTCTATCCCG.1	Erythrocytes
+CACATTTCACGAAACG.1	Cardiac neural crest cells & Schwann progenitor cells
+CACATTTCAGCTGGCT.1	Fibroblast-like
+CACATTTCAGGCGATA.1	Smooth muscle cells
+CACATTTCATGTTCCC.1	Erythrocytes
+CACATTTGTATATGAG.1	Erythrocytes
+CACATTTGTCCAACTA.1	Capillary endothelium
+CACATTTTCACGAAGG.1	Capillary endothelium
+CACCACTGTCTTCTCG.1	Capillary endothelium
+CACCACTTCGCCTGAG.1	Atrial cardiomyocytes
+CACCAGGAGCGGCTTC.1	Smooth muscle cells
+CACCAGGCATATGCTG.1	Capillary endothelium
+CACCAGGGTTCAACCA.1	Fibroblast-like
+CACCTTGCAATTGCTG.1	Epicardium-derived cells
+CACCTTGCATATACCG.1	Ventricular cardiomyocytes
+CACCTTGGTAGAGGAA.1	Ventricular cardiomyocytes
+CACCTTGGTCTTGCGG.1	Fibroblast-like
+CACTCCAAGCGTTGCC.1	Epicardial cells
+CACTCCACACATGTGT.1	Fibroblast-like
+CACTCCACAGTCTTCC.1	Smooth muscle cells
+CACTCCATCCGAACGC.1	Ventricular cardiomyocytes
+CAGAATCGTGGACGAT.1	Smooth muscle cells
+CAGAATCGTGTGCGTC.1	Immune cells
+CAGAATCGTTCAGGCC.1	Fibroblast-like
+CAGAATCTCTGTCTCG.1	Ventricular cardiomyocytes
+CAGAGAGCAATGACCT.1	Atrial cardiomyocytes
+CAGAGAGGTGCAGTAG.1	Epicardium-derived cells
+CAGAGAGTCTGGTATG.1	Smooth muscle cells
+CAGATCATCCGAGCCA.1	Atrial cardiomyocytes
+CAGATCATCTTGAGAC.1	Fibroblast-like
+CAGCAGCAGCTGTCTA.1	Ventricular cardiomyocytes
+CAGCAGCAGGACAGCT.1	Ventricular cardiomyocytes
+CAGCAGCAGGGTATCG.1	Fibroblast-like
+CAGCAGCGTCGAAAGC.1	Ventricular cardiomyocytes
+CAGCATAAGACGACGT.1	Epicardial cells
+CAGCATACAGTACACT.1	Epicardium-derived cells
+CAGCATAGTACCATCA.1	Epicardium-derived cells
+CAGCATAGTTACGTCA.1	Erythrocytes
+CAGCCGAAGTGAATTG.1	Smooth muscle cells
+CAGCCGACATGCTAGT.1	Fibroblast-like
+CAGCGACTCGGACAAG.1	Fibroblast-like
+CAGCTAAGTATAGTAG.1	Epicardial cells
+CAGCTGGGTGTGAATA.1	Erythrocytes
+CAGCTGGTCAGTTGAC.1	Fibroblast-like
+CAGCTGGTCGATCCCT.1	Fibroblast-like
+CAGGTGCAGATCGGGT.1	Erythrocytes
+CAGGTGCCAAGGGTCA.1	Smooth muscle cells
+CAGGTGCCACCGAATT.1	Endothelium / pericytes / adventitia
+CAGGTGCGTGAGTATA.1	Smooth muscle cells
+CAGGTGCTCACCTCGT.1	Fibroblast-like
+CAGGTGCTCGCTTGTC.1	Fibroblast-like
+CAGGTGCTCGTGGTCG.1	Smooth muscle cells
+CAGTAACCAGCTCCGA.1	Smooth muscle cells
+CAGTAACGTTAGATGA.1	Smooth muscle cells
+CAGTCCTCAGGAATGC.1	Fibroblast-like
+CAGTCCTTCCACGTGG.1	Fibroblast-like
+CATATGGGTATAGTAG.1	Epicardial cells
+CATATGGGTGTGAAAT.1	Capillary endothelium
+CATATGGTCACCCTCA.1	Epicardium-derived cells
+CATATTCAGACAAAGG.1	Epicardial cells
+CATATTCAGGTGCACA.1	Endothelium / pericytes / adventitia
+CATATTCCACAGAGGT.1	Capillary endothelium
+CATATTCGTTGGAGGT.1	Erythrocytes
+CATCAAGAGCTTCGCG.1	Atrial cardiomyocytes
+CATCAAGCAAGCGCTC.1	Fibroblast-like
+CATCAAGCACCAGGCT.1	Capillary endothelium
+CATCAAGCACCATCCT.1	Capillary endothelium
+CATCAAGCAGGAACGT.1	Fibroblast-like
+CATCAAGGTAGCGCAA.1	Fibroblast-like
+CATCAGAGTCAAACTC.1	Fibroblast-like
+CATCAGAGTCGCTTTC.1	Smooth muscle cells
+CATCCACGTGAGGGAG.1	Fibroblast-like
+CATCGAAAGAAAGTGG.1	Capillary endothelium
+CATCGAAAGGATGGAA.1	Smooth muscle cells
+CATCGAAAGTGAAGTT.1	Fibroblast-like
+CATCGAACACGAAACG.1	Erythrocytes
+CATCGAATCCAATGGT.1	Fibroblast-like
+CATCGAATCCTAGTGA.1	Endothelium / pericytes / adventitia
+CATCGGGAGAAGGTGA.1	Capillary endothelium
+CATCGGGAGACGCAAC.1	Atrial cardiomyocytes
+CATCGGGGTGCGATAG.1	Ventricular cardiomyocytes
+CATCGGGGTTGATTCG.1	Smooth muscle cells
+CATCGGGTCCTATTCA.1	Ventricular cardiomyocytes
+CATCGGGTCGCCAAAT.1	Epicardium-derived cells
+CATCGGGTCTAACGGT.1	Fibroblast-like
+CATGACAGTGACCAAG.1	Fibroblast-like
+CATGCCTAGCAATATG.1	Capillary endothelium
+CATGCCTCACCGTTGG.1	Capillary endothelium
+CATGCCTCATTCTTAC.1	Fibroblast-like
+CATGCCTTCATTTGGG.1	Capillary endothelium
+CATGCCTTCTCCTATA.1	Ventricular cardiomyocytes
+CATGGCGAGATCTGAA.1	Fibroblast-like
+CATGGCGAGGGATCTG.1	Fibroblast-like
+CATGGCGCAGTCTTCC.1	Smooth muscle cells
+CATGGCGCATCCTTGC.1	Epicardial cells
+CATGGCGGTCCAGTTA.1	Smooth muscle cells
+CATGGCGTCGTCTGAA.1	Smooth muscle cells
+CATTATCGTAAACACA.1	Immune cells
+CATTATCGTTGCGTTA.1	Fibroblast-like
+CATTATCTCAACGGCC.1	Ventricular cardiomyocytes
+CATTATCTCAATCACG.1	Erythrocytes
+CATTATCTCCAGATCA.1	Epicardial cells
+CATTCGCCAGGATTGG.1	Capillary endothelium
+CATTCGCGTACCTACA.1	Smooth muscle cells
+CATTCGCGTTTAGGAA.1	Fibroblast-like
+CCAATCCGTAAGGATT.1	Capillary endothelium
+CCAATCCGTGACTCAT.1	Capillary endothelium
+CCAATCCGTTTGACTG.1	Capillary endothelium
+CCAATCCTCTTCAACT.1	Epicardial cells
+CCACCTACAGCTGTAT.1	Immune cells
+CCACCTACAGTGACAG.1	Fibroblast-like
+CCACCTAGTATGGTTC.1	Atrial cardiomyocytes
+CCACGGAAGATATGCA.1	Epicardial cells
+CCACGGAGTAGCGTCC.1	Capillary endothelium
+CCACGGAGTTGCGCAC.1	Capillary endothelium
+CCACGGATCCACGACG.1	Capillary endothelium
+CCACTACCACATTCGA.1	Endothelium / pericytes / adventitia
+CCACTACCAGGACCCT.1	Fibroblast-like
+CCACTACGTCCGTCAG.1	Erythrocytes
+CCAGCGACAAACGTGG.1	Smooth muscle cells
+CCAGCGACATGTAAGA.1	Smooth muscle cells
+CCAGCGAGTACTCAAC.1	Capillary endothelium
+CCAGCGATCAGAGACG.1	Capillary endothelium
+CCAGCGATCTCTGTCG.1	Smooth muscle cells
+CCATGTCCAGCTGCTG.1	Smooth muscle cells
+CCATGTCGTAAGAGAG.1	Epicardial cells
+CCATGTCGTCTTGTCC.1	Endothelium / pericytes / adventitia
+CCATGTCTCATGTAGC.1	Capillary endothelium
+CCATTCGAGCGTTGCC.1	Fibroblast-like
+CCATTCGCAACACCTA.1	Endothelium / pericytes / adventitia
+CCATTCGCACTGTTAG.1	Smooth muscle cells
+CCATTCGGTATATGGA.1	Fibroblast-like
+CCATTCGTCGCATGAT.1	Epicardium-derived cells
+CCCAATCAGAAGGGTA.1	Ventricular cardiomyocytes
+CCCAATCAGCCTTGAT.1	Erythrocytes
+CCCAATCAGTTTGCGT.1	Fibroblast-like
+CCCAGTTCACAACGTT.1	Smooth muscle cells
+CCCAGTTCACTTACGA.1	Epicardium-derived cells
+CCCAGTTGTCTTCTCG.1	Smooth muscle cells
+CCCATACAGATGCCAG.1	Endothelium / pericytes / adventitia
+CCCATACCAATCAGAA.1	Fibroblast-like
+CCCATACCAGCTGTAT.1	Atrial cardiomyocytes
+CCCATACCATTGGCGC.1	Epicardial cells
+CCCATACGTAGGAGTC.1	Fibroblast-like
+CCCATACTCTCGAGTA.1	Smooth muscle cells
+CCCTCCTAGTAACCCT.1	Smooth muscle cells
+CCCTCCTCACCGATAT.1	Fibroblast-like
+CCCTCCTCACGAAAGC.1	Epicardium-derived cells
+CCCTCCTGTGCAGGTA.1	Fibroblast-like
+CCCTCCTGTGGGTATG.1	Capillary endothelium
+CCCTCCTGTTATCGGT.1	Smooth muscle cells
+CCCTCCTGTTCAGACT.1	Fibroblast-like
+CCCTCCTTCAACACAC.1	Endothelium / pericytes / adventitia
+CCGGGATAGACAGACC.1	Fibroblast-like
+CCGGGATCAAACCTAC.1	Cardiac neural crest cells & Schwann progenitor cells
+CCGGGATCAGTCAGAG.1	Capillary endothelium
+CCGGGATGTGTGAAAT.1	Fibroblast-like
+CCGGTAGAGAGCTGCA.1	Endothelium / pericytes / adventitia
+CCGGTAGAGCTCCTCT.1	Fibroblast-like
+CCGGTAGCAGGCTCAC.1	Epicardial cells
+CCGGTAGCATGTCTCC.1	Fibroblast-like
+CCGGTAGGTATGGTTC.1	Fibroblast-like
+CCGGTAGGTCGACTAT.1	Cardiac neural crest cells & Schwann progenitor cells
+CCGGTAGGTGTGTGCC.1	Capillary endothelium
+CCGGTAGTCCAAAGTC.1	Immune cells
+CCGTACTCAGGACGTA.1	Smooth muscle cells
+CCGTACTTCACCACCT.1	Fibroblast-like
+CCGTGGACAAACTGTC.1	Fibroblast-like
+CCGTGGACATGTTCCC.1	Ventricular cardiomyocytes
+CCGTGGATCGCGATCG.1	Fibroblast-like
+CCGTTCACACCGAATT.1	Cardiac neural crest cells & Schwann progenitor cells
+CCGTTCAGTCTTTCAT.1	Atrial cardiomyocytes
+CCTAAAGCACACCGCA.1	Fibroblast-like
+CCTAAAGCACGAGAGT.1	Smooth muscle cells
+CCTAAAGCAGTGGGAT.1	Smooth muscle cells
+CCTAAAGGTCGCTTCT.1	Fibroblast-like
+CCTAAAGGTCTGCCAG.1	Smooth muscle cells
+CCTAAAGTCAGCTCTC.1	Fibroblast-like
+CCTACACAGATCCCGC.1	Ventricular cardiomyocytes
+CCTACACAGGGCACTA.1	Smooth muscle cells
+CCTACACGTAGCTCCG.1	Fibroblast-like
+CCTACACGTATAGTAG.1	Epicardium-derived cells
+CCTACACGTCCTGCTT.1	Fibroblast-like
+CCTACACTCGAACTGT.1	Atrial cardiomyocytes
+CCTACCAGTCAAGCGA.1	Cardiac neural crest cells & Schwann progenitor cells
+CCTACCAGTGCGATAG.1	Epicardium-derived cells
+CCTACCATCTGACCTC.1	Epicardium-derived cells
+CCTAGCTAGATGTAAC.1	Fibroblast-like
+CCTAGCTAGGAGTAGA.1	Cardiac neural crest cells & Schwann progenitor cells
+CCTAGCTCACGACGAA.1	Fibroblast-like
+CCTATTAAGTACGTTC.1	Fibroblast-like
+CCTATTACATGAGCGA.1	Fibroblast-like
+CCTATTAGTGCATCTA.1	Fibroblast-like
+CCTATTATCGCCATAA.1	Fibroblast-like
+CCTATTATCTGCGACG.1	Fibroblast-like
+CCTCAGTAGAAGGCCT.1	Erythrocytes
+CCTCAGTAGAGACTAT.1	Epicardial cells
+CCTCAGTAGCCGGTAA.1	Smooth muscle cells
+CCTCAGTCAGTTTACG.1	Fibroblast-like
+CCTCAGTGTCTGCCAG.1	Erythrocytes
+CCTCAGTGTTGATTCG.1	Smooth muscle cells
+CCTCAGTTCTGTTTGT.1	Erythrocytes
+CCTCTGACACTACAGT.1	Smooth muscle cells
+CCTCTGACAGCTTCGG.1	Epicardium-derived cells
+CCTTACGAGTCCAGGA.1	Smooth muscle cells
+CCTTACGCAAGTTAAG.1	Capillary endothelium
+CCTTACGCACCAGGTC.1	Smooth muscle cells
+CCTTACGCAGCCTTGG.1	Capillary endothelium
+CCTTACGGTCATGCAT.1	Epicardium-derived cells
+CCTTACGGTCGCATCG.1	Endothelium / pericytes / adventitia
+CCTTACGGTGCGGTAA.1	Capillary endothelium
+CCTTACGTCCATGAAC.1	Smooth muscle cells
+CCTTCCCAGGTGCTTT.1	Smooth muscle cells
+CCTTCCCCAATAGCAA.1	Epicardial cells
+CCTTCCCCACCCATTC.1	Immune cells
+CCTTCCCGTGGGTCAA.1	Fibroblast-like
+CCTTCCCGTTACGACT.1	Fibroblast-like
+CCTTCCCTCAAAGTAG.1	Atrial cardiomyocytes
+CCTTCCCTCAGCTCTC.1	Epicardial cells
+CCTTCGAAGGCTCTTA.1	Fibroblast-like
+CCTTCGACAATGTAAG.1	Cardiac neural crest cells & Schwann progenitor cells
+CCTTCGAGTGTCTGAT.1	Ventricular cardiomyocytes
+CCTTCGAGTTAAGGGC.1	Atrial cardiomyocytes
+CCTTCGATCCGCGTTT.1	Fibroblast-like
+CCTTCGATCGTACGGC.1	Smooth muscle cells
+CCTTCGATCGTCCGTT.1	Smooth muscle cells
+CCTTTCTTCACCTTAT.1	Cardiac neural crest cells & Schwann progenitor cells
+CCTTTCTTCCACGTGG.1	Epicardium-derived cells
+CCTTTCTTCTGCCAGG.1	Atrial cardiomyocytes
+CGAATGTAGCAATCTC.1	Epicardium-derived cells
+CGAATGTAGTTAACGA.1	Fibroblast-like
+CGAATGTCAGTTAACC.1	Smooth muscle cells
+CGACCTTCATCCCACT.1	Epicardium-derived cells
+CGACCTTTCTCTAGGA.1	Fibroblast-like
+CGACTTCAGCCTTGAT.1	Capillary endothelium
+CGACTTCCATGCAACT.1	Capillary endothelium
+CGACTTCGTAGCTCCG.1	Erythrocytes
+CGACTTCGTGAGGCTA.1	Epicardial cells
+CGAGAAGGTACAGTGG.1	Smooth muscle cells
+CGAGAAGGTTATCCGA.1	Fibroblast-like
+CGAGAAGTCAGTCAGT.1	Capillary endothelium
+CGAGAAGTCATAAAGG.1	Smooth muscle cells
+CGAGAAGTCCCATTAT.1	Smooth muscle cells
+CGAGAAGTCCTCAACC.1	Fibroblast-like
+CGAGCACCACGGATAG.1	Smooth muscle cells
+CGAGCACCAGCATGAG.1	Capillary endothelium
+CGAGCACCAGCTGCTG.1	Erythrocytes
+CGAGCACCATTATCTC.1	Cardiac neural crest cells & Schwann progenitor cells
+CGAGCACTCGACCAGC.1	Capillary endothelium
+CGAGCCACACCGCTAG.1	Capillary endothelium
+CGAGCCAGTGACGCCT.1	Capillary endothelium
+CGAGCCAGTGCTTCTC.1	Smooth muscle cells
+CGAGCCAGTTCACCTC.1	Fibroblast-like
+CGAGCCATCTAGAGTC.1	Fibroblast-like
+CGAGCCATCTCGTATT.1	Ventricular cardiomyocytes
+CGATCGGAGCTAAACA.1	Erythrocytes
+CGATGGCAGACACGAC.1	Smooth muscle cells
+CGATGGCAGACTTTCG.1	Fibroblast-like
+CGATGGCGTCTCGTTC.1	Epicardium-derived cells
+CGATGGCTCAAACGGG.1	Fibroblast-like
+CGATGGCTCATTCACT.1	Smooth muscle cells
+CGATGGCTCCAGGGCT.1	Capillary endothelium
+CGATGGCTCGCGTAGC.1	Smooth muscle cells
+CGATGTAAGCCGATTT.1	Epicardium-derived cells
+CGATGTACAACACGCC.1	Erythrocytes
+CGATGTACACAGAGGT.1	Ventricular cardiomyocytes
+CGATGTACACGTCAGC.1	Erythrocytes
+CGATGTATCTAACCGA.1	Capillary endothelium
+CGATGTATCTCTTGAT.1	Smooth muscle cells
+CGATTGACACCGGAAA.1	Cardiac neural crest cells & Schwann progenitor cells
+CGATTGACAGCGTCCA.1	Cardiac neural crest cells & Schwann progenitor cells
+CGATTGACAGGCTCAC.1	Fibroblast-like
+CGATTGAGTAGCCTAT.1	Epicardium-derived cells
+CGATTGATCAACGGGA.1	Smooth muscle cells
+CGATTGATCCATGAGT.1	Ventricular cardiomyocytes
+CGATTGATCGGTGTCG.1	Capillary endothelium
+CGCCAAGAGGTGGGTT.1	Fibroblast-like
+CGCCAAGCAAGACACG.1	Ventricular cardiomyocytes
+CGCCAAGCACGTTGGC.1	Fibroblast-like
+CGCCAAGGTCGGCACT.1	Erythrocytes
+CGCGGTACACATTCGA.1	Fibroblast-like
+CGCGGTACAGGCTCAC.1	Atrial cardiomyocytes
+CGCGGTACATTCTCAT.1	Erythrocytes
+CGCGGTAGTGACGGTA.1	Capillary endothelium
+CGCGGTATCCTGCTTG.1	Fibroblast-like
+CGCGGTATCTGGCGTG.1	Fibroblast-like
+CGCGTTTGTGCAACGA.1	Cardiac neural crest cells & Schwann progenitor cells
+CGCGTTTGTGTGAAAT.1	Smooth muscle cells
+CGCGTTTTCATGCAAC.1	Smooth muscle cells
+CGCGTTTTCGGCGGTT.1	Immune cells
+CGCTATCGTGCGCTTG.1	Smooth muscle cells
+CGCTATCGTGGCCCTA.1	Fibroblast-like
+CGCTGGACATCTACGA.1	Cardiac neural crest cells & Schwann progenitor cells
+CGCTGGACATGAGCGA.1	Erythrocytes
+CGCTGGAGTCACCTAA.1	Smooth muscle cells
+CGCTTCACATATGGTC.1	Epicardial cells
+CGCTTCAGTCAACATC.1	Fibroblast-like
+CGCTTCAGTGGTCCGT.1	Atrial cardiomyocytes
+CGCTTCATCACAATGC.1	Smooth muscle cells
+CGCTTCATCACCACCT.1	Fibroblast-like
+CGCTTCATCTAACTTC.1	Smooth muscle cells
+CGGACACCAGTATGCT.1	Fibroblast-like
+CGGACACCATAGGATA.1	Epicardial cells
+CGGACACGTTCATGGT.1	Smooth muscle cells
+CGGACACGTTCGTCTC.1	Fibroblast-like
+CGGACACGTTGAGTTC.1	Capillary endothelium
+CGGACACGTTGATTCG.1	Capillary endothelium
+CGGACACTCACCCTCA.1	Smooth muscle cells
+CGGACGTGTGATAAGT.1	Smooth muscle cells
+CGGACGTGTTCCAACA.1	Fibroblast-like
+CGGACTGAGGGTGTGT.1	Immune cells
+CGGACTGCAACTTGAC.1	Erythrocytes
+CGGACTGGTCCCGACA.1	Cardiac neural crest cells & Schwann progenitor cells
+CGGACTGTCCTCATTA.1	Fibroblast-like
+CGGACTGTCCTTAATC.1	Fibroblast-like
+CGGACTGTCTCGTTTA.1	Capillary endothelium
+CGGAGCTTCCCGACTT.1	Fibroblast-like
+CGGAGTCAGAGGTTGC.1	Fibroblast-like
+CGGAGTCGTCCGAATT.1	Cardiac neural crest cells & Schwann progenitor cells
+CGGCTAGAGATAGTCA.1	Capillary endothelium
+CGGCTAGAGTGTGAAT.1	Erythrocytes
+CGGCTAGCATACGCCG.1	Epicardial cells
+CGGCTAGTCCGCGGTA.1	Erythrocytes
+CGGCTAGTCGGAATCT.1	Capillary endothelium
+CGGGTCAAGTGGGTTG.1	Epicardial cells
+CGGGTCACAAGGACTG.1	Smooth muscle cells
+CGGGTCACACCTTGTC.1	Epicardial cells
+CGGTTAACAAGAGTCG.1	Endothelium / pericytes / adventitia
+CGGTTAACAGCCTATA.1	Smooth muscle cells
+CGGTTAACAGTACACT.1	Capillary endothelium
+CGGTTAATCTCCGGTT.1	Erythrocytes
+CGTAGCGAGCAGGCTA.1	Fibroblast-like
+CGTAGCGAGTACGACG.1	Smooth muscle cells
+CGTAGCGCATCTGGTA.1	Cardiac neural crest cells & Schwann progenitor cells
+CGTAGCGCATGCCTAA.1	Ventricular cardiomyocytes
+CGTAGCGGTAGAGTGC.1	Fibroblast-like
+CGTAGCGGTTAAAGAC.1	Fibroblast-like
+CGTAGCGGTTCACGGC.1	Epicardium-derived cells
+CGTAGGCGTACCGAGA.1	Erythrocytes
+CGTAGGCTCAGATAAG.1	Fibroblast-like
+CGTAGGCTCTTGACGA.1	Capillary endothelium
+CGTCACTAGGCAAAGA.1	Ventricular cardiomyocytes
+CGTCACTCAAGACACG.1	Erythrocytes
+CGTCACTGTTACGCGC.1	Capillary endothelium
+CGTCACTTCTAACCGA.1	Fibroblast-like
+CGTCAGGCAAGCCATT.1	Capillary endothelium
+CGTCAGGCAATAGAGT.1	Capillary endothelium
+CGTCAGGCATGGGACA.1	Ventricular cardiomyocytes
+CGTCAGGGTATGAAAC.1	Epicardium-derived cells
+CGTCAGGGTGGTAACG.1	Fibroblast-like
+CGTCAGGTCATCGCTC.1	Capillary endothelium
+CGTCAGGTCATGTCCC.1	Cardiac neural crest cells & Schwann progenitor cells
+CGTCAGGTCGCAGGCT.1	Immune cells
+CGTCCATAGGTTCCTA.1	Epicardium-derived cells
+CGTCCATGTAAGTTCC.1	Smooth muscle cells
+CGTCCATGTAGTGAAT.1	Epicardium-derived cells
+CGTCCATGTGATAAAC.1	Capillary endothelium
+CGTCCATGTGTGTGCC.1	Ventricular cardiomyocytes
+CGTCTACCATGACGGA.1	Epicardial cells
+CGTCTACGTATCTGCA.1	Ventricular cardiomyocytes
+CGTCTACGTGATAAAC.1	Fibroblast-like
+CGTCTACTCCGGCACA.1	Ventricular cardiomyocytes
+CGTCTACTCCGTTGCT.1	Fibroblast-like
+CGTGAGCCAAGTTCTG.1	Smooth muscle cells
+CGTGAGCGTGCTAGCC.1	Fibroblast-like
+CGTGAGCTCACATGCA.1	Fibroblast-like
+CGTGTAAAGCGCCTCA.1	Atrial cardiomyocytes
+CGTGTAAAGGGTGTGT.1	Fibroblast-like
+CGTGTAACATGCCACG.1	Atrial cardiomyocytes
+CGTGTAAGTAAATGTG.1	Ventricular cardiomyocytes
+CGTGTAAGTATCAGTC.1	Capillary endothelium
+CGTGTAAGTCGCATCG.1	Fibroblast-like
+CGTGTAATCATCGCTC.1	Erythrocytes
+CGTGTCTAGCGTCAAG.1	Atrial cardiomyocytes
+CGTGTCTTCATGCAAC.1	Smooth muscle cells
+CGTTAGACACATTCGA.1	Capillary endothelium
+CGTTAGACATAGTAAG.1	Smooth muscle cells
+CGTTCTGCACGGACAA.1	Atrial cardiomyocytes
+CGTTCTGCACTTACGA.1	Atrial cardiomyocytes
+CGTTCTGTCTGGTTCC.1	Immune cells
+CGTTGGGTCTACCAGA.1	Immune cells
+CGTTGGGTCTTAGCCC.1	Capillary endothelium
+CTAACTTGTCAGTGGA.1	Fibroblast-like
+CTAACTTGTGCAGTAG.1	Capillary endothelium
+CTAAGACCATACGCTA.1	Epicardium-derived cells
+CTAATGGCACATCCGG.1	Ventricular cardiomyocytes
+CTACACCAGAGGTACC.1	Epicardial cells
+CTACACCAGCGCCTTG.1	Smooth muscle cells
+CTACACCAGGGTTTCT.1	Fibroblast-like
+CTACATTGTTTGGGCC.1	Smooth muscle cells
+CTACATTTCTCGTATT.1	Capillary endothelium
+CTACCCAAGAGCTGCA.1	Smooth muscle cells
+CTACCCACACGAAAGC.1	Smooth muscle cells
+CTACCCAGTAGCGATG.1	Fibroblast-like
+CTACCCATCGCCTGAG.1	Fibroblast-like
+CTACCCATCGTGTAGT.1	Capillary endothelium
+CTACGTCAGGCAGGTT.1	Fibroblast-like
+CTACGTCAGGCATTGG.1	Smooth muscle cells
+CTACGTCGTATATGAG.1	Fibroblast-like
+CTACGTCGTCCGAATT.1	Erythrocytes
+CTAGAGTAGTACTTGC.1	Epicardium-derived cells
+CTAGAGTCAGATCCAT.1	Fibroblast-like
+CTAGAGTCATTAGGCT.1	Fibroblast-like
+CTAGAGTGTCCGAAGA.1	Smooth muscle cells
+CTAGAGTGTGTTCTTT.1	Erythrocytes
+CTAGAGTTCCACGCAG.1	Atrial cardiomyocytes
+CTAGCCTCACCATCCT.1	Smooth muscle cells
+CTAGCCTCATATACGC.1	Smooth muscle cells
+CTAGCCTTCTATCCTA.1	Fibroblast-like
+CTAGTGACATATGGTC.1	Capillary endothelium
+CTAGTGAGTAAGAGAG.1	Capillary endothelium
+CTAGTGAGTTAGTGGG.1	Cardiac neural crest cells & Schwann progenitor cells
+CTAGTGATCAGTGTTG.1	Fibroblast-like
+CTCACACAGTAGCCGA.1	Smooth muscle cells
+CTCACACGTTGCTCCT.1	Epicardial cells
+CTCAGAAAGACTGGGT.1	Smooth muscle cells
+CTCAGAAAGTCACGCC.1	Epicardial cells
+CTCAGAAAGTTGAGAT.1	Epicardium-derived cells
+CTCAGAACAAATACAG.1	Smooth muscle cells
+CTCAGAACAACTTGAC.1	Ventricular cardiomyocytes
+CTCAGAACAGTGGGAT.1	Fibroblast-like
+CTCAGAAGTATGAAAC.1	Ventricular cardiomyocytes
+CTCATTAAGACCACGA.1	Fibroblast-like
+CTCATTAAGACCTTTG.1	Atrial cardiomyocytes
+CTCATTAAGAGTGACC.1	Smooth muscle cells
+CTCATTAAGTGTCCAT.1	Epicardial cells
+CTCATTAGTTCCCGAG.1	Fibroblast-like
+CTCATTAGTTCGCGAC.1	Smooth muscle cells
+CTCATTATCTTCCTTC.1	Smooth muscle cells
+CTCCTAGCACGCTTTC.1	Cardiac neural crest cells & Schwann progenitor cells
+CTCCTAGCATAGAAAC.1	Erythrocytes
+CTCGAAATCCAGAAGG.1	Fibroblast-like
+CTCGAAATCCATTCTA.1	Smooth muscle cells
+CTCGAGGAGGCTCATT.1	Fibroblast-like
+CTCGAGGCAAACCTAC.1	Fibroblast-like
+CTCGGAGAGGAACTGC.1	Ventricular cardiomyocytes
+CTCGGAGCACAAGCCC.1	Fibroblast-like
+CTCGGAGCACCAGGTC.1	Capillary endothelium
+CTCGGAGCACTGAAGG.1	Capillary endothelium
+CTCGGAGGTCGACTGC.1	Smooth muscle cells
+CTCGGGACAGATCCAT.1	Smooth muscle cells
+CTCGGGACAGCAGTTT.1	Cardiac neural crest cells & Schwann progenitor cells
+CTCGGGAGTAAGTGGC.1	Erythrocytes
+CTCGGGAGTCATCCCT.1	Erythrocytes
+CTCGGGAGTGCACTTA.1	Fibroblast-like
+CTCGGGATCCCGACTT.1	Fibroblast-like
+CTCGTACCAATCCGAT.1	Endothelium / pericytes / adventitia
+CTCGTCAAGGCAATTA.1	Atrial cardiomyocytes
+CTCGTCACATTCCTCG.1	Smooth muscle cells
+CTCGTCATCGGAAACG.1	Fibroblast-like
+CTCTAATCATCCGGGT.1	Epicardium-derived cells
+CTCTAATTCTCCCTGA.1	Fibroblast-like
+CTCTACGAGGTGTTAA.1	Fibroblast-like
+CTCTACGCAACTGCGC.1	Fibroblast-like
+CTCTACGCATATACCG.1	Smooth muscle cells
+CTCTACGGTTGTTTGG.1	Epicardial cells
+CTCTGGTGTAGCGCAA.1	Epicardial cells
+CTCTGGTTCTCAACTT.1	Fibroblast-like
+CTGAAACAGTGAACAT.1	Erythrocytes
+CTGAAACCACAGCCCA.1	Fibroblast-like
+CTGAAACTCTGCGACG.1	Erythrocytes
+CTGAAGTCAGCTGTTA.1	Capillary endothelium
+CTGAAGTCATCGGAAG.1	Smooth muscle cells
+CTGAAGTTCCCTTGCA.1	Smooth muscle cells
+CTGAAGTTCCTAGTGA.1	Smooth muscle cells
+CTGAAGTTCTGGAGCC.1	Epicardium-derived cells
+CTGATAGAGTGAACAT.1	Smooth muscle cells
+CTGATAGCACTTACGA.1	Capillary endothelium
+CTGATCCAGCCCAGCT.1	Epicardium-derived cells
+CTGATCCAGTCGATAA.1	Fibroblast-like
+CTGATCCCAAACGTGG.1	Epicardium-derived cells
+CTGCCTACAACCGCCA.1	Fibroblast-like
+CTGCCTACAAGCCGTC.1	Smooth muscle cells
+CTGCGGAAGGAATCGC.1	Fibroblast-like
+CTGCGGACAATGGAAT.1	Immune cells
+CTGCGGATCGAACGGA.1	Epicardial cells
+CTGCTGTAGGCAATTA.1	Smooth muscle cells
+CTGCTGTCAGCGATCC.1	Smooth muscle cells
+CTGCTGTCAGTGAGTG.1	Smooth muscle cells
+CTGCTGTCATGCATGT.1	Smooth muscle cells
+CTGCTGTGTATCACCA.1	Smooth muscle cells
+CTGCTGTTCTCATTCA.1	Fibroblast-like
+CTGGTCTAGTGAAGAG.1	Smooth muscle cells
+CTGGTCTGTGGCAAAC.1	Fibroblast-like
+CTGGTCTGTTATCGGT.1	Capillary endothelium
+CTGGTCTTCTGTACGA.1	Epicardium-derived cells
+CTGTTTAAGTATCTCG.1	Fibroblast-like
+CTGTTTAGTAAGCACG.1	Capillary endothelium
+CTGTTTAGTAAGTAGT.1	Atrial cardiomyocytes
+CTGTTTAGTTCAGCGC.1	Fibroblast-like
+CTGTTTATCGTTTAGG.1	Erythrocytes
+CTTAACTCAAGTTCTG.1	Smooth muscle cells
+CTTAACTGTACAGTGG.1	Epicardium-derived cells
+CTTAACTGTAGCGTCC.1	Ventricular cardiomyocytes
+CTTAACTGTCTTGATG.1	Fibroblast-like
+CTTAACTTCATGTGGT.1	Erythrocytes
+CTTACCGCAAGCCGCT.1	Capillary endothelium
+CTTCTCTAGATGCCTT.1	Fibroblast-like
+CTTCTCTCATTACGAC.1	Fibroblast-like
+CTTCTCTCATTCTTAC.1	Smooth muscle cells
+CTTCTCTTCAATACCG.1	Smooth muscle cells
+CTTCTCTTCCAGAAGG.1	Cardiac neural crest cells & Schwann progenitor cells
+CTTGGCTAGTCTCGGC.1	Fibroblast-like
+CTTGGCTCATCACGAT.1	Atrial cardiomyocytes
+CTTGGCTTCCCTTGCA.1	Capillary endothelium
+CTTGGCTTCTAGCACA.1	Capillary endothelium
+CTTTGCGAGCGTAATA.1	Fibroblast-like
+CTTTGCGTCATAAAGG.1	Smooth muscle cells
+CTTTGCGTCCCTCTTT.1	Epicardium-derived cells
+CTTTGCGTCTATCCCG.1	Ventricular cardiomyocytes
+GAAACTCAGGTGTGGT.1	Smooth muscle cells
+GAAATGACACTTACGA.1	Erythrocytes
+GAAATGACAGCTGCTG.1	Fibroblast-like
+GAAATGAGTCCGAAGA.1	Fibroblast-like
+GAACATCAGATAGCAT.1	Endothelium / pericytes / adventitia
+GAACATCAGTCGTACT.1	Fibroblast-like
+GAACATCCAAGGTGTG.1	Capillary endothelium
+GAACATCCACGGCGTT.1	Smooth muscle cells
+GAACATCCAGAGTGTG.1	Fibroblast-like
+GAACATCTCAGGCAAG.1	Smooth muscle cells
+GAACCTATCCGCAGTG.1	Smooth muscle cells
+GAACCTATCGTATCAG.1	Fibroblast-like
+GAACCTATCTTTAGTC.1	Erythrocytes
+GAACGGAAGACAAAGG.1	Capillary endothelium
+GAACGGACATACAGCT.1	Smooth muscle cells
+GAACGGAGTAATCACC.1	Capillary endothelium
+GAACGGATCACAACGT.1	Smooth muscle cells
+GAAGCAGAGCCACCTG.1	Fibroblast-like
+GAATAAGAGATATACG.1	Epicardium-derived cells
+GAATAAGAGGATGTAT.1	Capillary endothelium
+GAATAAGAGGGTTCCC.1	Erythrocytes
+GAATAAGAGTGCGTGA.1	Erythrocytes
+GAATAAGCAATGGATA.1	Capillary endothelium
+GAATAAGCATGGTCAT.1	Fibroblast-like
+GAATAAGGTAAGTAGT.1	Immune cells
+GAATAAGGTAGTACCT.1	Smooth muscle cells
+GAATAAGGTCAGTGGA.1	Fibroblast-like
+GAATAAGGTTCAGCGC.1	Fibroblast-like
+GAATAAGTCCAGTATG.1	Fibroblast-like
+GAATGAAAGCTATGCT.1	Smooth muscle cells
+GAATGAAAGTTAGCGG.1	Cardiac neural crest cells & Schwann progenitor cells
+GAATGAACAAATTGCC.1	Capillary endothelium
+GAATGAAGTCCGAATT.1	Fibroblast-like
+GACACGCGTCTAGAGG.1	Capillary endothelium
+GACACGCGTGTGGCTC.1	Fibroblast-like
+GACACGCGTTAAAGTG.1	Capillary endothelium
+GACACGCTCCCTCTTT.1	Capillary endothelium
+GACACGCTCTGCCAGG.1	Fibroblast-like
+GACAGAGAGCAGGTCA.1	Smooth muscle cells
+GACAGAGAGTGTTTGC.1	Epicardium-derived cells
+GACAGAGAGTTCGATC.1	Ventricular cardiomyocytes
+GACAGAGCAAGGACTG.1	Endothelium / pericytes / adventitia
+GACAGAGGTAAAGTCA.1	Atrial cardiomyocytes
+GACAGAGGTCAGAATA.1	Fibroblast-like
+GACAGAGTCCTCAACC.1	Smooth muscle cells
+GACAGAGTCTTACCTA.1	Smooth muscle cells
+GACCAATAGCGTAATA.1	Epicardium-derived cells
+GACCAATTCATGCAAC.1	Fibroblast-like
+GACCTGGAGACAAAGG.1	Epicardium-derived cells
+GACCTGGCACTTAAGC.1	Atrial cardiomyocytes
+GACCTGGTCCGGCACA.1	Capillary endothelium
+GACGCGTAGCAATATG.1	Capillary endothelium
+GACGCGTCAAACTGCT.1	Smooth muscle cells
+GACGCGTCACTTACGA.1	Fibroblast-like
+GACGCGTCATAGACTC.1	Epicardial cells
+GACGCGTCATTAGGCT.1	Epicardial cells
+GACGCGTGTAAGGGAA.1	Fibroblast-like
+GACGCGTGTACCGCTG.1	Capillary endothelium
+GACGCGTGTACGAAAT.1	Epicardial cells
+GACGCGTTCAGGTTCA.1	Capillary endothelium
+GACGGCTAGAGTACCG.1	Fibroblast-like
+GACGGCTAGCGATGAC.1	Smooth muscle cells
+GACGGCTCACTTCGAA.1	Fibroblast-like
+GACGGCTTCCGTAGGC.1	Fibroblast-like
+GACGTGCCAGTAAGCG.1	Smooth muscle cells
+GACGTGCTCCTTTCTC.1	Fibroblast-like
+GACGTGCTCTGCAAGT.1	Smooth muscle cells
+GACGTTAAGAATTGTG.1	Fibroblast-like
+GACGTTACACATTTCT.1	Ventricular cardiomyocytes
+GACGTTAGTAAGTTCC.1	Fibroblast-like
+GACGTTATCCAGAGGA.1	Cardiac neural crest cells & Schwann progenitor cells
+GACGTTATCGGATGGA.1	Smooth muscle cells
+GACGTTATCGTGGTCG.1	Endothelium / pericytes / adventitia
+GACGTTATCTCAAGTG.1	Fibroblast-like
+GACTAACAGAACAACT.1	Epicardial cells
+GACTAACCACACATGT.1	Erythrocytes
+GACTACAAGCCGCCTA.1	Epicardium-derived cells
+GACTACACAGCTCGAC.1	Epicardial cells
+GACTACAGTCTCAACA.1	Fibroblast-like
+GACTACAGTTAAGTAG.1	Epicardium-derived cells
+GACTGCGGTGAGTGAC.1	Smooth muscle cells
+GACTGCGTCCTGCAGG.1	Epicardium-derived cells
+GAGCAGAAGCTCCTCT.1	Smooth muscle cells
+GAGCAGACAATCTACG.1	Smooth muscle cells
+GAGCAGATCAACACAC.1	Endothelium / pericytes / adventitia
+GAGGTGAAGATGTAAC.1	Smooth muscle cells
+GAGGTGACACCACCAG.1	Fibroblast-like
+GAGGTGAGTATATGAG.1	Fibroblast-like
+GAGGTGATCAACCATG.1	Smooth muscle cells
+GAGGTGATCACAGTAC.1	Capillary endothelium
+GAGTCCGAGTTCGCAT.1	Fibroblast-like
+GAGTCCGGTTCCACAA.1	Fibroblast-like
+GAGTCCGTCAACCATG.1	Fibroblast-like
+GATCAGTCAGTAGAGC.1	Smooth muscle cells
+GATCAGTGTCACCCAG.1	Epicardial cells
+GATCAGTTCAACACTG.1	Fibroblast-like
+GATCGATCAAGGTTTC.1	Smooth muscle cells
+GATCGATCAGCCACCA.1	Epicardial cells
+GATCGATCAGGACCCT.1	Capillary endothelium
+GATCGATGTCGATTGT.1	Cardiac neural crest cells & Schwann progenitor cells
+GATCGATGTGAAATCA.1	Ventricular cardiomyocytes
+GATCGATTCGAACTGT.1	Ventricular cardiomyocytes
+GATCGATTCTGCTGCT.1	Fibroblast-like
+GATCGCGTCACGCATA.1	Atrial cardiomyocytes
+GATCGCGTCGGTTAAC.1	Immune cells
+GATCGTAAGATCTGCT.1	Smooth muscle cells
+GATCGTAAGCCCTAAT.1	Fibroblast-like
+GATCTAGAGACGCTTT.1	Atrial cardiomyocytes
+GATCTAGAGATAGGAG.1	Immune cells
+GATCTAGAGGTCATCT.1	Cardiac neural crest cells & Schwann progenitor cells
+GATCTAGCAATCAGAA.1	Epicardium-derived cells
+GATCTAGGTTCAGCGC.1	Fibroblast-like
+GATGAAACAGCAGTTT.1	Fibroblast-like
+GATGAAAGTAGCCTCG.1	Epicardium-derived cells
+GATGAAATCCGCGTTT.1	Cardiac neural crest cells & Schwann progenitor cells
+GATGAGGCAATGGTCT.1	Fibroblast-like
+GATGAGGCAGATTGCT.1	Smooth muscle cells
+GATGCTAGTAATCACC.1	Fibroblast-like
+GATGCTATCTAAGCCA.1	Fibroblast-like
+GATGCTATCTGTCTCG.1	Fibroblast-like
+GATTCAGAGCAGGCTA.1	Ventricular cardiomyocytes
+GATTCAGAGTGAAGTT.1	Fibroblast-like
+GATTCAGGTAAATGTG.1	Capillary endothelium
+GCAAACTAGATATACG.1	Erythrocytes
+GCAAACTAGTCGTACT.1	Smooth muscle cells
+GCAAACTTCTGAGTGT.1	Fibroblast-like
+GCAATCAAGGTGCAAC.1	Fibroblast-like
+GCAATCAGTCAACTGT.1	Capillary endothelium
+GCACATACAGGCGATA.1	Smooth muscle cells
+GCACATAGTTTAGCTG.1	Epicardium-derived cells
+GCACATATCAGCATGT.1	Capillary endothelium
+GCACTCTAGCAGCCTC.1	Epicardium-derived cells
+GCACTCTAGCGCCTTG.1	Capillary endothelium
+GCACTCTCAGACGCAA.1	Atrial cardiomyocytes
+GCACTCTCAGGTCGTC.1	Ventricular cardiomyocytes
+GCAGCCACATTTCAGG.1	Ventricular cardiomyocytes
+GCAGCCAGTCCTCCAT.1	Fibroblast-like
+GCAGCCATCAACACCA.1	Fibroblast-like
+GCAGCCATCATCGGAT.1	Atrial cardiomyocytes
+GCAGCCATCGCTGATA.1	Fibroblast-like
+GCAGCCATCGTTTGCC.1	Fibroblast-like
+GCAGTTAAGTGCCAGA.1	Capillary endothelium
+GCAGTTACATATACGC.1	Fibroblast-like
+GCAGTTAGTAAGAGAG.1	Atrial cardiomyocytes
+GCAGTTAGTAGCCTAT.1	Endothelium / pericytes / adventitia
+GCAGTTAGTTGTTTGG.1	Smooth muscle cells
+GCATACACAAGCTGAG.1	Fibroblast-like
+GCATACACATCATCCC.1	Capillary endothelium
+GCATACATCTGGTATG.1	Fibroblast-like
+GCATGATCACAGTCGC.1	Fibroblast-like
+GCATGATCATGGTTGT.1	Epicardium-derived cells
+GCATGATGTAAACGCG.1	Immune cells
+GCATGATTCGACGGAA.1	Fibroblast-like
+GCATGCGAGGCCCTTG.1	Fibroblast-like
+GCATGCGCAATTGCTG.1	Erythrocytes
+GCATGCGGTTCACCTC.1	Ventricular cardiomyocytes
+GCATGTAAGAGAACAG.1	Endothelium / pericytes / adventitia
+GCATGTACACCTTGTC.1	Immune cells
+GCATGTACATGCAATC.1	Fibroblast-like
+GCATGTAGTCAGAATA.1	Atrial cardiomyocytes
+GCATGTAGTGTCTGAT.1	Capillary endothelium
+GCATGTATCAAGCCTA.1	Capillary endothelium
+GCCAAATGTGAAAGAG.1	Epicardium-derived cells
+GCCTCTAAGCCTTGAT.1	Smooth muscle cells
+GCCTCTAGTGCGATAG.1	Fibroblast-like
+GCCTCTATCAACGGGA.1	Capillary endothelium
+GCGACCAAGTACGTAA.1	Epicardium-derived cells
+GCGACCAGTTTGTGTG.1	Epicardium-derived cells
+GCGAGAAAGATATACG.1	Fibroblast-like
+GCGAGAACACCAGGTC.1	Capillary endothelium
+GCGAGAATCAGAAATG.1	Capillary endothelium
+GCGCAACAGATGGCGT.1	Fibroblast-like
+GCGCAACAGCCTCGTG.1	Smooth muscle cells
+GCGCAACCATATGCTG.1	Smooth muscle cells
+GCGCAACTCGAGGTAG.1	Erythrocytes
+GCGCAGTAGACCACGA.1	Cardiac neural crest cells & Schwann progenitor cells
+GCGCAGTCACATGGGA.1	Immune cells
+GCGCAGTCAGGTGGAT.1	Atrial cardiomyocytes
+GCGCAGTCATGCGCAC.1	Epicardial cells
+GCGCGATAGGTGCACA.1	Capillary endothelium
+GCGCGATAGTCAAGGC.1	Capillary endothelium
+GCGCGATCACGGTAAG.1	Fibroblast-like
+GCGCGATTCAGTTCGA.1	Erythrocytes
+GCGCGATTCATCATTC.1	Fibroblast-like
+GCGCGATTCTCCAGGG.1	Fibroblast-like
+GCGCGATTCTTATCTG.1	Fibroblast-like
+GCGGGTTAGATGAGAG.1	Fibroblast-like
+GCGGGTTAGCAGCGTA.1	Atrial cardiomyocytes
+GCGGGTTCACGCATCG.1	Capillary endothelium
+GCGGGTTGTCCGAAGA.1	Atrial cardiomyocytes
+GCTCCTAGTGCAGACA.1	Fibroblast-like
+GCTGCAGAGCTGATAA.1	Ventricular cardiomyocytes
+GCTGCAGCAGCGTTCG.1	Smooth muscle cells
+GCTGCAGCAGCTCGAC.1	Fibroblast-like
+GCTGCAGGTTACCAGT.1	Fibroblast-like
+GCTGCAGTCCGCAAGC.1	Epicardial cells
+GCTGCGACACTTAACG.1	Fibroblast-like
+GCTGCGATCTTGTTTG.1	Smooth muscle cells
+GCTGCTTAGGAGTAGA.1	Epicardium-derived cells
+GCTGCTTGTACTCAAC.1	Immune cells
+GCTGCTTGTATAAACG.1	Smooth muscle cells
+GCTGCTTTCAACGGGA.1	Fibroblast-like
+GCTGCTTTCTGGAGCC.1	Smooth muscle cells
+GCTGGGTGTCGTTGTA.1	Smooth muscle cells
+GCTGGGTTCAATAAGG.1	Fibroblast-like
+GCTGGGTTCATGTGGT.1	Epicardium-derived cells
+GCTGGGTTCCTACAGA.1	Smooth muscle cells
+GCTGGGTTCGTCCAGG.1	Capillary endothelium
+GCTTCCAAGGGCTTGA.1	Smooth muscle cells
+GCTTCCAAGTGTCTCA.1	Ventricular cardiomyocytes
+GCTTCCACAAGGTTCT.1	Smooth muscle cells
+GCTTCCACAAGTAATG.1	Smooth muscle cells
+GCTTCCACACAACGTT.1	Atrial cardiomyocytes
+GCTTCCACATTCCTCG.1	Epicardium-derived cells
+GCTTCCAGTTCCTCCA.1	Ventricular cardiomyocytes
+GCTTCCAGTTTACTCT.1	Fibroblast-like
+GCTTCCATCGTACCGG.1	Fibroblast-like
+GCTTCCATCGTCGTTC.1	Immune cells
+GCTTGAAAGAGAGCTC.1	Epicardium-derived cells
+GCTTGAACATGACATC.1	Fibroblast-like
+GCTTGAATCGCTGATA.1	Smooth muscle cells
+GGAAAGCCAGTAGAGC.1	Cardiac neural crest cells & Schwann progenitor cells
+GGAAAGCCATGTCTCC.1	Ventricular cardiomyocytes
+GGAAAGCGTACATCCA.1	Endothelium / pericytes / adventitia
+GGAAAGCGTGCAGGTA.1	Ventricular cardiomyocytes
+GGAAAGCTCCGCTGTT.1	Fibroblast-like
+GGAACTTGTTGGGACA.1	Smooth muscle cells
+GGAACTTGTTTACTCT.1	Ventricular cardiomyocytes
+GGAATAACACACTGCG.1	Capillary endothelium
+GGAATAATCTCTAAGG.1	Erythrocytes
+GGACAAGAGCTACCGC.1	Erythrocytes
+GGACAAGGTCATCCCT.1	Fibroblast-like
+GGACAGACACATGACT.1	Erythrocytes
+GGACAGACACTCAGGC.1	Epicardial cells
+GGACATTCAAGCCCAC.1	Cardiac neural crest cells & Schwann progenitor cells
+GGACATTGTATAGGGC.1	Fibroblast-like
+GGACATTGTCGTCTTC.1	Fibroblast-like
+GGACATTGTTCAACCA.1	Fibroblast-like
+GGACATTTCAACGAAA.1	Epicardium-derived cells
+GGACGTCCAAACGTGG.1	Smooth muscle cells
+GGACGTCGTCTGATCA.1	Ventricular cardiomyocytes
+GGAGCAAAGAGGTAGA.1	Atrial cardiomyocytes
+GGAGCAAAGGACTGGT.1	Smooth muscle cells
+GGAGCAACAACACCCG.1	Fibroblast-like
+GGAGCAACAAGCGATG.1	Epicardial cells
+GGAGCAACATGTCGAT.1	Endothelium / pericytes / adventitia
+GGAGCAACATGTTCCC.1	Smooth muscle cells
+GGAGCAAGTCCGAACC.1	Atrial cardiomyocytes
+GGATGTTAGCGCTTAT.1	Atrial cardiomyocytes
+GGATGTTAGGGTCGAT.1	Fibroblast-like
+GGATGTTAGGTTACCT.1	Ventricular cardiomyocytes
+GGATGTTCAAATCCGT.1	Immune cells
+GGATGTTCATTAGCCA.1	Fibroblast-like
+GGATTACAGGGCATGT.1	Atrial cardiomyocytes
+GGATTACCAAGCCTAT.1	Capillary endothelium
+GGATTACCAGCCTGTG.1	Smooth muscle cells
+GGATTACCAGTGACAG.1	Capillary endothelium
+GGATTACTCAGCTCTC.1	Epicardium-derived cells
+GGCAATTAGAGAACAG.1	Fibroblast-like
+GGCAATTAGGCGTACA.1	Endothelium / pericytes / adventitia
+GGCAATTAGTCTCCTC.1	Capillary endothelium
+GGCAATTCATTAACCG.1	Fibroblast-like
+GGCAATTGTAAAGTCA.1	Erythrocytes
+GGCAATTGTGAAAGAG.1	Endothelium / pericytes / adventitia
+GGCAATTTCGCTTAGA.1	Epicardium-derived cells
+GGCAATTTCTCTGAGA.1	Smooth muscle cells
+GGCCGATAGGCATGTG.1	Smooth muscle cells
+GGCCGATCATCAGTAC.1	Erythrocytes
+GGCGACTTCCCGACTT.1	Atrial cardiomyocytes
+GGCGTGTCATCGGGTC.1	Capillary endothelium
+GGCGTGTTCAGAGCTT.1	Epicardium-derived cells
+GGCTCGATCCAAGTAC.1	Immune cells
+GGCTCGATCCAGTAGT.1	Fibroblast-like
+GGCTCGATCCGCAGTG.1	Fibroblast-like
+GGCTCGATCTATCCTA.1	Epicardium-derived cells
+GGCTGGTCAGGAACGT.1	Capillary endothelium
+GGCTGGTCATCGGGTC.1	Erythrocytes
+GGCTGGTGTAGCCTCG.1	Epicardium-derived cells
+GGCTGGTTCCTATTCA.1	Fibroblast-like
+GGCTGGTTCTACTCAT.1	Fibroblast-like
+GGGAATGAGGCCCTTG.1	Cardiac neural crest cells & Schwann progenitor cells
+GGGAATGAGGTGCACA.1	Fibroblast-like
+GGGAATGAGTCATGCT.1	Fibroblast-like
+GGGAATGGTGCGATAG.1	Capillary endothelium
+GGGAATGGTTCGGCAC.1	Smooth muscle cells
+GGGACCTAGCTAGCCC.1	Fibroblast-like
+GGGAGATCACCTCGGA.1	Smooth muscle cells
+GGGAGATCAGTTTACG.1	Cardiac neural crest cells & Schwann progenitor cells
+GGGAGATCATCCGCGA.1	Epicardium-derived cells
+GGGAGATGTTGTACAC.1	Capillary endothelium
+GGGATGAAGACCACGA.1	Cardiac neural crest cells & Schwann progenitor cells
+GGGATGACAGCAGTTT.1	Smooth muscle cells
+GGGATGAGTTCGCGAC.1	Fibroblast-like
+GGGCACTAGGGAACGG.1	Ventricular cardiomyocytes
+GGGCACTCACTAGTAC.1	Capillary endothelium
+GGGCACTGTGCACTTA.1	Ventricular cardiomyocytes
+GGGCACTTCACGGTTA.1	Ventricular cardiomyocytes
+GGGCATCAGACACGAC.1	Epicardium-derived cells
+GGGCATCAGACAGAGA.1	Fibroblast-like
+GGGCATCCAACCGCCA.1	Atrial cardiomyocytes
+GGGCATCGTAAAGTCA.1	Smooth muscle cells
+GGGTCTGAGCACCGCT.1	Fibroblast-like
+GGGTCTGAGTCTCGGC.1	Fibroblast-like
+GGGTCTGCAAATACAG.1	Immune cells
+GGGTCTGCATGGTCAT.1	Epicardial cells
+GGGTTGCAGACTACAA.1	Fibroblast-like
+GGGTTGCGTAGAGCTG.1	Epicardium-derived cells
+GGGTTGCGTATCTGCA.1	Fibroblast-like
+GGGTTGCTCCCATTAT.1	Cardiac neural crest cells & Schwann progenitor cells
+GGGTTGCTCGAGAGCA.1	Capillary endothelium
+GGTATTGAGCTAAACA.1	Erythrocytes
+GGTATTGAGGCGATAC.1	Epicardial cells
+GGTATTGGTTAGTGGG.1	Endothelium / pericytes / adventitia
+GGTGAAGTCTCGTTTA.1	Fibroblast-like
+GGTGCGTCACCGGAAA.1	Smooth muscle cells
+GGTGCGTGTCAGAATA.1	Atrial cardiomyocytes
+GGTGCGTTCACATGCA.1	Smooth muscle cells
+GGTGCGTTCACGAAGG.1	Ventricular cardiomyocytes
+GGTGTTAAGAGAGCTC.1	Ventricular cardiomyocytes
+GGTGTTACACCCATGG.1	Erythrocytes
+GGTGTTAGTACACCGC.1	Ventricular cardiomyocytes
+GGTGTTAGTGTTTGTG.1	Capillary endothelium
+GTAACGTAGAGCTTCT.1	Fibroblast-like
+GTAACGTAGTAGGCCA.1	Fibroblast-like
+GTAACGTGTCGACTAT.1	Smooth muscle cells
+GTAACTGCAATCCAAC.1	Fibroblast-like
+GTAACTGGTTAGAACA.1	Endothelium / pericytes / adventitia
+GTAACTGTCAAGATCC.1	Epicardial cells
+GTACGTAAGATAGCAT.1	Capillary endothelium
+GTACGTAAGATCCCGC.1	Smooth muscle cells
+GTACGTAAGTAAGTAC.1	Smooth muscle cells
+GTACGTACATATGAGA.1	Smooth muscle cells
+GTACGTAGTAATTGGA.1	Epicardium-derived cells
+GTACGTATCACCATAG.1	Erythrocytes
+GTACTCCAGCTGTCTA.1	Smooth muscle cells
+GTACTCCGTATAATGG.1	Erythrocytes
+GTACTCCTCAAAGACA.1	Erythrocytes
+GTACTTTAGGCCCTCA.1	Cardiac neural crest cells & Schwann progenitor cells
+GTACTTTCACATTTCT.1	Smooth muscle cells
+GTACTTTCAGCGTTCG.1	Ventricular cardiomyocytes
+GTACTTTCATCCAACA.1	Smooth muscle cells
+GTACTTTTCGAGCCCA.1	Ventricular cardiomyocytes
+GTAGGCCCACAGAGGT.1	Smooth muscle cells
+GTAGGCCGTAAGCACG.1	Atrial cardiomyocytes
+GTAGGCCTCAACGGGA.1	Immune cells
+GTAGTCAAGCCCAGCT.1	Capillary endothelium
+GTAGTCAAGGCTATCT.1	Epicardial cells
+GTAGTCAAGTGGAGTC.1	Immune cells
+GTAGTCACACGTCTCT.1	Capillary endothelium
+GTAGTCACATGCTGGC.1	Smooth muscle cells
+GTAGTCACATTCACTT.1	Fibroblast-like
+GTAGTCATCCTAGAAC.1	Smooth muscle cells
+GTATCTTAGCAGCGTA.1	Capillary endothelium
+GTATCTTAGCCTATGT.1	Smooth muscle cells
+GTATCTTGTCTCACCT.1	Epicardium-derived cells
+GTATTCTAGAAGGACA.1	Epicardium-derived cells
+GTATTCTCAAGCGCTC.1	Fibroblast-like
+GTATTCTTCCCTAACC.1	Erythrocytes
+GTATTCTTCTGTCCGT.1	Fibroblast-like
+GTCAAGTAGGACCACA.1	Smooth muscle cells
+GTCAAGTAGGAGTCTG.1	Immune cells
+GTCAAGTAGTCGTTTG.1	Smooth muscle cells
+GTCAAGTTCCGCGTTT.1	Cardiac neural crest cells & Schwann progenitor cells
+GTCACAAAGAATGTTG.1	Epicardial cells
+GTCACAAAGCCATCGC.1	Ventricular cardiomyocytes
+GTCACAACAATCGGTT.1	Fibroblast-like
+GTCACAATCCTGTACC.1	Atrial cardiomyocytes
+GTCACGGAGCGAGAAA.1	Atrial cardiomyocytes
+GTCACGGCAGCTCGAC.1	Capillary endothelium
+GTCACGGCAGCTGTGC.1	Immune cells
+GTCACGGCAGGATTGG.1	Capillary endothelium
+GTCACGGCATGCATGT.1	Fibroblast-like
+GTCACGGCATTCTCAT.1	Erythrocytes
+GTCACGGGTGCAACTT.1	Smooth muscle cells
+GTCACGGTCACGCATA.1	Fibroblast-like
+GTCACGGTCTCTGTCG.1	Capillary endothelium
+GTCATTTAGAGTGACC.1	Smooth muscle cells
+GTCATTTAGGAACTGC.1	Fibroblast-like
+GTCATTTCACTCAGGC.1	Smooth muscle cells
+GTCATTTGTATAGGGC.1	Epicardial cells
+GTCATTTTCGTGGGAA.1	Capillary endothelium
+GTCCTCAAGGGATACC.1	Smooth muscle cells
+GTCCTCAGTGGTACAG.1	Erythrocytes
+GTCCTCATCTTGAGAC.1	Capillary endothelium
+GTCGGGTCATCGACGC.1	Cardiac neural crest cells & Schwann progenitor cells
+GTCGGGTGTACACCGC.1	Cardiac neural crest cells & Schwann progenitor cells
+GTCGGGTGTCTACCTC.1	Smooth muscle cells
+GTCGGGTGTTGTCGCG.1	Erythrocytes
+GTCGGGTTCTCGCATC.1	Erythrocytes
+GTCGTAAAGTTACGGG.1	Smooth muscle cells
+GTCGTAAAGTTTCCTT.1	Smooth muscle cells
+GTCGTAACAGACGCTC.1	Fibroblast-like
+GTCGTAAGTAGCGTAG.1	Ventricular cardiomyocytes
+GTCGTAAGTCTTGATG.1	Capillary endothelium
+GTCTCGTAGCGAGAAA.1	Capillary endothelium
+GTCTCGTAGTCTCGGC.1	Fibroblast-like
+GTCTCGTAGTTAAGTG.1	Capillary endothelium
+GTCTCGTGTATATGAG.1	Capillary endothelium
+GTCTCGTGTGTGCCTG.1	Smooth muscle cells
+GTCTCGTTCACCGTAA.1	Epicardial cells
+GTCTCGTTCTGGTTCC.1	Smooth muscle cells
+GTCTCGTTCTTAGAGC.1	Atrial cardiomyocytes
+GTCTTCGAGAGGGCTT.1	Cardiac neural crest cells & Schwann progenitor cells
+GTCTTCGGTAGCTAAA.1	Cardiac neural crest cells & Schwann progenitor cells
+GTGAAGGGTAAACACA.1	Erythrocytes
+GTGAAGGGTTCGCGAC.1	Erythrocytes
+GTGCAGCCAATGGACG.1	Fibroblast-like
+GTGCAGCTCATGTGGT.1	Smooth muscle cells
+GTGCAGCTCGATAGAA.1	Smooth muscle cells
+GTGCATAAGACTTTCG.1	Cardiac neural crest cells & Schwann progenitor cells
+GTGCATAAGCGTCAAG.1	Smooth muscle cells
+GTGCATAAGGCACATG.1	Fibroblast-like
+GTGCATAGTCTGCAAT.1	Smooth muscle cells
+GTGCGGTAGATCTGAA.1	Smooth muscle cells
+GTGCGGTCAAATACAG.1	Endothelium / pericytes / adventitia
+GTGCGGTCACTGCCAG.1	Smooth muscle cells
+GTGCGGTCAGTATAAG.1	Smooth muscle cells
+GTGCGGTCATTGAGCT.1	Ventricular cardiomyocytes
+GTGCTTCCAGGGTACA.1	Ventricular cardiomyocytes
+GTGCTTCCAGTGAGTG.1	Fibroblast-like
+GTGGGTCAGAACTCGG.1	Capillary endothelium
+GTGGGTCGTACATGTC.1	Smooth muscle cells
+GTGGGTCGTCCCTACT.1	Smooth muscle cells
+GTGGGTCTCGGTGTCG.1	Ventricular cardiomyocytes
+GTGTGCGAGACCTAGG.1	Fibroblast-like
+GTGTGCGCACGGTAGA.1	Smooth muscle cells
+GTGTGCGGTCAATGTC.1	Fibroblast-like
+GTGTTAGAGATCCGAG.1	Fibroblast-like
+GTGTTAGAGGAGCGAG.1	Smooth muscle cells
+GTGTTAGCAGCTCGAC.1	Fibroblast-like
+GTGTTAGTCGCCCTTA.1	Fibroblast-like
+GTGTTAGTCTAACGGT.1	Cardiac neural crest cells & Schwann progenitor cells
+GTTAAGCAGTCATCCA.1	Fibroblast-like
+GTTAAGCAGTGTTGAA.1	Capillary endothelium
+GTTAAGCCACAGAGGT.1	Smooth muscle cells
+GTTAAGCGTGCGATAG.1	Fibroblast-like
+GTTAAGCTCAAACAAG.1	Fibroblast-like
+GTTAAGCTCATAGCAC.1	Immune cells
+GTTAAGCTCGGTTCGG.1	Ventricular cardiomyocytes
+GTTACAGAGCAGCGTA.1	Smooth muscle cells
+GTTACAGAGGAATGGA.1	Ventricular cardiomyocytes
+GTTACAGCATGGTCAT.1	Fibroblast-like
+GTTACAGGTAGCGTAG.1	Smooth muscle cells
+GTTACAGGTGGACGAT.1	Epicardial cells
+GTTCATTAGGGTATCG.1	Fibroblast-like
+GTTCATTGTGGCGAAT.1	Ventricular cardiomyocytes
+GTTCATTGTTGAGTTC.1	Smooth muscle cells
+GTTCGGGAGAGACTTA.1	Epicardium-derived cells
+GTTCTCGAGGAGTACC.1	Atrial cardiomyocytes
+GTTCTCGCATCACCCT.1	Fibroblast-like
+GTTCTCGGTATCACCA.1	Fibroblast-like
+GTTCTCGGTCATCGGC.1	Epicardium-derived cells
+GTTCTCGTCCACGCAG.1	Smooth muscle cells
+GTTTCTAAGTTTCCTT.1	Capillary endothelium
+GTTTCTACAAACGTGG.1	Capillary endothelium
+GTTTCTACATCCAACA.1	Smooth muscle cells
+GTTTCTATCAGTCCCT.1	Epicardium-derived cells
+GTTTCTATCCTAGTGA.1	Fibroblast-like
+TAAACCGCACGGCCAT.1	Capillary endothelium
+TAAACCGCATCGGACC.1	Capillary endothelium
+TAAACCGGTGGGTATG.1	Atrial cardiomyocytes
+TAAGAGAAGAGTACCG.1	Immune cells
+TAAGAGAAGTCCGTAT.1	Atrial cardiomyocytes
+TAAGTGCTCCAGTATG.1	Epicardial cells
+TAAGTGCTCCTATGTT.1	Capillary endothelium
+TAAGTGCTCTTCGAGA.1	Smooth muscle cells
+TACACGAAGTACGTTC.1	Epicardial cells
+TACACGACAGCTCGCA.1	Atrial cardiomyocytes
+TACACGATCTTAGAGC.1	Fibroblast-like
+TACAGTGAGGGTTTCT.1	Erythrocytes
+TACAGTGCACACAGAG.1	Fibroblast-like
+TACAGTGGTTCCGGCA.1	Epicardial cells
+TACCTATAGCGTTCCG.1	Smooth muscle cells
+TACCTATCAAAGGTGC.1	Smooth muscle cells
+TACCTATCAGCTGCTG.1	Smooth muscle cells
+TACCTTAAGACGCAAC.1	Fibroblast-like
+TACCTTACAGTTAACC.1	Fibroblast-like
+TACCTTATCCTAAGTG.1	Capillary endothelium
+TACCTTATCGGTCCGA.1	Smooth muscle cells
+TACCTTATCGTTACGA.1	Fibroblast-like
+TACCTTATCTGCGTAA.1	Erythrocytes
+TACGGATAGTGACATA.1	Ventricular cardiomyocytes
+TACGGATCACATTAGC.1	Smooth muscle cells
+TACGGATTCTCCGGTT.1	Ventricular cardiomyocytes
+TACGGGCAGAATTGTG.1	Fibroblast-like
+TACGGGCAGCGTTCCG.1	Fibroblast-like
+TACGGGCCATTGCGGC.1	Epicardium-derived cells
+TACGGGCGTCCAAGTT.1	Fibroblast-like
+TACGGGCTCAACACGT.1	Epicardium-derived cells
+TACGGTAAGAGTCGGT.1	Fibroblast-like
+TACGGTAAGCCCAGCT.1	Fibroblast-like
+TACGGTAAGCTAGTGG.1	Capillary endothelium
+TACGGTAAGGTGTTAA.1	Capillary endothelium
+TACGGTAGTTGTGGCC.1	Capillary endothelium
+TACGGTATCCAGTATG.1	Smooth muscle cells
+TACTCATAGCTTCGCG.1	Ventricular cardiomyocytes
+TACTCATCAGATGAGC.1	Smooth muscle cells
+TACTCATGTCAGAAGC.1	Epicardium-derived cells
+TACTCATTCATCGCTC.1	Fibroblast-like
+TACTCGCCAGGGTACA.1	Smooth muscle cells
+TACTTACAGAGTGACC.1	Capillary endothelium
+TACTTACGTAACGTTC.1	Epicardium-derived cells
+TACTTACGTAGGGACT.1	Atrial cardiomyocytes
+TACTTACGTCTCTTTA.1	Fibroblast-like
+TACTTACTCGGAGCAA.1	Erythrocytes
+TACTTGTAGATATGCA.1	Erythrocytes
+TACTTGTAGCCCGAAA.1	Fibroblast-like
+TACTTGTCACTTAAGC.1	Fibroblast-like
+TACTTGTGTGCTGTAT.1	Erythrocytes
+TACTTGTGTGGTTTCA.1	Epicardium-derived cells
+TACTTGTTCAAGGCTT.1	Fibroblast-like
+TAGACCAAGAGAGCTC.1	Fibroblast-like
+TAGACCAAGATGTAAC.1	Capillary endothelium
+TAGACCATCGCATGGC.1	Fibroblast-like
+TAGAGCTGTAAGGGAA.1	Smooth muscle cells
+TAGAGCTTCAATACCG.1	Epicardial cells
+TAGAGCTTCCGCATAA.1	Epicardium-derived cells
+TAGAGCTTCTCTAAGG.1	Smooth muscle cells
+TAGCCGGAGAAGGTTT.1	Fibroblast-like
+TAGCCGGAGGGTCGAT.1	Smooth muscle cells
+TAGCCGGAGTGACTCT.1	Capillary endothelium
+TAGCCGGCAAAGCGGT.1	Fibroblast-like
+TAGCCGGCAATCCGAT.1	Smooth muscle cells
+TAGCCGGCAGGTCCAC.1	Epicardial cells
+TAGCCGGCATTGGCGC.1	Smooth muscle cells
+TAGCCGGGTCTGCGGT.1	Fibroblast-like
+TAGCCGGGTTAAAGTG.1	Atrial cardiomyocytes
+TAGGCATAGCTAACAA.1	Capillary endothelium
+TAGGCATCATCGATTG.1	Smooth muscle cells
+TAGTGGTAGAGTCGGT.1	Epicardium-derived cells
+TAGTGGTAGCGTTCCG.1	Fibroblast-like
+TAGTGGTAGGACAGAA.1	Capillary endothelium
+TAGTGGTAGTCCATAC.1	Epicardial cells
+TAGTGGTCATCGTCGG.1	Capillary endothelium
+TAGTGGTCATTCCTGC.1	Atrial cardiomyocytes
+TAGTGGTTCCTAGGGC.1	Fibroblast-like
+TAGTTGGAGTACCGGA.1	Fibroblast-like
+TAGTTGGGTAGGCTGA.1	Fibroblast-like
+TAGTTGGGTCTGCAAT.1	Cardiac neural crest cells & Schwann progenitor cells
+TATCAGGAGACGCACA.1	Fibroblast-like
+TATCAGGTCCGCGGTA.1	Ventricular cardiomyocytes
+TATCAGGTCGAATGCT.1	Epicardium-derived cells
+TATCAGGTCGTTTGCC.1	Capillary endothelium
+TATCTCACATACTACG.1	Epicardium-derived cells
+TATCTCACATGTTGAC.1	Endothelium / pericytes / adventitia
+TATCTCATCACCATAG.1	Cardiac neural crest cells & Schwann progenitor cells
+TATCTCATCAGGCCCA.1	Epicardium-derived cells
+TATCTCATCTCGATGA.1	Smooth muscle cells
+TATGCCCAGGCGACAT.1	Atrial cardiomyocytes
+TATGCCCAGGGAAACA.1	Fibroblast-like
+TATGCCCAGGGTCGAT.1	Immune cells
+TATGCCCGTTGTCGCG.1	Atrial cardiomyocytes
+TATGCCCGTTTACTCT.1	Fibroblast-like
+TATTACCAGTGCGTGA.1	Epicardium-derived cells
+TATTACCCAACCGCCA.1	Endothelium / pericytes / adventitia
+TATTACCCAAGGACTG.1	Epicardium-derived cells
+TATTACCCAGCCTGTG.1	Capillary endothelium
+TCAACGAAGACTGGGT.1	Smooth muscle cells
+TCAACGAAGCTGTTCA.1	Capillary endothelium
+TCAACGACAGGATTGG.1	Ventricular cardiomyocytes
+TCAACGAGTATCAGTC.1	Fibroblast-like
+TCAACGAGTGCTGTAT.1	Ventricular cardiomyocytes
+TCAACGATCCTGCAGG.1	Endothelium / pericytes / adventitia
+TCAATCTAGAACAATC.1	Smooth muscle cells
+TCAATCTGTGCATCTA.1	Fibroblast-like
+TCAATCTTCGACCAGC.1	Cardiac neural crest cells & Schwann progenitor cells
+TCAATCTTCGTCCGTT.1	Cardiac neural crest cells & Schwann progenitor cells
+TCAATCTTCTGGTTCC.1	Erythrocytes
+TCACAAGAGACAGACC.1	Fibroblast-like
+TCACAAGAGACCACGA.1	Fibroblast-like
+TCACAAGAGCGATCCC.1	Capillary endothelium
+TCACAAGCATACCATG.1	Smooth muscle cells
+TCACAAGGTAAGTGGC.1	Atrial cardiomyocytes
+TCACAAGGTTGGTAAA.1	Immune cells
+TCACAAGTCGCATGGC.1	Fibroblast-like
+TCACGAAAGTATTGGA.1	Fibroblast-like
+TCACGAACACTATCTT.1	Smooth muscle cells
+TCACGAAGTAAGTGGC.1	Erythrocytes
+TCACGAATCAACGGCC.1	Endothelium / pericytes / adventitia
+TCAGATGAGGTAAACT.1	Smooth muscle cells
+TCAGATGCATAACCTG.1	Cardiac neural crest cells & Schwann progenitor cells
+TCAGATGGTACATCCA.1	Erythrocytes
+TCAGATGGTCAAGCGA.1	Fibroblast-like
+TCAGCAACATTCCTCG.1	Epicardial cells
+TCAGCAAGTAGCACGA.1	Cardiac neural crest cells & Schwann progenitor cells
+TCAGCAAGTCATATGC.1	Fibroblast-like
+TCAGCAATCAAAGACA.1	Fibroblast-like
+TCAGCAATCATCGCTC.1	Cardiac neural crest cells & Schwann progenitor cells
+TCAGCTCCAAGTAGTA.1	Fibroblast-like
+TCAGCTCCACTAGTAC.1	Epicardium-derived cells
+TCAGCTCCACTGTGTA.1	Epicardium-derived cells
+TCAGCTCCACTGTTAG.1	Fibroblast-like
+TCAGCTCGTCTTCAAG.1	Fibroblast-like
+TCAGCTCTCACCAGGC.1	Erythrocytes
+TCAGCTCTCACGATGT.1	Fibroblast-like
+TCAGCTCTCGACCAGC.1	Smooth muscle cells
+TCAGGATTCCCGGATG.1	Erythrocytes
+TCAGGTAAGGGATACC.1	Endothelium / pericytes / adventitia
+TCAGGTAAGGGCTTCC.1	Ventricular cardiomyocytes
+TCAGGTACAAGAGGCT.1	Smooth muscle cells
+TCAGGTAGTGTAAGTA.1	Atrial cardiomyocytes
+TCATTACCAAGCCGCT.1	Fibroblast-like
+TCATTACCAGCTGTAT.1	Smooth muscle cells
+TCATTACCAGGGCATA.1	Capillary endothelium
+TCATTACTCAAGGTAA.1	Cardiac neural crest cells & Schwann progenitor cells
+TCATTACTCAGTTTGG.1	Atrial cardiomyocytes
+TCATTACTCTTGGGTA.1	Ventricular cardiomyocytes
+TCATTTGAGTTCGCGC.1	Ventricular cardiomyocytes
+TCATTTGAGTTGTAGA.1	Epicardial cells
+TCATTTGGTTACCAGT.1	Endothelium / pericytes / adventitia
+TCATTTGGTTGAGGTG.1	Epicardium-derived cells
+TCATTTGGTTGTCGCG.1	Epicardial cells
+TCCACACAGCGTTCCG.1	Immune cells
+TCCACACCATCACGAT.1	Smooth muscle cells
+TCCACACTCTTACCGC.1	Epicardial cells
+TCCCGATCAGACGCAA.1	Epicardial cells
+TCCCGATCAGTATGCT.1	Capillary endothelium
+TCGAGGCAGCCGTCGT.1	Smooth muscle cells
+TCGAGGCCAAACAACA.1	Capillary endothelium
+TCGAGGCCAAGTTGTC.1	Erythrocytes
+TCGAGGCGTAGCGCAA.1	Epicardium-derived cells
+TCGAGGCGTGACCAAG.1	Fibroblast-like
+TCGAGGCGTGTGAATA.1	Capillary endothelium
+TCGAGGCTCCTGTAGA.1	Fibroblast-like
+TCGAGGCTCGGCTTGG.1	Smooth muscle cells
+TCGAGGCTCTAGAGTC.1	Erythrocytes
+TCGAGGCTCTTTACAC.1	Endothelium / pericytes / adventitia
+TCGCGAGGTAAAGTCA.1	Fibroblast-like
+TCGCGAGTCAAACCAC.1	Epicardial cells
+TCGCGAGTCATTGCGA.1	Atrial cardiomyocytes
+TCGCGTTCACACCGCA.1	Smooth muscle cells
+TCGCGTTCATTTCAGG.1	Ventricular cardiomyocytes
+TCGCGTTGTTACAGAA.1	Epicardial cells
+TCGCGTTGTTTCCACC.1	Fibroblast-like
+TCGCGTTTCCTATTCA.1	Fibroblast-like
+TCGCGTTTCGGCATCG.1	Atrial cardiomyocytes
+TCGCGTTTCTTTAGTC.1	Ventricular cardiomyocytes
+TCGGGACCAACAACCT.1	Fibroblast-like
+TCGGGACGTTGAACTC.1	Fibroblast-like
+TCGGGACTCCGCAGTG.1	Smooth muscle cells
+TCGGTAAAGAATCTCC.1	Cardiac neural crest cells & Schwann progenitor cells
+TCGGTAAAGTGTACTC.1	Ventricular cardiomyocytes
+TCGGTAAGTAGCCTAT.1	Capillary endothelium
+TCGGTAAGTCTCACCT.1	Cardiac neural crest cells & Schwann progenitor cells
+TCGGTAAGTGCGATAG.1	Fibroblast-like
+TCGGTAAGTTAAGATG.1	Immune cells
+TCGTACCAGGGTATCG.1	Ventricular cardiomyocytes
+TCGTACCGTGGGTCAA.1	Smooth muscle cells
+TCGTACCGTTTGACAC.1	Fibroblast-like
+TCGTAGAAGATCCCGC.1	Smooth muscle cells
+TCGTAGAAGCAATATG.1	Immune cells
+TCGTAGACAAGTCTGT.1	Smooth muscle cells
+TCGTAGACATCGTCGG.1	Fibroblast-like
+TCGTAGAGTATAATGG.1	Fibroblast-like
+TCGTAGAGTTCAGCGC.1	Fibroblast-like
+TCGTAGAGTTCAGGCC.1	Epicardium-derived cells
+TCTATTGAGGAGCGAG.1	Epicardial cells
+TCTATTGAGGCTCTTA.1	Smooth muscle cells
+TCTATTGCAGTGGAGT.1	Fibroblast-like
+TCTATTGCATCGATGT.1	Fibroblast-like
+TCTATTGCATGAGCGA.1	Epicardial cells
+TCTATTGGTTACGCGC.1	Smooth muscle cells
+TCTATTGTCCTTCAAT.1	Fibroblast-like
+TCTATTGTCTGATTCT.1	Capillary endothelium
+TCTCATACAATGGATA.1	Ventricular cardiomyocytes
+TCTCATACATATGAGA.1	Atrial cardiomyocytes
+TCTCATAGTATGAATG.1	Smooth muscle cells
+TCTCATAGTATGGTTC.1	Smooth muscle cells
+TCTCATAGTCTCATCC.1	Ventricular cardiomyocytes
+TCTCATAGTGAGGCTA.1	Erythrocytes
+TCTCTAAGTGCAACTT.1	Capillary endothelium
+TCTCTAATCAAGATCC.1	Atrial cardiomyocytes
+TCTGAGAAGTCGCCGT.1	Epicardium-derived cells
+TCTGAGACAAGTTGTC.1	Immune cells
+TCTGAGACATACAGCT.1	Fibroblast-like
+TCTGAGAGTCCGTGAC.1	Epicardium-derived cells
+TCTGAGATCACTTCAT.1	Erythrocytes
+TCTGAGATCTGGCGTG.1	Capillary endothelium
+TCTGGAAAGAATTCCC.1	Epicardium-derived cells
+TCTGGAAAGACAATAC.1	Fibroblast-like
+TCTGGAACATCCCATC.1	Epicardium-derived cells
+TCTGGAACATCCGCGA.1	Fibroblast-like
+TCTTCGGCATCAGTCA.1	Epicardial cells
+TCTTCGGTCCGCATAA.1	Smooth muscle cells
+TCTTTCCCAGCTCGCA.1	Capillary endothelium
+TCTTTCCTCATACGGT.1	Capillary endothelium
+TGAAAGAAGTAGTGCG.1	Epicardium-derived cells
+TGAAAGACAATGGACG.1	Fibroblast-like
+TGAAAGAGTAGCGTGA.1	Capillary endothelium
+TGAAAGATCAACGCTA.1	Erythrocytes
+TGAAAGATCGTACCGG.1	Ventricular cardiomyocytes
+TGACAACGTGATGATA.1	Capillary endothelium
+TGACAACTCAATACCG.1	Fibroblast-like
+TGACGGCAGACAAAGG.1	Capillary endothelium
+TGACGGCAGACACGAC.1	Immune cells
+TGACGGCAGAGCTGCA.1	Fibroblast-like
+TGACGGCCAAACGCGA.1	Erythrocytes
+TGACGGCCACTCAGGC.1	Epicardial cells
+TGACGGCGTCTAGCCG.1	Fibroblast-like
+TGACGGCGTGTTCTTT.1	Fibroblast-like
+TGACGGCTCTTGCAAG.1	Ventricular cardiomyocytes
+TGACTAGAGTGCCATT.1	Fibroblast-like
+TGACTAGAGTGGGCTA.1	Atrial cardiomyocytes
+TGACTAGCATCTCGCT.1	Ventricular cardiomyocytes
+TGACTTTAGACGCACA.1	Erythrocytes
+TGACTTTAGCTCCTCT.1	Epicardium-derived cells
+TGACTTTGTAAATACG.1	Smooth muscle cells
+TGACTTTTCGGCTTGG.1	Ventricular cardiomyocytes
+TGAGAGGAGAGCTTCT.1	Fibroblast-like
+TGAGAGGAGGGAACGG.1	Capillary endothelium
+TGAGAGGCACAGCCCA.1	Epicardium-derived cells
+TGAGAGGCACAGGTTT.1	Capillary endothelium
+TGAGAGGCATCCAACA.1	Capillary endothelium
+TGAGAGGGTTTGACTG.1	Smooth muscle cells
+TGAGAGGTCGCAAGCC.1	Fibroblast-like
+TGAGCATAGACGCACA.1	Cardiac neural crest cells & Schwann progenitor cells
+TGAGCATCACATTTCT.1	Ventricular cardiomyocytes
+TGAGCATCATTTGCCC.1	Erythrocytes
+TGAGCATGTAGCAAAT.1	Epicardium-derived cells
+TGAGCATGTCTAGCGC.1	Fibroblast-like
+TGAGCATGTCTCCATC.1	Erythrocytes
+TGAGCATGTTCAGTAC.1	Fibroblast-like
+TGAGCCGAGGCAGTCA.1	Epicardium-derived cells
+TGAGCCGAGGTAAACT.1	Smooth muscle cells
+TGAGCCGAGTGTTGAA.1	Epicardium-derived cells
+TGAGCCGTCAGTTTGG.1	Fibroblast-like
+TGAGGGACAAGCCTAT.1	Epicardium-derived cells
+TGAGGGACACCAGGCT.1	Capillary endothelium
+TGAGGGAGTGTGCCTG.1	Fibroblast-like
+TGATTTCAGGGTGTTG.1	Atrial cardiomyocytes
+TGATTTCGTAGATTAG.1	Immune cells
+TGATTTCGTGATGCCC.1	Ventricular cardiomyocytes
+TGCACCTCACTATCTT.1	Erythrocytes
+TGCACCTCACTTAACG.1	Capillary endothelium
+TGCCAAAGTAAGAGGA.1	Ventricular cardiomyocytes
+TGCCAAAGTCTGCGGT.1	Fibroblast-like
+TGCCAAAGTTAAAGTG.1	Smooth muscle cells
+TGCCCATCACGGATAG.1	Fibroblast-like
+TGCCCATCATCCTAGA.1	Capillary endothelium
+TGCCCATTCCAAGTAC.1	Ventricular cardiomyocytes
+TGCCCTAAGAAACCGC.1	Ventricular cardiomyocytes
+TGCCCTAAGAGATGAG.1	Erythrocytes
+TGCCCTACACGGCGTT.1	Fibroblast-like
+TGCCCTAGTATAAACG.1	Fibroblast-like
+TGCCCTATCAGTTGAC.1	Erythrocytes
+TGCGCAGGTTAGAACA.1	Capillary endothelium
+TGCGGGTAGATGTCGG.1	Fibroblast-like
+TGCGGGTAGTAGGTGC.1	Epicardial cells
+TGCGGGTCAAGGTTCT.1	Ventricular cardiomyocytes
+TGCGGGTTCAGATAAG.1	Epicardial cells
+TGCGTGGAGCCCTAAT.1	Smooth muscle cells
+TGCGTGGAGTGGGCTA.1	Capillary endothelium
+TGCGTGGCAGCTCCGA.1	Erythrocytes
+TGCGTGGCATAGAAAC.1	Smooth muscle cells
+TGCGTGGTCCACGACG.1	Erythrocytes
+TGCTACCCATCAGTAC.1	Epicardium-derived cells
+TGCTACCGTCAGGACA.1	Atrial cardiomyocytes
+TGCTACCTCGGTCCGA.1	Smooth muscle cells
+TGCTACCTCGTAGGAG.1	Ventricular cardiomyocytes
+TGCTGCTAGGCAATTA.1	Epicardium-derived cells
+TGCTGCTAGGCAGGTT.1	Smooth muscle cells
+TGCTGCTTCAGCTCTC.1	Erythrocytes
+TGCTGCTTCATCGGAT.1	Ventricular cardiomyocytes
+TGCTGCTTCCTGCCAT.1	Cardiac neural crest cells & Schwann progenitor cells
+TGGACGCCAGTAAGCG.1	Erythrocytes
+TGGACGCGTGCTGTAT.1	Ventricular cardiomyocytes
+TGGACGCTCATAGCAC.1	Ventricular cardiomyocytes
+TGGACGCTCGTAGGAG.1	Epicardial cells
+TGGCCAGAGAATTGTG.1	Erythrocytes
+TGGCCAGAGGTGTTAA.1	Fibroblast-like
+TGGCCAGCAAGGCTCC.1	Atrial cardiomyocytes
+TGGCGCAAGGCTCATT.1	Smooth muscle cells
+TGGCGCACACAGACAG.1	Fibroblast-like
+TGGCGCACACGTCTCT.1	Fibroblast-like
+TGGCGCAGTCGTGGCT.1	Erythrocytes
+TGGCGCAGTCTGCGGT.1	Smooth muscle cells
+TGGCTGGGTTCCGGCA.1	Epicardial cells
+TGGCTGGTCAGATAAG.1	Smooth muscle cells
+TGGCTGGTCTCACATT.1	Fibroblast-like
+TGGGAAGAGTCCAGGA.1	Smooth muscle cells
+TGGGAAGAGTGTACCT.1	Fibroblast-like
+TGGGAAGGTCCCGACA.1	Atrial cardiomyocytes
+TGGGAAGGTTATCGGT.1	Epicardium-derived cells
+TGGGAAGTCTTCTGGC.1	Ventricular cardiomyocytes
+TGGGCGTAGTCTCGGC.1	Fibroblast-like
+TGGGCGTCAGCTGTTA.1	Fibroblast-like
+TGGGCGTCAGGGAGAG.1	Smooth muscle cells
+TGGGCGTGTAGAGGAA.1	Capillary endothelium
+TGGGCGTGTGATAAAC.1	Atrial cardiomyocytes
+TGGGCGTGTGTGACCC.1	Epicardium-derived cells
+TGGTTAGAGAGTGACC.1	Smooth muscle cells
+TGGTTAGCACGACTCG.1	Fibroblast-like
+TGGTTAGGTAAGGATT.1	Fibroblast-like
+TGGTTAGGTACCGTAT.1	Fibroblast-like
+TGGTTAGTCCTTGCCA.1	Smooth muscle cells
+TGGTTCCAGGATATAC.1	Fibroblast-like
+TGGTTCCCAACAACCT.1	Smooth muscle cells
+TGGTTCCCATATACGC.1	Fibroblast-like
+TGGTTCCCATCCCATC.1	Smooth muscle cells
+TGGTTCCGTAAAGTCA.1	Immune cells
+TGGTTCCTCAAGAAGT.1	Epicardial cells
+TGGTTCCTCAAGGCTT.1	Smooth muscle cells
+TGGTTCCTCGCCTGAG.1	Smooth muscle cells
+TGTATTCCAAACGTGG.1	Fibroblast-like
+TGTATTCCACAGTCGC.1	Fibroblast-like
+TGTATTCGTATAGTAG.1	Fibroblast-like
+TGTATTCGTTAGAACA.1	Fibroblast-like
+TGTATTCTCGATCCCT.1	Fibroblast-like
+TGTCCCAAGCCGCCTA.1	Capillary endothelium
+TGTCCCAGTCCAGTGC.1	Epicardium-derived cells
+TGTCCCAGTCCTCCAT.1	Epicardial cells
+TGTGGTACAATGGACG.1	Epicardium-derived cells
+TGTGGTACAGTATAAG.1	Fibroblast-like
+TGTGTTTAGCCTCGTG.1	Atrial cardiomyocytes
+TGTGTTTAGTAGTGCG.1	Erythrocytes
+TGTGTTTCAGTCCTTC.1	Ventricular cardiomyocytes
+TGTGTTTGTGTAACGG.1	Fibroblast-like
+TGTGTTTTCAGCAACT.1	Endothelium / pericytes / adventitia
+TGTGTTTTCATGTCCC.1	Atrial cardiomyocytes
+TGTGTTTTCCCTCTTT.1	Immune cells
+TGTGTTTTCCTCAATT.1	Smooth muscle cells
+TGTTCCGAGCGTCAAG.1	Epicardium-derived cells
+TGTTCCGAGCTAGCCC.1	Fibroblast-like
+TGTTCCGCAGACAGGT.1	Smooth muscle cells
+TTAACTCAGGACGAAA.1	Smooth muscle cells
+TTAACTCAGTCTCAAC.1	Fibroblast-like
+TTAACTCAGTGAAGAG.1	Smooth muscle cells
+TTAACTCCATCCGTGG.1	Atrial cardiomyocytes
+TTAACTCGTCAGTGGA.1	Atrial cardiomyocytes
+TTAACTCGTGACTACT.1	Fibroblast-like
+TTAGGACAGTGTGAAT.1	Smooth muscle cells
+TTAGGCAAGCTTATCG.1	Fibroblast-like
+TTAGGCAAGTGGGCTA.1	Endothelium / pericytes / adventitia
+TTAGGCAAGTGTTTGC.1	Fibroblast-like
+TTAGGCACAAGTCATC.1	Endothelium / pericytes / adventitia
+TTAGGCATCCCATTTA.1	Fibroblast-like
+TTAGGCATCCTATGTT.1	Atrial cardiomyocytes
+TTAGGCATCCTCAATT.1	Smooth muscle cells
+TTAGTTCGTATGCTTG.1	Capillary endothelium
+TTAGTTCTCCACGAAT.1	Capillary endothelium
+TTATGCTAGATGTGTA.1	Fibroblast-like
+TTATGCTAGGGTCGAT.1	Fibroblast-like
+TTATGCTAGTCTCCTC.1	Atrial cardiomyocytes
+TTATGCTGTGTCGCTG.1	Fibroblast-like
+TTCCCAGTCGCGTTTC.1	Capillary endothelium
+TTCGAAGAGACTTGAA.1	Smooth muscle cells
+TTCGAAGAGTCATGCT.1	Atrial cardiomyocytes
+TTCGAAGCAAACCTAC.1	Smooth muscle cells
+TTCGAAGGTATAAACG.1	Fibroblast-like
+TTCGAAGGTTGGAGGT.1	Fibroblast-like
+TTCGGTCAGAAACCTA.1	Erythrocytes
+TTCGGTCCAGCCTTTC.1	Fibroblast-like
+TTCGGTCCATCTCCCA.1	Fibroblast-like
+TTCGGTCGTAAGTAGT.1	Capillary endothelium
+TTCGGTCTCAAACGGG.1	Atrial cardiomyocytes
+TTCGGTCTCAGCTTAG.1	Erythrocytes
+TTCGGTCTCGCTTGTC.1	Capillary endothelium
+TTCGGTCTCTGGTATG.1	Endothelium / pericytes / adventitia
+TTCTACACAGTCGTGC.1	Smooth muscle cells
+TTCTCAAAGCTAGTCT.1	Fibroblast-like
+TTCTCAAAGTGGCACA.1	Capillary endothelium
+TTCTCAAGTAAGTAGT.1	Erythrocytes
+TTCTCAATCCATGAAC.1	Ventricular cardiomyocytes
+TTCTCAATCCGCATAA.1	Atrial cardiomyocytes
+TTCTCAATCTCCAACC.1	Epicardial cells
+TTCTCCTCAATGAATG.1	Fibroblast-like
+TTCTTAGTCGCGTAGC.1	Capillary endothelium
+TTCTTAGTCTAGAGTC.1	Cardiac neural crest cells & Schwann progenitor cells
+TTCTTAGTCTGGCGTG.1	Epicardium-derived cells
+TTGAACGAGAAGGTTT.1	Capillary endothelium
+TTGAACGAGCGTTGCC.1	Fibroblast-like
+TTGAACGAGGGATGGG.1	Erythrocytes
+TTGAACGCAGACGCTC.1	Capillary endothelium
+TTGAACGTCAGCGACC.1	Smooth muscle cells
+TTGAACGTCGACCAGC.1	Erythrocytes
+TTGAACGTCGCCATAA.1	Immune cells
+TTGAACGTCGGCTACG.1	Ventricular cardiomyocytes
+TTGAACGTCTCTTATG.1	Smooth muscle cells
+TTGACTTAGGCAAAGA.1	Fibroblast-like
+TTGACTTCAATCTACG.1	Erythrocytes
+TTGACTTCATCCGCGA.1	Smooth muscle cells
+TTGACTTGTGAGGCTA.1	Epicardium-derived cells
+TTGACTTTCAGATAAG.1	Smooth muscle cells
+TTGCCGTTCCTAAGTG.1	Cardiac neural crest cells & Schwann progenitor cells
+TTGCGTCAGTGTCTCA.1	Capillary endothelium
+TTGCGTCCAGGTCCAC.1	Erythrocytes
+TTGCGTCCATCACAAC.1	Capillary endothelium
+TTGCGTCGTGCTGTAT.1	Fibroblast-like
+TTGGAACAGCTGGAAC.1	Epicardium-derived cells
+TTGGAACAGTATCGAA.1	Fibroblast-like
+TTGGAACGTAACGACG.1	Fibroblast-like
+TTGGAACGTGTTCTTT.1	Ventricular cardiomyocytes
+TTGGAACTCTTCTGGC.1	Immune cells
+TTGGCAAAGGGCTTGA.1	Fibroblast-like
+TTGGCAACACGAAAGC.1	Capillary endothelium
+TTGGCAAGTAGGCTGA.1	Fibroblast-like
+TTGGCAAGTGCATCTA.1	Smooth muscle cells
+TTGGCAAGTGTGAATA.1	Fibroblast-like
+TTGGCAATCACATACG.1	Fibroblast-like
+TTGGCAATCCTCCTAG.1	Capillary endothelium
+TTGTAGGCATCAGTCA.1	Epicardium-derived cells
+TTGTAGGGTAAGGATT.1	Smooth muscle cells
+TTGTAGGGTCTGCGGT.1	Ventricular cardiomyocytes
+TTGTAGGTCAACACTG.1	Fibroblast-like
+TTGTAGGTCAGCAACT.1	Ventricular cardiomyocytes
+TTGTAGGTCCAGAGGA.1	Cardiac neural crest cells & Schwann progenitor cells
+TTGTAGGTCGTCTGAA.1	Endothelium / pericytes / adventitia
+TTGTAGGTCTGGTTCC.1	Fibroblast-like
+TTTACTGCATCCCACT.1	Fibroblast-like
+TTTACTGCATTCTTAC.1	Ventricular cardiomyocytes
+TTTACTGGTCCGCTGA.1	Capillary endothelium
+TTTACTGGTTCTGAAC.1	Ventricular cardiomyocytes
+TTTATGCCATTTCAGG.1	Erythrocytes
+TTTCCTCGTGATGTGG.1	Fibroblast-like
+TTTGCGCAGTAGTGCG.1	Erythrocytes
+TTTGCGCGTGGACGAT.1	Fibroblast-like
+TTTGGTTAGACTACAA.1	Fibroblast-like
+TTTGGTTAGAGGTAGA.1	Fibroblast-like
+TTTGGTTCACATTCGA.1	Fibroblast-like
+TTTGTCAAGGTGATAT.1	Atrial cardiomyocytes
+TTTGTCAAGTGACTCT.1	Capillary endothelium
+TTTGTCATCCAGTATG.1	Capillary endothelium
+TTTGTCATCTATCGCC.1	Fibroblast-like
+AAACCTGAGAATTCCC.2	Capillary endothelium
+AAACCTGGTTCGGGCT.2	Ventricular cardiomyocytes
+AAACCTGTCTCTGAGA.2	Ventricular cardiomyocytes
+AAACGGGCAATCGAAA.2	Epicardium-derived cells
+AAACGGGGTCGAATCT.2	Ventricular cardiomyocytes
+AAACGGGGTCGCGTGT.2	Capillary endothelium
+AAACGGGTCGCACTCT.2	Capillary endothelium
+AAACGGGTCGCAGGCT.2	Ventricular cardiomyocytes
+AAAGATGAGACTAGAT.2	Ventricular cardiomyocytes
+AAAGCAAAGATCGGGT.2	Capillary endothelium
+AAAGCAAAGCTAACAA.2	Ventricular cardiomyocytes
+AAAGCAACATCAGTCA.2	Ventricular cardiomyocytes
+AAAGCAAGTTACAGAA.2	Epicardium-derived cells
+AAAGCAATCAGTTAGC.2	Erythrocytes
+AAAGCAATCTTGTCAT.2	Capillary endothelium
+AAAGTAGAGACCTTTG.2	Ventricular cardiomyocytes
+AAAGTAGAGATATGCA.2	Capillary endothelium
+AAAGTAGAGGAGTACC.2	Fibroblast-like
+AAAGTAGGTGTGAATA.2	Fibroblast-like
+AAAGTAGGTTGTCTTT.2	Ventricular cardiomyocytes
+AAAGTAGTCATAACCG.2	Fibroblast-like
+AAAGTAGTCCACTCCA.2	Epicardium-derived cells
+AAAGTAGTCTCGAGTA.2	Fibroblast-like
+AAATGCCCACATTAGC.2	Ventricular cardiomyocytes
+AAATGCCCATGCAACT.2	Ventricular cardiomyocytes
+AAATGCCCATGCTGGC.2	Ventricular cardiomyocytes
+AAATGCCGTTCAGCGC.2	Fibroblast-like
+AAATGCCTCTATCGCC.2	Capillary endothelium
+AACACGTCAATCACAC.2	Ventricular cardiomyocytes
+AACACGTCACACAGAG.2	Capillary endothelium
+AACACGTTCATAAAGG.2	Capillary endothelium
+AACCATGAGACAGACC.2	Capillary endothelium
+AACCATGCACGAAAGC.2	Fibroblast-like
+AACCATGGTTCTCATT.2	Fibroblast-like
+AACCATGTCGGAAACG.2	Ventricular cardiomyocytes
+AACCATGTCTAACTTC.2	Capillary endothelium
+AACCGCGAGCTAAGAT.2	Erythrocytes
+AACCGCGCAAGTTAAG.2	Capillary endothelium
+AACCGCGGTTTAGCTG.2	Ventricular cardiomyocytes
+AACCGCGTCTTTACAC.2	Fibroblast-like
+AACGTTGAGGAGTTGC.2	Capillary endothelium
+AACGTTGAGGGTGTGT.2	Capillary endothelium
+AACGTTGTCACCTTAT.2	Ventricular cardiomyocytes
+AACTCAGAGGCCATAG.2	Ventricular cardiomyocytes
+AACTCAGCACTAGTAC.2	Capillary endothelium
+AACTCAGTCCAAAGTC.2	Fibroblast-like
+AACTCAGTCGCGGATC.2	Fibroblast-like
+AACTCAGTCTTTCCTC.2	Erythrocytes
+AACTCCCAGGCAATTA.2	Capillary endothelium
+AACTCCCCAGGTGGAT.2	Capillary endothelium
+AACTCCCGTCGCCATG.2	Erythrocytes
+AACTCCCGTCTGATCA.2	Endothelium / pericytes / adventitia
+AACTCCCGTTCACCTC.2	Immune cells
+AACTCCCGTTCCACGG.2	Ventricular cardiomyocytes
+AACTCTTAGTGGACGT.2	Capillary endothelium
+AACTCTTGTAAGTGGC.2	Capillary endothelium
+AACTCTTGTACCGTAT.2	Ventricular cardiomyocytes
+AACTCTTTCCGCATAA.2	Capillary endothelium
+AACTGGTCAGTATCTG.2	Capillary endothelium
+AACTGGTGTAAGGGCT.2	Ventricular cardiomyocytes
+AACTGGTGTACAGACG.2	Erythrocytes
+AACTGGTGTCTCCCTA.2	Fibroblast-like
+AACTGGTGTTGCGCAC.2	Immune cells
+AACTTTCAGCCACGCT.2	Epicardial cells
+AACTTTCGTAGCGCAA.2	Erythrocytes
+AAGACCTAGCTATGCT.2	Capillary endothelium
+AAGACCTAGTGGGCTA.2	Fibroblast-like
+AAGACCTCACCGATAT.2	Capillary endothelium
+AAGACCTGTGTTGAGG.2	Atrial cardiomyocytes
+AAGACCTTCCTGTAGA.2	Ventricular cardiomyocytes
+AAGCCGCCAAGGTGTG.2	Ventricular cardiomyocytes
+AAGCCGCGTGCCTGGT.2	Ventricular cardiomyocytes
+AAGCCGCTCGCGTAGC.2	Epicardium-derived cells
+AAGGAGCAGAAGGTGA.2	Fibroblast-like
+AAGGAGCAGCGCCTCA.2	Capillary endothelium
+AAGGAGCCAGGATCGA.2	Erythrocytes
+AAGGAGCGTTCGGGCT.2	Erythrocytes
+AAGGAGCTCACGCATA.2	Ventricular cardiomyocytes
+AAGGAGCTCCTGTACC.2	Ventricular cardiomyocytes
+AAGGTTCCAATGGAAT.2	Epicardium-derived cells
+AAGGTTCCAGCCTGTG.2	Capillary endothelium
+AAGGTTCGTGATAAAC.2	Fibroblast-like
+AAGGTTCGTGCTTCTC.2	Capillary endothelium
+AAGGTTCGTTACGACT.2	Ventricular cardiomyocytes
+AAGGTTCGTTATGCGT.2	Fibroblast-like
+AAGTCTGGTCACCCAG.2	Fibroblast-like
+AAGTCTGGTCGTCTTC.2	Ventricular cardiomyocytes
+AAGTCTGTCTTTAGGG.2	Fibroblast-like
+AATCCAGGTGAACCTT.2	Capillary endothelium
+AATCGGTAGATCACGG.2	Capillary endothelium
+AATCGGTAGCCCAATT.2	Fibroblast-like
+AATCGGTGTCACCTAA.2	Ventricular cardiomyocytes
+AATCGGTGTCACTTCC.2	Capillary endothelium
+AATCGGTGTCTGCGGT.2	Epicardium-derived cells
+AATCGGTGTTAAAGTG.2	Epicardium-derived cells
+AATCGGTTCGAACGGA.2	Fibroblast-like
+ACACCAAGTTCATGGT.2	Fibroblast-like
+ACACCAATCGTAGGAG.2	Capillary endothelium
+ACACCAATCTCTGCTG.2	Ventricular cardiomyocytes
+ACACCCTAGTTACGGG.2	Endothelium / pericytes / adventitia
+ACACCCTCAAGTACCT.2	Erythrocytes
+ACACCCTGTCATATGC.2	Ventricular cardiomyocytes
+ACACCCTTCCTTGCCA.2	Fibroblast-like
+ACACCGGCAATAGCGG.2	Ventricular cardiomyocytes
+ACACCGGCATAACCTG.2	Epicardium-derived cells
+ACACCGGCATACTACG.2	Capillary endothelium
+ACACCGGCATTCCTGC.2	Epicardium-derived cells
+ACACCGGGTGAGTGAC.2	Fibroblast-like
+ACACTGAAGCTGTCTA.2	Capillary endothelium
+ACACTGAGTTGCCTCT.2	Fibroblast-like
+ACACTGATCTTGTCAT.2	Endothelium / pericytes / adventitia
+ACAGCCGAGAATTCCC.2	Capillary endothelium
+ACAGCCGAGTGGTAGC.2	Endothelium / pericytes / adventitia
+ACAGCCGCAATCTACG.2	Fibroblast-like
+ACAGCCGTCCGTAGGC.2	Erythrocytes
+ACAGCTAAGCCACGCT.2	Fibroblast-like
+ACAGCTAAGTATTGGA.2	Epicardial cells
+ACAGCTACAAAGTCAA.2	Fibroblast-like
+ACAGCTACAGTCGTGC.2	Ventricular cardiomyocytes
+ACAGCTAGTGGCTCCA.2	Ventricular cardiomyocytes
+ACATACGAGGGCACTA.2	Endothelium / pericytes / adventitia
+ACATACGAGTCCTCCT.2	Capillary endothelium
+ACATACGCACCAGATT.2	Ventricular cardiomyocytes
+ACATACGTCCAGAAGG.2	Fibroblast-like
+ACATACGTCTTCATGT.2	Ventricular cardiomyocytes
+ACATCAGAGCCCTAAT.2	Erythrocytes
+ACATCAGAGGACATTA.2	Endothelium / pericytes / adventitia
+ACATCAGCACCAGGCT.2	Epicardium-derived cells
+ACATCAGCACCTTGTC.2	Epicardium-derived cells
+ACATCAGTCATTGCGA.2	Ventricular cardiomyocytes
+ACATCAGTCCCATTAT.2	Capillary endothelium
+ACATCAGTCTAACTGG.2	Capillary endothelium
+ACATGGTCACGCGAAA.2	Fibroblast-like
+ACCAGTAGTCAATGTC.2	Ventricular cardiomyocytes
+ACCAGTAGTCACCTAA.2	Capillary endothelium
+ACCCACTCATACGCTA.2	Erythrocytes
+ACCCACTCATATGAGA.2	Capillary endothelium
+ACCCACTGTCTCCCTA.2	Endothelium / pericytes / adventitia
+ACCCACTTCATGCATG.2	Capillary endothelium
+ACCGTAACACGCCAGT.2	Fibroblast-like
+ACCGTAACAGAGTGTG.2	Erythrocytes
+ACCGTAACATATGCTG.2	Ventricular cardiomyocytes
+ACCGTAAGTTGTCGCG.2	Ventricular cardiomyocytes
+ACCGTAATCATGCTCC.2	Epicardium-derived cells
+ACCGTAATCGTTTATC.2	Fibroblast-like
+ACCTTTACACCCATGG.2	Capillary endothelium
+ACCTTTACAGCTGCAC.2	Ventricular cardiomyocytes
+ACCTTTATCTTTACAC.2	Epicardium-derived cells
+ACGAGCCAGTTGAGTA.2	Fibroblast-like
+ACGAGCCCAAAGGCGT.2	Erythrocytes
+ACGAGCCCAAGCTGAG.2	Capillary endothelium
+ACGAGCCGTCGAGATG.2	Erythrocytes
+ACGAGCCTCAAACAAG.2	Erythrocytes
+ACGAGCCTCGCATGAT.2	Ventricular cardiomyocytes
+ACGAGCCTCTTCATGT.2	Fibroblast-like
+ACGAGGACATTCTCAT.2	Erythrocytes
+ACGAGGATCCCATTTA.2	Immune cells
+ACGATACCATCCCATC.2	Ventricular cardiomyocytes
+ACGATACCATCTGGTA.2	Epicardial cells
+ACGATACGTATTACCG.2	Capillary endothelium
+ACGATACGTCGCTTTC.2	Fibroblast-like
+ACGATACGTCTTTCAT.2	Capillary endothelium
+ACGATGTAGACTCGGA.2	Fibroblast-like
+ACGATGTAGCCAGTTT.2	Fibroblast-like
+ACGATGTCATACGCTA.2	Fibroblast-like
+ACGATGTCATGCCCGA.2	Ventricular cardiomyocytes
+ACGCAGCAGATGGGTC.2	Ventricular cardiomyocytes
+ACGCAGCTCTGAAAGA.2	Capillary endothelium
+ACGCCAGAGGTGCTTT.2	Ventricular cardiomyocytes
+ACGCCAGGTCTCACCT.2	Fibroblast-like
+ACGCCAGGTCTCTTAT.2	Ventricular cardiomyocytes
+ACGCCAGTCGCGATCG.2	Fibroblast-like
+ACGCCGAAGCCGATTT.2	Capillary endothelium
+ACGCCGACACTGTTAG.2	Fibroblast-like
+ACGCCGAGTCTAGCGC.2	Erythrocytes
+ACGCCGAGTTGTGGCC.2	Fibroblast-like
+ACGCCGATCGAACTGT.2	Ventricular cardiomyocytes
+ACGGAGAAGTGTTAGA.2	Erythrocytes
+ACGGAGACAATAGAGT.2	Capillary endothelium
+ACGGAGACACCCATTC.2	Immune cells
+ACGGAGAGTAAGCACG.2	Capillary endothelium
+ACGGAGAGTGTGTGCC.2	Erythrocytes
+ACGGCCAAGAATCTCC.2	Capillary endothelium
+ACGGCCAAGCCACGCT.2	Fibroblast-like
+ACGGCCACACAGAGGT.2	Capillary endothelium
+ACGGCCAGTATAGTAG.2	Capillary endothelium
+ACGGGCTCAAGCTGTT.2	Epicardium-derived cells
+ACGGGCTCAATAAGCA.2	Epicardium-derived cells
+ACGGGCTGTGATAAAC.2	Ventricular cardiomyocytes
+ACGGGTCAGTTTCCTT.2	Epicardial cells
+ACGGGTCCATATGGTC.2	Endothelium / pericytes / adventitia
+ACGTCAAAGCACAGGT.2	Ventricular cardiomyocytes
+ACGTCAACACCAGCAC.2	Immune cells
+ACGTCAATCACAGTAC.2	Erythrocytes
+ACGTCAATCGCCCTTA.2	Epicardium-derived cells
+ACTATCTAGGATGGTC.2	Capillary endothelium
+ACTATCTCACGGCCAT.2	Ventricular cardiomyocytes
+ACTATCTGTTAAGACA.2	Capillary endothelium
+ACTATCTGTTCCTCCA.2	Erythrocytes
+ACTGAACGTACCATCA.2	Capillary endothelium
+ACTGAACGTCATATCG.2	Ventricular cardiomyocytes
+ACTGAACTCACTTATC.2	Epicardium-derived cells
+ACTGAACTCTAACTTC.2	Epicardium-derived cells
+ACTGAGTGTATAAACG.2	Endothelium / pericytes / adventitia
+ACTGAGTGTGTGACGA.2	Capillary endothelium
+ACTGAGTTCCTGCAGG.2	Fibroblast-like
+ACTGAGTTCTTGTTTG.2	Capillary endothelium
+ACTGATGAGCGTTCCG.2	Epicardium-derived cells
+ACTGATGTCAAGAAGT.2	Capillary endothelium
+ACTGATGTCCGTAGGC.2	Ventricular cardiomyocytes
+ACTGATGTCGTACGGC.2	Ventricular cardiomyocytes
+ACTGCTCAGAAACCAT.2	Capillary endothelium
+ACTGCTCCAGACAGGT.2	Ventricular cardiomyocytes
+ACTGCTCGTCCCTACT.2	Capillary endothelium
+ACTGCTCGTGCATCTA.2	Capillary endothelium
+ACTGCTCTCGGAAATA.2	Endothelium / pericytes / adventitia
+ACTGCTCTCGTAGGTT.2	Capillary endothelium
+ACTGCTCTCTATCCTA.2	Immune cells
+ACTGTCCGTCAAGCGA.2	Fibroblast-like
+ACTGTCCTCACCTCGT.2	Capillary endothelium
+ACTGTCCTCTTACCTA.2	Fibroblast-like
+ACTTACTAGAAGCCCA.2	Ventricular cardiomyocytes
+ACTTACTCAGCTCGCA.2	Capillary endothelium
+ACTTACTGTGACAAAT.2	Ventricular cardiomyocytes
+ACTTACTTCCGTTGCT.2	Epicardium-derived cells
+ACTTGTTCATACGCCG.2	Ventricular cardiomyocytes
+ACTTGTTTCAAACCAC.2	Ventricular cardiomyocytes
+ACTTGTTTCCACGTTC.2	Fibroblast-like
+ACTTTCAAGCAGCCTC.2	Epicardium-derived cells
+ACTTTCACAATAGCAA.2	Ventricular cardiomyocytes
+ACTTTCACACATGTGT.2	Fibroblast-like
+ACTTTCACAGCTGCTG.2	Fibroblast-like
+ACTTTCAGTCGTTGTA.2	Ventricular cardiomyocytes
+ACTTTCATCGTAGGTT.2	Ventricular cardiomyocytes
+AGAATAGAGCGTCTAT.2	Capillary endothelium
+AGAATAGAGGACAGAA.2	Capillary endothelium
+AGAATAGGTCCTGCTT.2	Ventricular cardiomyocytes
+AGACGTTCAATCGAAA.2	Ventricular cardiomyocytes
+AGACGTTTCTTAGCCC.2	Ventricular cardiomyocytes
+AGAGCGAAGCCGCCTA.2	Capillary endothelium
+AGAGCGAAGGACGAAA.2	Fibroblast-like
+AGAGCGATCGCTTAGA.2	Epicardium-derived cells
+AGAGCGATCGGATGGA.2	Capillary endothelium
+AGAGCTTAGCATGGCA.2	Endothelium / pericytes / adventitia
+AGAGCTTCACTTCGAA.2	Fibroblast-like
+AGAGCTTGTATAGGGC.2	Ventricular cardiomyocytes
+AGAGCTTTCCGTAGGC.2	Fibroblast-like
+AGAGCTTTCGCGATCG.2	Fibroblast-like
+AGAGTGGTCGCTTAGA.2	Erythrocytes
+AGAGTGGTCGTCTGAA.2	Capillary endothelium
+AGAGTGGTCTTTAGGG.2	Epicardium-derived cells
+AGATCTGAGGAGTAGA.2	Endothelium / pericytes / adventitia
+AGATCTGCATATGGTC.2	Fibroblast-like
+AGATCTGTCCTTGACC.2	Immune cells
+AGATTGCAGGGCTTGA.2	Fibroblast-like
+AGATTGCCATCTCCCA.2	Capillary endothelium
+AGATTGCGTAAGTGGC.2	Ventricular cardiomyocytes
+AGATTGCTCGCAAGCC.2	Epicardium-derived cells
+AGATTGCTCTAAGCCA.2	Erythrocytes
+AGCAGCCAGGTAAACT.2	Fibroblast-like
+AGCAGCCAGTTAACGA.2	Capillary endothelium
+AGCAGCCCAATTCCTT.2	Fibroblast-like
+AGCAGCCGTCCCGACA.2	Capillary endothelium
+AGCAGCCTCGCCAAAT.2	Fibroblast-like
+AGCATACAGACAGACC.2	Ventricular cardiomyocytes
+AGCATACAGCCACCTG.2	Erythrocytes
+AGCATACAGGCTAGGT.2	Ventricular cardiomyocytes
+AGCATACGTTGGACCC.2	Fibroblast-like
+AGCCTAAGTCTTGTCC.2	Endothelium / pericytes / adventitia
+AGCCTAATCCCAGGTG.2	Fibroblast-like
+AGCCTAATCGGAGCAA.2	Fibroblast-like
+AGCCTAATCTCAAGTG.2	Endothelium / pericytes / adventitia
+AGCGGTCAGCCCAATT.2	Ventricular cardiomyocytes
+AGCGGTCAGCGATGAC.2	Capillary endothelium
+AGCGGTCAGGCTATCT.2	Fibroblast-like
+AGCGGTCCAAGCCGCT.2	Capillary endothelium
+AGCGGTCCACGGATAG.2	Capillary endothelium
+AGCGGTCGTACTTGAC.2	Capillary endothelium
+AGCGGTCTCTTGAGAC.2	Ventricular cardiomyocytes
+AGCGTATAGCACGCCT.2	Epicardium-derived cells
+AGCGTATAGCCACGCT.2	Erythrocytes
+AGCGTATGTCGGGTCT.2	Capillary endothelium
+AGCGTATTCGCATGAT.2	Immune cells
+AGCGTATTCGGCCGAT.2	Epicardium-derived cells
+AGCGTATTCTAACTTC.2	Endothelium / pericytes / adventitia
+AGCGTCGTCCCTCTTT.2	Fibroblast-like
+AGCTCCTGTCTGATCA.2	Capillary endothelium
+AGCTCTCAGTTGAGTA.2	Fibroblast-like
+AGCTCTCCATGGGACA.2	Ventricular cardiomyocytes
+AGCTCTCGTGCCTGTG.2	Capillary endothelium
+AGCTTGAAGCTTATCG.2	Fibroblast-like
+AGCTTGATCAACTCTT.2	Epicardial cells
+AGGCCACGTCTAGAGG.2	Capillary endothelium
+AGGCCACTCCAAGCCG.2	Ventricular cardiomyocytes
+AGGCCGTGTCCTAGCG.2	Fibroblast-like
+AGGCCGTTCCCGGATG.2	Epicardium-derived cells
+AGGCCGTTCTCAAGTG.2	Endothelium / pericytes / adventitia
+AGGGAGTAGAAACGAG.2	Fibroblast-like
+AGGGAGTCAGGTGCCT.2	Capillary endothelium
+AGGGAGTGTACAGTGG.2	Capillary endothelium
+AGGGAGTGTAGGGTAC.2	Ventricular cardiomyocytes
+AGGGAGTTCAATCTCT.2	Fibroblast-like
+AGGGATGCAAACAACA.2	Ventricular cardiomyocytes
+AGGGATGCAACCGCCA.2	Fibroblast-like
+AGGGTGACAGTGGGAT.2	Erythrocytes
+AGGGTGACATCGTCGG.2	Ventricular cardiomyocytes
+AGGGTGACATGCATGT.2	Capillary endothelium
+AGGGTGAGTCAGATAA.2	Erythrocytes
+AGGGTGAGTTTAAGCC.2	Ventricular cardiomyocytes
+AGGTCCGAGGTGCTAG.2	Epicardium-derived cells
+AGGTCCGCAGGATTGG.2	Ventricular cardiomyocytes
+AGGTCCGCAGTTCATG.2	Ventricular cardiomyocytes
+AGGTCCGGTAAGGGAA.2	Ventricular cardiomyocytes
+AGGTCCGGTAGCGTGA.2	Erythrocytes
+AGGTCCGGTCCATCCT.2	Immune cells
+AGTAGTCCAGCGTCCA.2	Fibroblast-like
+AGTAGTCCATTTGCTT.2	Capillary endothelium
+AGTAGTCGTATTAGCC.2	Epicardium-derived cells
+AGTCTTTGTCTCGTTC.2	Epicardium-derived cells
+AGTCTTTTCGAGAGCA.2	Capillary endothelium
+AGTCTTTTCGGTTAAC.2	Capillary endothelium
+AGTGAGGCAATCAGAA.2	Capillary endothelium
+AGTGAGGTCTCTAAGG.2	Ventricular cardiomyocytes
+AGTGGGAGTGATGTCT.2	Ventricular cardiomyocytes
+AGTGGGATCACCACCT.2	Fibroblast-like
+AGTGGGATCAGCTCTC.2	Capillary endothelium
+AGTGTCAAGAAGGTTT.2	Capillary endothelium
+AGTGTCAAGGTGTGGT.2	Ventricular cardiomyocytes
+AGTGTCACACGAAATA.2	Capillary endothelium
+AGTGTCAGTGATAAGT.2	Ventricular cardiomyocytes
+AGTGTCAGTTAAGGGC.2	Ventricular cardiomyocytes
+AGTGTCAGTTGTACAC.2	Erythrocytes
+AGTTGGTGTTACCAGT.2	Ventricular cardiomyocytes
+AGTTGGTTCTCGTTTA.2	Capillary endothelium
+ATAACGCAGATCGATA.2	Erythrocytes
+ATAACGCAGCGTAGTG.2	Capillary endothelium
+ATAACGCCAGCGTAAG.2	Fibroblast-like
+ATAACGCGTGTCCTCT.2	Ventricular cardiomyocytes
+ATAACGCTCTTAGAGC.2	Fibroblast-like
+ATAAGAGAGAGCCTAG.2	Ventricular cardiomyocytes
+ATAAGAGAGCAGATCG.2	Ventricular cardiomyocytes
+ATAAGAGAGGAGTCTG.2	Ventricular cardiomyocytes
+ATAAGAGGTATAGGGC.2	Ventricular cardiomyocytes
+ATAAGAGGTCAGAGGT.2	Ventricular cardiomyocytes
+ATAAGAGGTGCTAGCC.2	Erythrocytes
+ATAAGAGTCTACTCAT.2	Erythrocytes
+ATAGACCAGTAAGTAC.2	Capillary endothelium
+ATAGACCCATCACGTA.2	Ventricular cardiomyocytes
+ATAGACCTCATAAAGG.2	Immune cells
+ATAGACCTCCACGACG.2	Capillary endothelium
+ATAGACCTCGGAAATA.2	Erythrocytes
+ATCACGATCAACGGCC.2	Epicardium-derived cells
+ATCATCTCATATGAGA.2	Capillary endothelium
+ATCATCTGTGTGGCTC.2	Epicardial cells
+ATCATCTTCCTTGCCA.2	Epicardium-derived cells
+ATCATGGAGAACTCGG.2	Ventricular cardiomyocytes
+ATCATGGAGAGCCCAA.2	Epicardial cells
+ATCATGGGTAACGTTC.2	Fibroblast-like
+ATCATGGTCAGCAACT.2	Epicardium-derived cells
+ATCCGAAAGTACGCGA.2	Ventricular cardiomyocytes
+ATCCGAATCGGATGGA.2	Ventricular cardiomyocytes
+ATCGAGTAGTGGAGAA.2	Erythrocytes
+ATCGAGTCAAGCTGGA.2	Ventricular cardiomyocytes
+ATCGAGTGTCCCGACA.2	Ventricular cardiomyocytes
+ATCGAGTTCAGTCCCT.2	Fibroblast-like
+ATCGAGTTCGACAGCC.2	Epicardium-derived cells
+ATCTACTAGGTCATCT.2	Ventricular cardiomyocytes
+ATCTACTCAATGGAAT.2	Fibroblast-like
+ATCTACTCATGTAGTC.2	Erythrocytes
+ATCTACTGTGAAAGAG.2	Ventricular cardiomyocytes
+ATCTGCCAGGTGACCA.2	Fibroblast-like
+ATCTGCCCAATGACCT.2	Fibroblast-like
+ATCTGCCCAGCTGTGC.2	Epicardial cells
+ATCTGCCGTAGATTAG.2	Erythrocytes
+ATCTGCCTCAGTGTTG.2	Epicardium-derived cells
+ATCTGCCTCCAAGTAC.2	Fibroblast-like
+ATGAGGGAGGACAGCT.2	Fibroblast-like
+ATGAGGGTCCCAAGTA.2	Ventricular cardiomyocytes
+ATGCGATGTCTTGTCC.2	Fibroblast-like
+ATGCGATTCTGACCTC.2	Fibroblast-like
+ATGCGATTCTTGAGAC.2	Erythrocytes
+ATGGGAGAGCTCTCGG.2	Capillary endothelium
+ATGGGAGCACGAAAGC.2	Fibroblast-like
+ATGGGAGCAGCCTATA.2	Epicardium-derived cells
+ATGGGAGGTCAACTGT.2	Fibroblast-like
+ATGGGAGGTGGTTTCA.2	Epicardium-derived cells
+ATGGGAGGTGTCTGAT.2	Fibroblast-like
+ATGGGAGTCTTCGGTC.2	Erythrocytes
+ATGTGTGCAGTCCTTC.2	Ventricular cardiomyocytes
+ATGTGTGGTAACGACG.2	Ventricular cardiomyocytes
+ATGTGTGGTCGCGTGT.2	Fibroblast-like
+ATGTGTGGTTTCGCTC.2	Epicardium-derived cells
+ATGTGTGTCGAGCCCA.2	Capillary endothelium
+ATTACTCAGCGTGAAC.2	Capillary endothelium
+ATTACTCAGCTAACTC.2	Ventricular cardiomyocytes
+ATTACTCGTAAATACG.2	Fibroblast-like
+ATTATCCCACGGCGTT.2	Capillary endothelium
+ATTCTACAGCACAGGT.2	Erythrocytes
+ATTCTACGTCTCTTTA.2	Capillary endothelium
+ATTCTACTCGGAAACG.2	Fibroblast-like
+ATTGGACCACTTGGAT.2	Fibroblast-like
+ATTGGACCAGCCTGTG.2	Erythrocytes
+ATTGGACGTGAAGGCT.2	Ventricular cardiomyocytes
+ATTGGACGTGATAAGT.2	Capillary endothelium
+ATTGGACGTTATGTGC.2	Capillary endothelium
+ATTGGACGTTGAGTTC.2	Fibroblast-like
+ATTGGTGAGGCAGTCA.2	Endothelium / pericytes / adventitia
+ATTGGTGGTGAGTATA.2	Erythrocytes
+ATTGGTGTCTCAACTT.2	Erythrocytes
+ATTTCTGCAAGTTCTG.2	Capillary endothelium
+ATTTCTGGTCGTGGCT.2	Ventricular cardiomyocytes
+ATTTCTGTCAGGCCCA.2	Fibroblast-like
+ATTTCTGTCGGCGCAT.2	Erythrocytes
+CAACCAAGTGTCAATC.2	Ventricular cardiomyocytes
+CAACCAAGTTGCTCCT.2	Erythrocytes
+CAACCAATCAATCTCT.2	Fibroblast-like
+CAACCTCAGACTAAGT.2	Ventricular cardiomyocytes
+CAACCTCAGTGACTCT.2	Ventricular cardiomyocytes
+CAACCTCCAGTAACGG.2	Ventricular cardiomyocytes
+CAACCTCGTCGACTAT.2	Fibroblast-like
+CAACCTCTCTCTAAGG.2	Capillary endothelium
+CAACCTCTCTGCTTGC.2	Fibroblast-like
+CAACTAGTCGCTTGTC.2	Capillary endothelium
+CAAGAAAAGGCTATCT.2	Fibroblast-like
+CAAGAAACACCTCGGA.2	Ventricular cardiomyocytes
+CAAGAAACATGCTAGT.2	Fibroblast-like
+CAAGAAATCAGGTTCA.2	Epicardium-derived cells
+CAAGATCTCGTAGGTT.2	Ventricular cardiomyocytes
+CAAGATCTCGTGGGAA.2	Epicardial cells
+CAAGGCCTCTACCTGC.2	Fibroblast-like
+CAAGTTGGTTCATGGT.2	Ventricular cardiomyocytes
+CAAGTTGTCAGTGTTG.2	Capillary endothelium
+CAAGTTGTCCCGACTT.2	Ventricular cardiomyocytes
+CAAGTTGTCGCTAGCG.2	Fibroblast-like
+CACAAACGTATAGTAG.2	Epicardium-derived cells
+CACAAACGTTTGTTTC.2	Capillary endothelium
+CACAAACTCGCCTGTT.2	Ventricular cardiomyocytes
+CACACAACAAACTGTC.2	Capillary endothelium
+CACACAACACACAGAG.2	Capillary endothelium
+CACACAACACAGCCCA.2	Capillary endothelium
+CACACAACACTTCTGC.2	Fibroblast-like
+CACACAACATAAAGGT.2	Fibroblast-like
+CACACAATCCTAAGTG.2	Ventricular cardiomyocytes
+CACACAATCTAACCGA.2	Fibroblast-like
+CACACCTAGTTACCCA.2	Epicardial cells
+CACACCTCAATAGCAA.2	Capillary endothelium
+CACACCTCACCAGCAC.2	Ventricular cardiomyocytes
+CACACCTCATGCCTAA.2	Capillary endothelium
+CACACCTTCACGGTTA.2	Capillary endothelium
+CACACCTTCTGCTGCT.2	Erythrocytes
+CACACTCAGCTGCCCA.2	Capillary endothelium
+CACACTCGTACATGTC.2	Fibroblast-like
+CACACTCTCTCGGACG.2	Endothelium / pericytes / adventitia
+CACAGGCAGCGTTCCG.2	Fibroblast-like
+CACAGGCCAGTCACTA.2	Erythrocytes
+CACAGGCGTAGTGAAT.2	Fibroblast-like
+CACAGGCGTCATGCAT.2	Endothelium / pericytes / adventitia
+CACAGGCGTGTGGTTT.2	Fibroblast-like
+CACAGGCTCGGATGTT.2	Ventricular cardiomyocytes
+CACAGTAGTCAGCTAT.2	Ventricular cardiomyocytes
+CACAGTAGTTATTCTC.2	Capillary endothelium
+CACAGTAGTTGTTTGG.2	Epicardium-derived cells
+CACAGTATCTGGCGAC.2	Fibroblast-like
+CACAGTATCTTGTCAT.2	Fibroblast-like
+CACATAGAGAGCTGCA.2	Capillary endothelium
+CACATAGAGCCAGAAC.2	Capillary endothelium
+CACATAGCACGGTGTC.2	Fibroblast-like
+CACATAGGTAGCAAAT.2	Ventricular cardiomyocytes
+CACATAGGTATGGTTC.2	Fibroblast-like
+CACATAGGTTATTCTC.2	Erythrocytes
+CACATTTCACTCAGGC.2	Smooth muscle cells
+CACATTTCATCGGGTC.2	Capillary endothelium
+CACATTTGTACGAAAT.2	Fibroblast-like
+CACCACTAGAGTGAGA.2	Ventricular cardiomyocytes
+CACCACTCAAGGACTG.2	Fibroblast-like
+CACCACTGTAATCGTC.2	Epicardium-derived cells
+CACCACTGTCTAGTCA.2	Immune cells
+CACCACTGTTAGAACA.2	Fibroblast-like
+CACCACTTCACCCTCA.2	Epicardial cells
+CACCACTTCCAGAGGA.2	Erythrocytes
+CACCACTTCTTACCGC.2	Fibroblast-like
+CACCAGGCACAGGTTT.2	Epicardium-derived cells
+CACCAGGGTAGGGACT.2	Ventricular cardiomyocytes
+CACCAGGGTATGCTTG.2	Ventricular cardiomyocytes
+CACCAGGTCAACGAAA.2	Capillary endothelium
+CACCTTGCATATGCTG.2	Capillary endothelium
+CACCTTGCATCCCACT.2	Endothelium / pericytes / adventitia
+CACCTTGGTAGGCATG.2	Erythrocytes
+CACCTTGGTCAAAGAT.2	Capillary endothelium
+CACCTTGGTGAGTATA.2	Fibroblast-like
+CACTCCACATCGGGTC.2	Erythrocytes
+CACTCCAGTTCCACTC.2	Capillary endothelium
+CACTCCATCACCTCGT.2	Fibroblast-like
+CAGAATCAGGATGTAT.2	Ventricular cardiomyocytes
+CAGAATCCAAGTCATC.2	Ventricular cardiomyocytes
+CAGAATCTCGGACAAG.2	Fibroblast-like
+CAGAGAGGTCTCTTAT.2	Epicardium-derived cells
+CAGAGAGGTGTATGGG.2	Ventricular cardiomyocytes
+CAGATCAAGGCGATAC.2	Ventricular cardiomyocytes
+CAGATCACACTTAACG.2	Endothelium / pericytes / adventitia
+CAGATCAGTCGAATCT.2	Ventricular cardiomyocytes
+CAGATCATCACGATGT.2	Endothelium / pericytes / adventitia
+CAGATCATCTGCTTGC.2	Fibroblast-like
+CAGCAGCAGGAATCGC.2	Erythrocytes
+CAGCAGCAGGCTAGCA.2	Fibroblast-like
+CAGCAGCGTAAGGGAA.2	Ventricular cardiomyocytes
+CAGCAGCGTAGGAGTC.2	Capillary endothelium
+CAGCAGCGTCAGAATA.2	Capillary endothelium
+CAGCAGCGTCTAGGTT.2	Epicardium-derived cells
+CAGCAGCTCTTCATGT.2	Ventricular cardiomyocytes
+CAGCATAAGCGCTCCA.2	Ventricular cardiomyocytes
+CAGCATAAGGTGCTTT.2	Capillary endothelium
+CAGCATAAGTGCCATT.2	Epicardium-derived cells
+CAGCATACATGGTTGT.2	Erythrocytes
+CAGCATAGTCCATCCT.2	Fibroblast-like
+CAGCCGAAGGACTGGT.2	Endothelium / pericytes / adventitia
+CAGCCGATCGCCCTTA.2	Fibroblast-like
+CAGCCGATCGGAATCT.2	Fibroblast-like
+CAGCGACAGAGTCGGT.2	Capillary endothelium
+CAGCGACCAAGCGATG.2	Capillary endothelium
+CAGCGACCAGTATCTG.2	Capillary endothelium
+CAGCGACGTTCGTGAT.2	Capillary endothelium
+CAGCGACGTTCTGTTT.2	Ventricular cardiomyocytes
+CAGCTAAAGAGTGAGA.2	Fibroblast-like
+CAGCTAACAGCTTAAC.2	Epicardium-derived cells
+CAGCTAAGTCTTCAAG.2	Ventricular cardiomyocytes
+CAGCTAATCGCAAACT.2	Endothelium / pericytes / adventitia
+CAGCTAATCTTTAGTC.2	Fibroblast-like
+CAGCTGGAGTGAAGTT.2	Capillary endothelium
+CAGCTGGCACAACGTT.2	Ventricular cardiomyocytes
+CAGCTGGGTCACACGC.2	Ventricular cardiomyocytes
+CAGCTGGGTTAGGGTG.2	Capillary endothelium
+CAGGTGCCACCCAGTG.2	Capillary endothelium
+CAGGTGCGTTTGTTTC.2	Epicardium-derived cells
+CAGTAACCACGGCGTT.2	Capillary endothelium
+CAGTAACCATGAACCT.2	Fibroblast-like
+CAGTAACGTCCGCTGA.2	Capillary endothelium
+CAGTAACTCATGTCTT.2	Ventricular cardiomyocytes
+CAGTAACTCGTAGGAG.2	Capillary endothelium
+CAGTCCTCAGAGCCAA.2	Ventricular cardiomyocytes
+CAGTCCTGTCCGAAGA.2	Capillary endothelium
+CAGTCCTTCGTAGGTT.2	Epicardial cells
+CATATGGAGTAGGCCA.2	Fibroblast-like
+CATATGGCAATTGCTG.2	Fibroblast-like
+CATATGGCACAGGAGT.2	Fibroblast-like
+CATATGGGTTCGAATC.2	Epicardium-derived cells
+CATATTCAGAATGTGT.2	Erythrocytes
+CATATTCAGCATGGCA.2	Epicardium-derived cells
+CATATTCAGGGTGTGT.2	Endothelium / pericytes / adventitia
+CATATTCCAAATCCGT.2	Fibroblast-like
+CATATTCCAACTGCTA.2	Capillary endothelium
+CATCAAGAGTTATCGC.2	Fibroblast-like
+CATCAAGCAGTAAGAT.2	Ventricular cardiomyocytes
+CATCAAGGTCGCCATG.2	Ventricular cardiomyocytes
+CATCAAGTCATGGTCA.2	Capillary endothelium
+CATCAAGTCCCTTGCA.2	Erythrocytes
+CATCAGACAAGGACTG.2	Fibroblast-like
+CATCAGATCATTATCC.2	Ventricular cardiomyocytes
+CATCCACCACTCAGGC.2	Fibroblast-like
+CATCCACCATCAGTAC.2	Fibroblast-like
+CATCCACCATCTGGTA.2	Ventricular cardiomyocytes
+CATCCACTCCCGACTT.2	Ventricular cardiomyocytes
+CATCCACTCCGCATAA.2	Fibroblast-like
+CATCGAAAGGCCGAAT.2	Capillary endothelium
+CATCGAACACCAGGCT.2	Fibroblast-like
+CATCGAAGTATTAGCC.2	Ventricular cardiomyocytes
+CATCGAAGTTCGTTGA.2	Epicardial cells
+CATCGGGAGAATGTTG.2	Capillary endothelium
+CATCGGGTCCAAATGC.2	Epicardium-derived cells
+CATCGGGTCTTGTCAT.2	Fibroblast-like
+CATGCCTAGGAGCGTT.2	Capillary endothelium
+CATGCCTTCCCTCAGT.2	Fibroblast-like
+CATGGCGAGGTTACCT.2	Fibroblast-like
+CATGGCGCAGTCAGAG.2	Capillary endothelium
+CATGGCGCATGTTCCC.2	Endothelium / pericytes / adventitia
+CATGGCGTCCTTCAAT.2	Erythrocytes
+CATTATCAGGATGGTC.2	Capillary endothelium
+CATTATCCACAGGCCT.2	Fibroblast-like
+CATTCGCTCCGAAGAG.2	Capillary endothelium
+CCAATCCAGTTTCCTT.2	Capillary endothelium
+CCAATCCCACTGTTAG.2	Fibroblast-like
+CCAATCCTCACTTACT.2	Ventricular cardiomyocytes
+CCAATCCTCTTGTACT.2	Capillary endothelium
+CCACGGAGTCGAGTTT.2	Fibroblast-like
+CCACTACAGAGGTTGC.2	Immune cells
+CCACTACAGCCCAACC.2	Capillary endothelium
+CCACTACCAATCGGTT.2	Fibroblast-like
+CCACTACGTACCGTAT.2	Fibroblast-like
+CCACTACGTACGCACC.2	Ventricular cardiomyocytes
+CCACTACTCAAAGACA.2	Fibroblast-like
+CCAGCGACAGATGAGC.2	Epicardium-derived cells
+CCATGTCAGTACGTAA.2	Ventricular cardiomyocytes
+CCATGTCCACGGCCAT.2	Ventricular cardiomyocytes
+CCATGTCCAGCCTTTC.2	Ventricular cardiomyocytes
+CCATGTCCATCGGAAG.2	Epicardium-derived cells
+CCATGTCGTTACGTCA.2	Ventricular cardiomyocytes
+CCATTCGCACTTAACG.2	Epicardial cells
+CCATTCGTCGCCATAA.2	Immune cells
+CCCAATCGTCCGACGT.2	Capillary endothelium
+CCCAATCGTTACGACT.2	Fibroblast-like
+CCCAATCTCAACACCA.2	Erythrocytes
+CCCAATCTCAGCTCGG.2	Capillary endothelium
+CCCAGTTAGGAGTACC.2	Endothelium / pericytes / adventitia
+CCCAGTTAGTCCGGTC.2	Fibroblast-like
+CCCAGTTCACTTAACG.2	Capillary endothelium
+CCCAGTTCATAGTAAG.2	Epicardium-derived cells
+CCCAGTTTCTTGTCAT.2	Ventricular cardiomyocytes
+CCCATACAGGACACCA.2	Ventricular cardiomyocytes
+CCCATACCACACATGT.2	Capillary endothelium
+CCCATACCACGAAAGC.2	Capillary endothelium
+CCCATACCAGCTCGAC.2	Capillary endothelium
+CCCATACCATTAGGCT.2	Erythrocytes
+CCCATACTCGTGGACC.2	Fibroblast-like
+CCGGGATGTAGCGCTC.2	Epicardium-derived cells
+CCGGGATGTGGCGAAT.2	Ventricular cardiomyocytes
+CCGGTAGAGCGCCTCA.2	Capillary endothelium
+CCGGTAGAGGACACCA.2	Fibroblast-like
+CCGGTAGAGTTGCAGG.2	Ventricular cardiomyocytes
+CCGGTAGCACTTAAGC.2	Ventricular cardiomyocytes
+CCGGTAGCAGACAAGC.2	Ventricular cardiomyocytes
+CCGGTAGGTTCCGTCT.2	Fibroblast-like
+CCGGTAGTCCGCATAA.2	Epicardium-derived cells
+CCGTACTTCCAGTAGT.2	Ventricular cardiomyocytes
+CCGTACTTCTGTCTAT.2	Erythrocytes
+CCGTGGAAGGCACATG.2	Ventricular cardiomyocytes
+CCGTGGAGTGTGTGCC.2	Fibroblast-like
+CCGTGGATCGAGAGCA.2	Ventricular cardiomyocytes
+CCGTGGATCTTCAACT.2	Fibroblast-like
+CCGTTCAAGCTGCCCA.2	Ventricular cardiomyocytes
+CCGTTCACACCAACCG.2	Capillary endothelium
+CCGTTCACACGGATAG.2	Capillary endothelium
+CCGTTCACATGTAAGA.2	Ventricular cardiomyocytes
+CCGTTCATCATCGGAT.2	Fibroblast-like
+CCGTTCATCGGAGCAA.2	Endothelium / pericytes / adventitia
+CCTAAAGAGAAGGGTA.2	Capillary endothelium
+CCTAAAGGTGAGTATA.2	Capillary endothelium
+CCTAAAGTCGTAGGAG.2	Ventricular cardiomyocytes
+CCTAAAGTCGTGACAT.2	Ventricular cardiomyocytes
+CCTACACAGTGGAGAA.2	Capillary endothelium
+CCTACACCAATTCCTT.2	Ventricular cardiomyocytes
+CCTACACCATCAGTAC.2	Ventricular cardiomyocytes
+CCTACACGTGACTCAT.2	Ventricular cardiomyocytes
+CCTACCAAGGAGTACC.2	Ventricular cardiomyocytes
+CCTACCAAGTCGCCGT.2	Erythrocytes
+CCTACCACACAACGCC.2	Fibroblast-like
+CCTACCACACACGCTG.2	Immune cells
+CCTACCACACCAGCAC.2	Capillary endothelium
+CCTACCACAGATCCAT.2	Fibroblast-like
+CCTACCACATCGGAAG.2	Ventricular cardiomyocytes
+CCTACCAGTCATTAGC.2	Ventricular cardiomyocytes
+CCTACCAGTCTGCAAT.2	Epicardium-derived cells
+CCTAGCTAGCCACGTC.2	Capillary endothelium
+CCTAGCTCACATTAGC.2	Fibroblast-like
+CCTAGCTCATGAACCT.2	Erythrocytes
+CCTAGCTGTCGACTGC.2	Fibroblast-like
+CCTAGCTGTGTTTGGT.2	Ventricular cardiomyocytes
+CCTAGCTGTTCTGTTT.2	Capillary endothelium
+CCTATTAGTCATACTG.2	Ventricular cardiomyocytes
+CCTATTAGTCTCCCTA.2	Ventricular cardiomyocytes
+CCTATTATCACCGTAA.2	Capillary endothelium
+CCTATTATCTGGTGTA.2	Fibroblast-like
+CCTCAGTAGCTAGCCC.2	Fibroblast-like
+CCTCAGTAGTCTTGCA.2	Capillary endothelium
+CCTCAGTGTAAGAGGA.2	Fibroblast-like
+CCTCAGTGTCATTAGC.2	Fibroblast-like
+CCTCAGTTCCATGAAC.2	Immune cells
+CCTCAGTTCGAATGCT.2	Fibroblast-like
+CCTCAGTTCTCACATT.2	Erythrocytes
+CCTCTGAAGACGACGT.2	Ventricular cardiomyocytes
+CCTCTGAAGGACAGCT.2	Epicardial cells
+CCTCTGACAACGATCT.2	Capillary endothelium
+CCTCTGATCGGACAAG.2	Erythrocytes
+CCTCTGATCTTCGAGA.2	Fibroblast-like
+CCTTACGAGAAGGTGA.2	Epicardium-derived cells
+CCTTACGAGGAATGGA.2	Ventricular cardiomyocytes
+CCTTACGCAAGCCGTC.2	Capillary endothelium
+CCTTACGGTCAATACC.2	Fibroblast-like
+CCTTACGGTCTAAAGA.2	Endothelium / pericytes / adventitia
+CCTTACGGTTACGGAG.2	Fibroblast-like
+CCTTCCCCATCAGTAC.2	Epicardium-derived cells
+CCTTCCCCATCGATTG.2	Capillary endothelium
+CCTTCCCTCACCATAG.2	Fibroblast-like
+CCTTCGACATCACGTA.2	Ventricular cardiomyocytes
+CCTTCGACATGCGCAC.2	Fibroblast-like
+CCTTCGAGTACGAAAT.2	Capillary endothelium
+CCTTTCTAGACAATAC.2	Capillary endothelium
+CCTTTCTAGGAATCGC.2	Fibroblast-like
+CCTTTCTGTTCGTGAT.2	Fibroblast-like
+CGAACATCATCGATGT.2	Epicardium-derived cells
+CGAACATGTTGATTGC.2	Fibroblast-like
+CGAACATTCGTACGGC.2	Ventricular cardiomyocytes
+CGAATGTAGGCTATCT.2	Capillary endothelium
+CGAATGTGTGAGGCTA.2	Fibroblast-like
+CGAATGTTCCGAGCCA.2	Ventricular cardiomyocytes
+CGACCTTAGACTAAGT.2	Erythrocytes
+CGACCTTAGCCACGCT.2	Ventricular cardiomyocytes
+CGACCTTCACAACGTT.2	Capillary endothelium
+CGACCTTCAGGGATTG.2	Fibroblast-like
+CGACCTTCATTAGGCT.2	Fibroblast-like
+CGACCTTTCCGCGGTA.2	Fibroblast-like
+CGACTTCCAGATGGCA.2	Epicardial cells
+CGACTTCCATACCATG.2	Fibroblast-like
+CGACTTCCATTCTCAT.2	Fibroblast-like
+CGAGAAGAGTACGCCC.2	Epicardium-derived cells
+CGAGAAGGTGATAAGT.2	Capillary endothelium
+CGAGCACCAGGACCCT.2	Capillary endothelium
+CGAGCACTCCACGCAG.2	Ventricular cardiomyocytes
+CGAGCACTCGATAGAA.2	Epicardium-derived cells
+CGAGCACTCTGTTTGT.2	Ventricular cardiomyocytes
+CGAGCCAAGACAATAC.2	Fibroblast-like
+CGAGCCAAGATAGCAT.2	Capillary endothelium
+CGAGCCACACGAGGTA.2	Capillary endothelium
+CGAGCCATCCGTAGGC.2	Erythrocytes
+CGATCGGAGTAGTGCG.2	Capillary endothelium
+CGATCGGAGTTTAGGA.2	Fibroblast-like
+CGATCGGGTAAACCTC.2	Capillary endothelium
+CGATCGGGTATATGAG.2	Fibroblast-like
+CGATCGGGTCTCTCTG.2	Endothelium / pericytes / adventitia
+CGATGGCCAAATACAG.2	Ventricular cardiomyocytes
+CGATGGCTCCGCATCT.2	Capillary endothelium
+CGATGGCTCTTGCCGT.2	Immune cells
+CGATGTAAGATGCCTT.2	Ventricular cardiomyocytes
+CGATGTACACGACGAA.2	Fibroblast-like
+CGATGTACAGTTCCCT.2	Capillary endothelium
+CGATGTACATCGGAAG.2	Capillary endothelium
+CGATGTATCTACTCAT.2	Epicardium-derived cells
+CGATTGACAATCTGCA.2	Fibroblast-like
+CGATTGACAGAGCCAA.2	Ventricular cardiomyocytes
+CGATTGACAGGTTTCA.2	Erythrocytes
+CGATTGAGTGGTCCGT.2	Atrial cardiomyocytes
+CGATTGATCGGTCTAA.2	Fibroblast-like
+CGCCAAGCACGACGAA.2	Fibroblast-like
+CGCCAAGCATCGATGT.2	Endothelium / pericytes / adventitia
+CGCGGTAAGCAGCCTC.2	Capillary endothelium
+CGCGGTAAGCTGAACG.2	Capillary endothelium
+CGCGGTACACATCCGG.2	Capillary endothelium
+CGCGGTAGTCTCCATC.2	Fibroblast-like
+CGCGGTAGTTCGGCAC.2	Epicardial cells
+CGCGGTAGTTTGCATG.2	Erythrocytes
+CGCGGTATCTTAACCT.2	Capillary endothelium
+CGCGTTTAGACAGACC.2	Ventricular cardiomyocytes
+CGCGTTTGTGATGTGG.2	Fibroblast-like
+CGCGTTTTCAACACCA.2	Fibroblast-like
+CGCGTTTTCGTGGACC.2	Fibroblast-like
+CGCTATCAGATTACCC.2	Capillary endothelium
+CGCTATCAGGACTGGT.2	Capillary endothelium
+CGCTATCTCTCTGAGA.2	Erythrocytes
+CGCTGGAAGAAACGAG.2	Fibroblast-like
+CGCTGGACAACACCTA.2	Capillary endothelium
+CGCTGGAGTGTTTGTG.2	Epicardial cells
+CGCTGGATCCCTTGTG.2	Capillary endothelium
+CGCTTCAAGTAACCCT.2	Capillary endothelium
+CGCTTCAAGTATCTCG.2	Erythrocytes
+CGCTTCACAATCGAAA.2	Ventricular cardiomyocytes
+CGCTTCACATCCTTGC.2	Ventricular cardiomyocytes
+CGCTTCAGTAGCGCTC.2	Fibroblast-like
+CGCTTCATCCCGACTT.2	Fibroblast-like
+CGCTTCATCCTTTACA.2	Epicardium-derived cells
+CGGACACAGCAGCCTC.2	Epicardial cells
+CGGACACGTGCAACGA.2	Fibroblast-like
+CGGACGTAGTGGTCCC.2	Ventricular cardiomyocytes
+CGGACGTCACGACGAA.2	Fibroblast-like
+CGGACGTCATCGACGC.2	Ventricular cardiomyocytes
+CGGACGTGTGCACTTA.2	Capillary endothelium
+CGGACTGGTCATATCG.2	Capillary endothelium
+CGGACTGGTCTAGTCA.2	Ventricular cardiomyocytes
+CGGACTGGTGAGTATA.2	Fibroblast-like
+CGGACTGGTGTTCTTT.2	Capillary endothelium
+CGGACTGTCTATCGCC.2	Capillary endothelium
+CGGAGCTAGCGTGAGT.2	Capillary endothelium
+CGGAGCTGTAATAGCA.2	Capillary endothelium
+CGGAGCTGTTCGCGAC.2	Ventricular cardiomyocytes
+CGGAGCTTCCCTTGCA.2	Ventricular cardiomyocytes
+CGGAGCTTCTCCGGTT.2	Capillary endothelium
+CGGAGTCAGATGGGTC.2	Fibroblast-like
+CGGAGTCAGCGAGAAA.2	Fibroblast-like
+CGGAGTCAGGACAGCT.2	Fibroblast-like
+CGGAGTCCATTCCTGC.2	Capillary endothelium
+CGGAGTCGTATTAGCC.2	Capillary endothelium
+CGGCTAGCAGATAATG.2	Epicardial cells
+CGGCTAGTCCACTGGG.2	Erythrocytes
+CGGCTAGTCGCCGTGA.2	Ventricular cardiomyocytes
+CGGGTCACACCAGGCT.2	Ventricular cardiomyocytes
+CGGGTCATCGAATCCA.2	Fibroblast-like
+CGGGTCATCTTCAACT.2	Ventricular cardiomyocytes
+CGGTTAAAGTGGTCCC.2	Fibroblast-like
+CGGTTAACATCGGAAG.2	Capillary endothelium
+CGGTTAATCAAGGTAA.2	Ventricular cardiomyocytes
+CGGTTAATCTGCCAGG.2	Fibroblast-like
+CGTAGCGAGAGGTACC.2	Capillary endothelium
+CGTAGCGAGCACCGCT.2	Ventricular cardiomyocytes
+CGTAGCGCATACAGCT.2	Epicardial cells
+CGTAGCGTCACTCTTA.2	Ventricular cardiomyocytes
+CGTAGCGTCTGCTGTC.2	Ventricular cardiomyocytes
+CGTAGCGTCTGGTATG.2	Ventricular cardiomyocytes
+CGTAGGCCAGACAGGT.2	Capillary endothelium
+CGTAGGCGTCGACTGC.2	Ventricular cardiomyocytes
+CGTAGGCGTCTTCAAG.2	Fibroblast-like
+CGTAGGCGTCTTGCGG.2	Fibroblast-like
+CGTAGGCGTGTTGGGA.2	Erythrocytes
+CGTCACTCAGATCTGT.2	Immune cells
+CGTCAGGAGTGCTGCC.2	Fibroblast-like
+CGTCAGGCAAGCCTAT.2	Fibroblast-like
+CGTCAGGCAATCCGAT.2	Capillary endothelium
+CGTCAGGGTAAGTGGC.2	Fibroblast-like
+CGTCAGGTCGGCGCAT.2	Capillary endothelium
+CGTCAGGTCGGCTACG.2	Capillary endothelium
+CGTCCATAGACTTGAA.2	Fibroblast-like
+CGTCCATAGCGCTCCA.2	Fibroblast-like
+CGTCCATTCAGCTTAG.2	Erythrocytes
+CGTCCATTCGGAATCT.2	Capillary endothelium
+CGTCCATTCGTGGTCG.2	Erythrocytes
+CGTCCATTCTCGGACG.2	Capillary endothelium
+CGTCTACCACGCATCG.2	Ventricular cardiomyocytes
+CGTCTACCACTATCTT.2	Fibroblast-like
+CGTCTACCACTCGACG.2	Fibroblast-like
+CGTCTACTCACCGTAA.2	Fibroblast-like
+CGTCTACTCTAACTGG.2	Ventricular cardiomyocytes
+CGTGAGCAGATGTTAG.2	Ventricular cardiomyocytes
+CGTGAGCCACGGCCAT.2	Ventricular cardiomyocytes
+CGTGAGCGTCCATCCT.2	Ventricular cardiomyocytes
+CGTGAGCGTGGGTATG.2	Erythrocytes
+CGTGTAAAGACATAAC.2	Fibroblast-like
+CGTGTAAAGCGTGAGT.2	Fibroblast-like
+CGTGTAAAGTGTCTCA.2	Ventricular cardiomyocytes
+CGTGTAATCATCATTC.2	Fibroblast-like
+CGTGTAATCCAGTAGT.2	Fibroblast-like
+CGTGTCTTCTGAGTGT.2	Fibroblast-like
+CGTTCTGAGCTGATAA.2	Endothelium / pericytes / adventitia
+CGTTCTGCACCATGTA.2	Fibroblast-like
+CGTTCTGGTTGTCTTT.2	Fibroblast-like
+CGTTCTGTCCAGAAGG.2	Ventricular cardiomyocytes
+CGTTCTGTCCCTTGCA.2	Ventricular cardiomyocytes
+CGTTGGGAGATGTTAG.2	Ventricular cardiomyocytes
+CGTTGGGCACCTTGTC.2	Ventricular cardiomyocytes
+CGTTGGGTCTTATCTG.2	Ventricular cardiomyocytes
+CTAACTTGTCACCCAG.2	Capillary endothelium
+CTAACTTGTTCCGGCA.2	Erythrocytes
+CTAACTTTCTAACCGA.2	Fibroblast-like
+CTAAGACCAGATCGGA.2	Capillary endothelium
+CTAAGACCATGGTCAT.2	Fibroblast-like
+CTAATGGCAGTCGTGC.2	Ventricular cardiomyocytes
+CTAATGGCATAAGACA.2	Capillary endothelium
+CTAATGGGTACCGCTG.2	Smooth muscle cells
+CTAATGGGTCCGAACC.2	Fibroblast-like
+CTACACCCACGTAAGG.2	Ventricular cardiomyocytes
+CTACACCCAGCCACCA.2	Epicardium-derived cells
+CTACACCTCTCTTATG.2	Ventricular cardiomyocytes
+CTACACCTCTGCTGTC.2	Capillary endothelium
+CTACATTTCACCCTCA.2	Fibroblast-like
+CTACATTTCGTTGACA.2	Ventricular cardiomyocytes
+CTACCCAGTACGAAAT.2	Capillary endothelium
+CTACCCAGTGTCAATC.2	Ventricular cardiomyocytes
+CTACCCATCCCAACGG.2	Capillary endothelium
+CTACCCATCTTGTATC.2	Epicardium-derived cells
+CTACGTCAGACAGGCT.2	Fibroblast-like
+CTACGTCAGTGGTAAT.2	Epicardium-derived cells
+CTACGTCCAATGGACG.2	Ventricular cardiomyocytes
+CTACGTCCACAGACAG.2	Fibroblast-like
+CTACGTCCATCACCCT.2	Ventricular cardiomyocytes
+CTACGTCGTATCTGCA.2	Epicardial cells
+CTACGTCGTGACCAAG.2	Ventricular cardiomyocytes
+CTACGTCTCTCTAAGG.2	Epicardium-derived cells
+CTAGAGTGTCAACTGT.2	Fibroblast-like
+CTAGAGTTCCAGATCA.2	Fibroblast-like
+CTAGCCTGTATTCTCT.2	Capillary endothelium
+CTAGCCTTCGAATGCT.2	Epicardium-derived cells
+CTAGCCTTCTGTTTGT.2	Capillary endothelium
+CTAGTGAAGCCACGCT.2	Ventricular cardiomyocytes
+CTAGTGAAGTGTTAGA.2	Epicardium-derived cells
+CTAGTGACACTAGTAC.2	Epicardium-derived cells
+CTAGTGAGTAGCGCTC.2	Epicardium-derived cells
+CTAGTGATCATCACCC.2	Ventricular cardiomyocytes
+CTCACACCAAGAGGCT.2	Capillary endothelium
+CTCACACTCCAGAGGA.2	Fibroblast-like
+CTCAGAAAGTGCGATG.2	Capillary endothelium
+CTCAGAACAGATCTGT.2	Fibroblast-like
+CTCAGAATCTATGTGG.2	Fibroblast-like
+CTCATTAAGTAAGTAC.2	Immune cells
+CTCATTACAACACCTA.2	Fibroblast-like
+CTCATTAGTGTGCGTC.2	Epicardium-derived cells
+CTCCTAGCACCAGATT.2	Capillary endothelium
+CTCGAAAAGAGACGAA.2	Capillary endothelium
+CTCGAAACACTTACGA.2	Capillary endothelium
+CTCGAAACATAGTAAG.2	Capillary endothelium
+CTCGAGGAGCTATGCT.2	Fibroblast-like
+CTCGAGGCACGGCGTT.2	Fibroblast-like
+CTCGAGGGTAGCGTCC.2	Epicardium-derived cells
+CTCGAGGGTCTCGTTC.2	Ventricular cardiomyocytes
+CTCGGAGAGTCGTACT.2	Epicardium-derived cells
+CTCGGGAAGGTGTGGT.2	Capillary endothelium
+CTCGGGACATAGTAAG.2	Epicardium-derived cells
+CTCGGGATCAACACCA.2	Capillary endothelium
+CTCGGGATCAACTCTT.2	Erythrocytes
+CTCGGGATCACATACG.2	Ventricular cardiomyocytes
+CTCGGGATCTACTCAT.2	Capillary endothelium
+CTCGTACAGCAACGGT.2	Capillary endothelium
+CTCGTACTCTTCAACT.2	Ventricular cardiomyocytes
+CTCGTCACAATGGATA.2	Fibroblast-like
+CTCGTCACACGGTAGA.2	Ventricular cardiomyocytes
+CTCTAATAGCTCCTCT.2	Epicardium-derived cells
+CTCTACGGTCTAACGT.2	Ventricular cardiomyocytes
+CTCTACGTCAAGAAGT.2	Capillary endothelium
+CTCTGGTCAACGATGG.2	Fibroblast-like
+CTCTGGTGTACCTACA.2	Capillary endothelium
+CTCTGGTTCGCTTGTC.2	Ventricular cardiomyocytes
+CTGAAACAGCACCGCT.2	Fibroblast-like
+CTGAAACAGCCAGGAT.2	Epicardium-derived cells
+CTGAAACAGGCGTACA.2	Ventricular cardiomyocytes
+CTGAAACCAAAGTGCG.2	Capillary endothelium
+CTGAAACCATGAGCGA.2	Fibroblast-like
+CTGAAACTCGATGAGG.2	Capillary endothelium
+CTGAAGTAGTACATGA.2	Ventricular cardiomyocytes
+CTGAAGTCAGCGTTCG.2	Fibroblast-like
+CTGAAGTGTTCCTCCA.2	Ventricular cardiomyocytes
+CTGAAGTTCCATGCTC.2	Fibroblast-like
+CTGAAGTTCCTGCTTG.2	Capillary endothelium
+CTGATAGAGACGCAAC.2	Capillary endothelium
+CTGATAGAGATGTCGG.2	Capillary endothelium
+CTGATAGGTATAATGG.2	Fibroblast-like
+CTGATAGTCTTACCTA.2	Epicardium-derived cells
+CTGATCCAGTGAACGC.2	Fibroblast-like
+CTGATCCCACAGAGGT.2	Epicardium-derived cells
+CTGATCCCATTACCTT.2	Ventricular cardiomyocytes
+CTGATCCGTAAACGCG.2	Ventricular cardiomyocytes
+CTGATCCGTAAGTTCC.2	Endothelium / pericytes / adventitia
+CTGATCCGTAGTGAAT.2	Capillary endothelium
+CTGCCTAAGCACCGTC.2	Fibroblast-like
+CTGCCTAGTGCACTTA.2	Fibroblast-like
+CTGCCTATCTTGTTTG.2	Ventricular cardiomyocytes
+CTGCTGTCACGGCCAT.2	Fibroblast-like
+CTGCTGTCACGTCAGC.2	Epicardial cells
+CTGCTGTGTAAGCACG.2	Ventricular cardiomyocytes
+CTGCTGTTCACGCATA.2	Erythrocytes
+CTGGTCTAGCAGGCTA.2	Epicardium-derived cells
+CTGGTCTCACCTTGTC.2	Capillary endothelium
+CTGGTCTCATCGATGT.2	Ventricular cardiomyocytes
+CTGGTCTGTTCAGGCC.2	Fibroblast-like
+CTGGTCTGTTTGACAC.2	Erythrocytes
+CTGTGCTAGACGCAAC.2	Ventricular cardiomyocytes
+CTGTGCTGTCTGATTG.2	Fibroblast-like
+CTGTGCTTCTTAGCCC.2	Fibroblast-like
+CTGTTTAAGGACTGGT.2	Epicardium-derived cells
+CTGTTTACAGCTTAAC.2	Fibroblast-like
+CTGTTTAGTCCGAGTC.2	Ventricular cardiomyocytes
+CTTAACTCACAGCGTC.2	Ventricular cardiomyocytes
+CTTAACTCACATGTGT.2	Ventricular cardiomyocytes
+CTTAACTCATTTCAGG.2	Ventricular cardiomyocytes
+CTTAACTGTACTTCTT.2	Atrial cardiomyocytes
+CTTAACTGTCTCAACA.2	Fibroblast-like
+CTTAACTTCGCCAAAT.2	Epicardium-derived cells
+CTTAACTTCGGTGTTA.2	Epicardium-derived cells
+CTTACCGAGAGTAAGG.2	Ventricular cardiomyocytes
+CTTACCGCACGGACAA.2	Ventricular cardiomyocytes
+CTTACCGGTGAAGGCT.2	Ventricular cardiomyocytes
+CTTACCGTCGTTTAGG.2	Ventricular cardiomyocytes
+CTTAGGAAGTGACTCT.2	Fibroblast-like
+CTTAGGACACTAAGTC.2	Ventricular cardiomyocytes
+CTTAGGAGTCACTTCC.2	Capillary endothelium
+CTTAGGAGTCTTGTCC.2	Ventricular cardiomyocytes
+CTTAGGATCTTATCTG.2	Fibroblast-like
+CTTCTCTCAAAGTGCG.2	Endothelium / pericytes / adventitia
+CTTCTCTCATCGTCGG.2	Erythrocytes
+CTTGGCTAGCTCAACT.2	Capillary endothelium
+CTTGGCTAGTGCCAGA.2	Immune cells
+CTTGGCTCACTAAGTC.2	Capillary endothelium
+CTTGGCTGTATTAGCC.2	Ventricular cardiomyocytes
+CTTGGCTTCCAAGTAC.2	Capillary endothelium
+CTTTGCGAGGGCTTGA.2	Ventricular cardiomyocytes
+CTTTGCGCACTACAGT.2	Fibroblast-like
+CTTTGCGGTTTCCACC.2	Fibroblast-like
+GAAACTCAGCTGAACG.2	Capillary endothelium
+GAAACTCAGGATGCGT.2	Epicardium-derived cells
+GAAACTCGTCATTAGC.2	Ventricular cardiomyocytes
+GAAACTCGTCCGAACC.2	Fibroblast-like
+GAAATGAGTCACAAGG.2	Fibroblast-like
+GAACATCCAGGCAGTA.2	Capillary endothelium
+GAACCTAAGACAGAGA.2	Epicardium-derived cells
+GAACCTAAGAGAACAG.2	Fibroblast-like
+GAACCTAAGGAGTTTA.2	Fibroblast-like
+GAACCTAGTCAGATAA.2	Epicardium-derived cells
+GAACCTATCACTGGGC.2	Fibroblast-like
+GAACCTATCATGGTCA.2	Fibroblast-like
+GAACCTATCCTACAGA.2	Fibroblast-like
+GAACGGAAGAAGGGTA.2	Endothelium / pericytes / adventitia
+GAACGGAGTAACGTTC.2	Fibroblast-like
+GAACGGATCATGTAGC.2	Erythrocytes
+GAAGCAGAGTCAAGGC.2	Ventricular cardiomyocytes
+GAAGCAGGTTACAGAA.2	Fibroblast-like
+GAATAAGCATGCAATC.2	Fibroblast-like
+GAATAAGGTAATTGGA.2	Endothelium / pericytes / adventitia
+GAATAAGGTGTGAAAT.2	Fibroblast-like
+GAATAAGGTTTGACAC.2	Erythrocytes
+GAATAAGTCACTATTC.2	Fibroblast-like
+GAATAAGTCTGCTGCT.2	Ventricular cardiomyocytes
+GAATGAAAGCCCAACC.2	Ventricular cardiomyocytes
+GAATGAAGTTTGACAC.2	Ventricular cardiomyocytes
+GACACGCTCTTGCATT.2	Capillary endothelium
+GACAGAGTCGTTGACA.2	Fibroblast-like
+GACCAATAGAGTGACC.2	Ventricular cardiomyocytes
+GACCAATGTATAAACG.2	Fibroblast-like
+GACCAATGTCATATCG.2	Atrial cardiomyocytes
+GACCTGGAGCGCTCCA.2	Erythrocytes
+GACCTGGAGTACGCGA.2	Ventricular cardiomyocytes
+GACCTGGAGTACGTTC.2	Epicardium-derived cells
+GACCTGGGTCAGAATA.2	Capillary endothelium
+GACCTGGGTTGACGTT.2	Ventricular cardiomyocytes
+GACCTGGTCTTTACAC.2	Capillary endothelium
+GACGCGTAGGTAGCTG.2	Ventricular cardiomyocytes
+GACGCGTCAGCAGTTT.2	Capillary endothelium
+GACGCGTGTTTACTCT.2	Epicardium-derived cells
+GACGGCTAGATCCTGT.2	Fibroblast-like
+GACGGCTCATCGTCGG.2	Fibroblast-like
+GACGGCTGTCAGTGGA.2	Erythrocytes
+GACGGCTTCAGGATCT.2	Fibroblast-like
+GACGGCTTCCATGAGT.2	Capillary endothelium
+GACGTGCAGAGTACCG.2	Fibroblast-like
+GACGTGCCAGTCAGAG.2	Ventricular cardiomyocytes
+GACGTGCGTTGGACCC.2	Ventricular cardiomyocytes
+GACGTGCTCCTAGTGA.2	Fibroblast-like
+GACGTTAAGGCAGGTT.2	Capillary endothelium
+GACGTTAAGGTAAACT.2	Ventricular cardiomyocytes
+GACGTTAAGGTGGGTT.2	Capillary endothelium
+GACGTTACACGAAATA.2	Epicardium-derived cells
+GACGTTACACTTAACG.2	Ventricular cardiomyocytes
+GACGTTACATGATCCA.2	Ventricular cardiomyocytes
+GACGTTATCTTAGCCC.2	Ventricular cardiomyocytes
+GACTAACAGAGCCTAG.2	Ventricular cardiomyocytes
+GACTAACGTGTTGAGG.2	Fibroblast-like
+GACTACAAGGGCTTGA.2	Capillary endothelium
+GACTACACAGATAATG.2	Capillary endothelium
+GACTACACATGGATGG.2	Smooth muscle cells
+GACTACAGTCGTTGTA.2	Epicardium-derived cells
+GACTACATCTGTTTGT.2	Capillary endothelium
+GACTACATCTTACCTA.2	Ventricular cardiomyocytes
+GACTGCGAGACACGAC.2	Ventricular cardiomyocytes
+GACTGCGAGCCACCTG.2	Ventricular cardiomyocytes
+GACTGCGCAAACCCAT.2	Erythrocytes
+GACTGCGCACGCCAGT.2	Epicardium-derived cells
+GACTGCGGTAGCTCCG.2	Ventricular cardiomyocytes
+GACTGCGTCGAGAGCA.2	Fibroblast-like
+GAGCAGAAGGCGACAT.2	Fibroblast-like
+GAGCAGACAATGGAGC.2	Fibroblast-like
+GAGCAGACACCCATGG.2	Epicardium-derived cells
+GAGCAGAGTCATTAGC.2	Epicardium-derived cells
+GAGCAGAGTTCGGGCT.2	Ventricular cardiomyocytes
+GAGCAGATCGGTGTCG.2	Fibroblast-like
+GAGGTGAAGTCGTACT.2	Capillary endothelium
+GAGGTGACAAACCTAC.2	Ventricular cardiomyocytes
+GAGGTGACAGTTAACC.2	Fibroblast-like
+GAGGTGATCACAGGCC.2	Capillary endothelium
+GAGGTGATCCGGCACA.2	Endothelium / pericytes / adventitia
+GAGTCCGCAGGGTATG.2	Capillary endothelium
+GAGTCCGGTTAGTGGG.2	Fibroblast-like
+GATCAGTCAAGGTGTG.2	Ventricular cardiomyocytes
+GATCAGTCAGCCTTTC.2	Fibroblast-like
+GATCAGTCATCCGGGT.2	Fibroblast-like
+GATCAGTGTAAGTGTA.2	Ventricular cardiomyocytes
+GATCAGTGTCGCATAT.2	Capillary endothelium
+GATCGATAGGATGGTC.2	Fibroblast-like
+GATCGATCACATCCAA.2	Ventricular cardiomyocytes
+GATCGCGGTCTTCGTC.2	Erythrocytes
+GATCGCGGTGTCGCTG.2	Endothelium / pericytes / adventitia
+GATCGCGTCACATGCA.2	Immune cells
+GATCGTAAGGGATCTG.2	Ventricular cardiomyocytes
+GATCGTACAGCTATTG.2	Fibroblast-like
+GATCGTAGTAACGACG.2	Capillary endothelium
+GATCGTAGTCTTTCAT.2	Ventricular cardiomyocytes
+GATCGTAGTTCCGGCA.2	Fibroblast-like
+GATCTAGCACAGCGTC.2	Epicardium-derived cells
+GATCTAGGTAACGCGA.2	Ventricular cardiomyocytes
+GATCTAGGTTGTGGCC.2	Endothelium / pericytes / adventitia
+GATCTAGTCTCAACTT.2	Epicardial cells
+GATGAAACAGTGAGTG.2	Fibroblast-like
+GATGAAATCAGCTTAG.2	Fibroblast-like
+GATGAAATCCTTCAAT.2	Fibroblast-like
+GATGAGGAGGTCATCT.2	Epicardium-derived cells
+GATGAGGCACGTCTCT.2	Endothelium / pericytes / adventitia
+GATGAGGGTCGGCACT.2	Endothelium / pericytes / adventitia
+GATGAGGGTTCGGCAC.2	Capillary endothelium
+GATGCTAAGCGGCTTC.2	Erythrocytes
+GATGCTAAGGATGGAA.2	Capillary endothelium
+GATGCTAAGGCAGGTT.2	Fibroblast-like
+GATGCTACAGGTCTCG.2	Capillary endothelium
+GATGCTACATGCATGT.2	Endothelium / pericytes / adventitia
+GATGCTAGTATTCGTG.2	Fibroblast-like
+GATTCAGAGTCACGCC.2	Fibroblast-like
+GATTCAGGTCCTGCTT.2	Capillary endothelium
+GATTCAGGTCTTCAAG.2	Fibroblast-like
+GATTCAGGTTGTCTTT.2	Epicardium-derived cells
+GATTCAGTCCAACCAA.2	Endothelium / pericytes / adventitia
+GCAAACTCAAGCTGAG.2	Fibroblast-like
+GCAAACTCAAGTTGTC.2	Capillary endothelium
+GCAAACTCATCACAAC.2	Endothelium / pericytes / adventitia
+GCAAACTGTCAGAATA.2	Erythrocytes
+GCAAACTTCGTCTGCT.2	Erythrocytes
+GCAATCAGTCCCGACA.2	Endothelium / pericytes / adventitia
+GCACATACAAGCGAGT.2	Capillary endothelium
+GCACATACATACAGCT.2	Erythrocytes
+GCACATAGTAGGCATG.2	Fibroblast-like
+GCACATAGTGGTCCGT.2	Fibroblast-like
+GCACATATCACAACGT.2	Fibroblast-like
+GCACTCTAGCAGGCTA.2	Capillary endothelium
+GCACTCTCAGCGAACA.2	Ventricular cardiomyocytes
+GCACTCTCATGCATGT.2	Fibroblast-like
+GCACTCTTCATCGGAT.2	Fibroblast-like
+GCACTCTTCATTATCC.2	Ventricular cardiomyocytes
+GCACTCTTCCATGAGT.2	Ventricular cardiomyocytes
+GCAGCCAAGTTACGGG.2	Capillary endothelium
+GCAGCCAGTGCCTGGT.2	Erythrocytes
+GCAGTTAAGCGAGAAA.2	Endothelium / pericytes / adventitia
+GCAGTTAAGGTAGCCA.2	Ventricular cardiomyocytes
+GCAGTTAAGTGATCGG.2	Fibroblast-like
+GCAGTTAAGTGTTTGC.2	Capillary endothelium
+GCAGTTACATTAACCG.2	Capillary endothelium
+GCAGTTAGTATCGCAT.2	Capillary endothelium
+GCAGTTAGTGCAACTT.2	Fibroblast-like
+GCAGTTATCGGCTACG.2	Ventricular cardiomyocytes
+GCAGTTATCTGGTGTA.2	Ventricular cardiomyocytes
+GCATACACAATCTACG.2	Epicardium-derived cells
+GCATACAGTCAGCTAT.2	Fibroblast-like
+GCATACAGTGTCTGAT.2	Fibroblast-like
+GCATGATAGCCAGTTT.2	Fibroblast-like
+GCATGATAGGGTGTGT.2	Capillary endothelium
+GCATGATCACCCAGTG.2	Capillary endothelium
+GCATGATGTACTCAAC.2	Ventricular cardiomyocytes
+GCATGATTCTCACATT.2	Capillary endothelium
+GCATGCGAGTCACGCC.2	Capillary endothelium
+GCATGCGCAGCCAATT.2	Fibroblast-like
+GCATGCGTCACCCGAG.2	Endothelium / pericytes / adventitia
+GCATGCGTCCTTTCGG.2	Ventricular cardiomyocytes
+GCATGTAAGCACGCCT.2	Endothelium / pericytes / adventitia
+GCATGTAAGCCAACAG.2	Ventricular cardiomyocytes
+GCATGTACAAGTTGTC.2	Ventricular cardiomyocytes
+GCATGTACACAGACAG.2	Ventricular cardiomyocytes
+GCATGTACACATCTTT.2	Epicardium-derived cells
+GCATGTAGTCGCTTCT.2	Ventricular cardiomyocytes
+GCATGTATCCTTAATC.2	Fibroblast-like
+GCATGTATCGGTTAAC.2	Epicardial cells
+GCCAAATCACTTCTGC.2	Epicardium-derived cells
+GCCAAATTCTACTCAT.2	Capillary endothelium
+GCCTCTAAGCGTCAAG.2	Immune cells
+GCCTCTACATGCGCAC.2	Ventricular cardiomyocytes
+GCCTCTAGTTACGCGC.2	Erythrocytes
+GCCTCTATCATGTGGT.2	Epicardium-derived cells
+GCCTCTATCTACGAGT.2	Fibroblast-like
+GCCTCTATCTTTACGT.2	Fibroblast-like
+GCGACCAAGGAATGGA.2	Ventricular cardiomyocytes
+GCGACCACACCTCGGA.2	Epicardium-derived cells
+GCGACCACAGCTGGCT.2	Ventricular cardiomyocytes
+GCGACCACATCTCCCA.2	Ventricular cardiomyocytes
+GCGACCAGTCTCTTAT.2	Ventricular cardiomyocytes
+GCGACCAGTTCTGTTT.2	Fibroblast-like
+GCGACCATCAATCACG.2	Capillary endothelium
+GCGAGAAAGACAAAGG.2	Fibroblast-like
+GCGAGAACAAGGCTCC.2	Capillary endothelium
+GCGAGAACACCCTATC.2	Capillary endothelium
+GCGAGAAGTAGGCTGA.2	Ventricular cardiomyocytes
+GCGCAACAGCAATCTC.2	Ventricular cardiomyocytes
+GCGCAACGTGTGCCTG.2	Ventricular cardiomyocytes
+GCGCAACTCATAACCG.2	Fibroblast-like
+GCGCAACTCTACTCAT.2	Fibroblast-like
+GCGCAGTAGATAGGAG.2	Fibroblast-like
+GCGCAGTAGGGTGTGT.2	Endothelium / pericytes / adventitia
+GCGCAGTCAAGGACAC.2	Fibroblast-like
+GCGCAGTCACCCAGTG.2	Fibroblast-like
+GCGCAGTCAGCGTCCA.2	Ventricular cardiomyocytes
+GCGCAGTCATGCCTAA.2	Capillary endothelium
+GCGCAGTGTCGCATCG.2	Capillary endothelium
+GCGCAGTGTTCCCTTG.2	Ventricular cardiomyocytes
+GCGCCAAAGATCACGG.2	Ventricular cardiomyocytes
+GCGCCAAAGCCACGTC.2	Erythrocytes
+GCGCCAACAGGATTGG.2	Erythrocytes
+GCGCCAAGTATTACCG.2	Ventricular cardiomyocytes
+GCGCCAAGTGGTAACG.2	Erythrocytes
+GCGCCAATCTAACCGA.2	Ventricular cardiomyocytes
+GCGCCAATCTCATTCA.2	Capillary endothelium
+GCGCCAATCTGATACG.2	Fibroblast-like
+GCGCGATCACCAGCAC.2	Ventricular cardiomyocytes
+GCGCGATGTAGAGCTG.2	Fibroblast-like
+GCGCGATTCAGCTCGG.2	Fibroblast-like
+GCGGGTTAGTGATCGG.2	Epicardium-derived cells
+GCGGGTTAGTTCGCGC.2	Erythrocytes
+GCGGGTTTCCCTTGTG.2	Epicardium-derived cells
+GCGGGTTTCTGCTGCT.2	Ventricular cardiomyocytes
+GCTCCTAGTGATAAAC.2	Epicardium-derived cells
+GCTCCTAGTTCCGTCT.2	Erythrocytes
+GCTCCTATCGGCCGAT.2	Ventricular cardiomyocytes
+GCTCCTATCTCGATGA.2	Capillary endothelium
+GCTCTGTAGATGCCTT.2	Capillary endothelium
+GCTCTGTAGTCGAGTG.2	Epicardium-derived cells
+GCTCTGTGTCTAGCGC.2	Ventricular cardiomyocytes
+GCTCTGTGTCTCACCT.2	Capillary endothelium
+GCTCTGTTCGCAGGCT.2	Fibroblast-like
+GCTCTGTTCGGAAACG.2	Capillary endothelium
+GCTGCAGAGACCCACC.2	Ventricular cardiomyocytes
+GCTGCAGAGCACACAG.2	Capillary endothelium
+GCTGCAGCACAGCCCA.2	Capillary endothelium
+GCTGCAGCAGACGTAG.2	Capillary endothelium
+GCTGCGAAGCATCATC.2	Epicardium-derived cells
+GCTGCGAAGGCTCTTA.2	Ventricular cardiomyocytes
+GCTGCGACAGCGATCC.2	Fibroblast-like
+GCTGCGACATAAAGGT.2	Ventricular cardiomyocytes
+GCTGCGAGTACTCTCC.2	Capillary endothelium
+GCTGCGAGTAGTAGTA.2	Epicardium-derived cells
+GCTGCGAGTCGTTGTA.2	Erythrocytes
+GCTGCGATCACGAAGG.2	Fibroblast-like
+GCTGCTTCAACTGCTA.2	Fibroblast-like
+GCTGCTTCAATCTACG.2	Ventricular cardiomyocytes
+GCTGCTTGTTGATTCG.2	Fibroblast-like
+GCTGCTTTCTGTTTGT.2	Endothelium / pericytes / adventitia
+GCTGGGTTCCGTTGTC.2	Capillary endothelium
+GCTTCCATCAACCAAC.2	Ventricular cardiomyocytes
+GCTTGAAGTAGCAAAT.2	Ventricular cardiomyocytes
+GCTTGAAGTTCGTGAT.2	Fibroblast-like
+GGAAAGCCAGACGCTC.2	Fibroblast-like
+GGAAAGCCAGGCTCAC.2	Ventricular cardiomyocytes
+GGAACTTAGTCTCGGC.2	Capillary endothelium
+GGAACTTCACGAAGCA.2	Capillary endothelium
+GGAACTTTCCCAACGG.2	Erythrocytes
+GGAATAACAATCAGAA.2	Endothelium / pericytes / adventitia
+GGAATAAGTAGCGTCC.2	Erythrocytes
+GGAATAAGTCGGCATC.2	Epicardium-derived cells
+GGACAAGAGAGGACGG.2	Ventricular cardiomyocytes
+GGACAAGCAATGTAAG.2	Epicardium-derived cells
+GGACAAGCAGTCGATT.2	Epicardium-derived cells
+GGACAAGTCGGAATCT.2	Capillary endothelium
+GGACAGAAGCCTTGAT.2	Ventricular cardiomyocytes
+GGACAGAAGGACACCA.2	Ventricular cardiomyocytes
+GGACAGACAGCTCCGA.2	Fibroblast-like
+GGACATTAGACAAGCC.2	Fibroblast-like
+GGACATTAGCTGCGAA.2	Fibroblast-like
+GGACATTAGGCATGGT.2	Ventricular cardiomyocytes
+GGACATTCAGGAACGT.2	Ventricular cardiomyocytes
+GGACGTCAGGCTACGA.2	Ventricular cardiomyocytes
+GGACGTCGTCCGCTGA.2	Erythrocytes
+GGACGTCTCAAGAAGT.2	Fibroblast-like
+GGAGCAAAGCACGCCT.2	Capillary endothelium
+GGAGCAACACATCTTT.2	Fibroblast-like
+GGAGCAAGTCGATTGT.2	Fibroblast-like
+GGAGCAATCCTGCAGG.2	Erythrocytes
+GGAGCAATCGATCCCT.2	Fibroblast-like
+GGAGCAATCTTGTACT.2	Fibroblast-like
+GGATGTTAGATGCCAG.2	Ventricular cardiomyocytes
+GGATGTTGTAACGCGA.2	Fibroblast-like
+GGATGTTGTTGCGTTA.2	Epicardium-derived cells
+GGATGTTTCCCTTGTG.2	Ventricular cardiomyocytes
+GGATTACAGCGTTTAC.2	Fibroblast-like
+GGATTACCAGCTGCTG.2	Fibroblast-like
+GGATTACCATGGTTGT.2	Capillary endothelium
+GGATTACGTAGCGTCC.2	Ventricular cardiomyocytes
+GGATTACGTCCTCTTG.2	Fibroblast-like
+GGCAATTGTTCTCATT.2	Ventricular cardiomyocytes
+GGCAATTTCACTCCTG.2	Erythrocytes
+GGCAATTTCTTCTGGC.2	Fibroblast-like
+GGCCGATAGCGTGAAC.2	Epicardial cells
+GGCCGATAGGAACTGC.2	Capillary endothelium
+GGCCGATCAGCTGTAT.2	Fibroblast-like
+GGCCGATGTACGAAAT.2	Fibroblast-like
+GGCCGATTCCCTAATT.2	Fibroblast-like
+GGCCGATTCCTTAATC.2	Ventricular cardiomyocytes
+GGCGACTTCCTAGTGA.2	Erythrocytes
+GGCGACTTCGAATCCA.2	Capillary endothelium
+GGCGTGTAGCGTGAGT.2	Epicardium-derived cells
+GGCGTGTAGGACAGAA.2	Epicardial cells
+GGCGTGTCAAGCGCTC.2	Capillary endothelium
+GGCGTGTCACACCGAC.2	Fibroblast-like
+GGCGTGTGTTATCCGA.2	Fibroblast-like
+GGCGTGTTCATTGCCC.2	Ventricular cardiomyocytes
+GGCTCGACACAAGTAA.2	Fibroblast-like
+GGCTCGACATTACCTT.2	Fibroblast-like
+GGCTCGAGTTTACTCT.2	Erythrocytes
+GGCTCGAGTTTGTTGG.2	Epicardium-derived cells
+GGCTCGATCCGTACAA.2	Epicardium-derived cells
+GGCTCGATCTCTAAGG.2	Ventricular cardiomyocytes
+GGCTGGTCATGCCACG.2	Fibroblast-like
+GGCTGGTGTGGTGTAG.2	Fibroblast-like
+GGCTGGTTCAACGGGA.2	Ventricular cardiomyocytes
+GGCTGGTTCCTCGCAT.2	Epicardium-derived cells
+GGGAATGTCGCGTTTC.2	Epicardium-derived cells
+GGGAATGTCGTAGATC.2	Ventricular cardiomyocytes
+GGGACCTAGGTGACCA.2	Endothelium / pericytes / adventitia
+GGGACCTAGGTTACCT.2	Erythrocytes
+GGGACCTCACACCGCA.2	Fibroblast-like
+GGGACCTCACATGGGA.2	Fibroblast-like
+GGGACCTGTTACCAGT.2	Endothelium / pericytes / adventitia
+GGGACCTTCATAGCAC.2	Immune cells
+GGGACCTTCCGAACGC.2	Ventricular cardiomyocytes
+GGGACCTTCTGCGGCA.2	Erythrocytes
+GGGACCTTCTGGCGTG.2	Ventricular cardiomyocytes
+GGGAGATAGATCGATA.2	Epicardium-derived cells
+GGGAGATAGATGCCTT.2	Epicardium-derived cells
+GGGAGATCAAGTACCT.2	Ventricular cardiomyocytes
+GGGAGATCATTTGCTT.2	Ventricular cardiomyocytes
+GGGAGATGTCTCCACT.2	Capillary endothelium
+GGGATGACACGAAAGC.2	Capillary endothelium
+GGGATGACACTTCTGC.2	Erythrocytes
+GGGATGAGTACCGGCT.2	Epicardium-derived cells
+GGGATGAGTGCAACTT.2	Endothelium / pericytes / adventitia
+GGGCACTAGCTACCTA.2	Fibroblast-like
+GGGCACTCAGGTGGAT.2	Capillary endothelium
+GGGCACTCATGGTCAT.2	Epicardium-derived cells
+GGGCACTGTGCACGAA.2	Epicardium-derived cells
+GGGCACTTCAACGGCC.2	Endothelium / pericytes / adventitia
+GGGCATCCATCCCATC.2	Epicardial cells
+GGGCATCTCGATCCCT.2	Fibroblast-like
+GGGCATCTCTGCCAGG.2	Fibroblast-like
+GGGTCTGAGACGCTTT.2	Erythrocytes
+GGGTCTGAGCATCATC.2	Fibroblast-like
+GGGTCTGCACAACTGT.2	Epicardial cells
+GGGTCTGGTAGGCATG.2	Fibroblast-like
+GGGTCTGGTCGCCATG.2	Epicardium-derived cells
+GGGTTGCAGTAGGTGC.2	Fibroblast-like
+GGGTTGCTCTGGCGAC.2	Ventricular cardiomyocytes
+GGTATTGAGAGTACAT.2	Ventricular cardiomyocytes
+GGTATTGTCATCGATG.2	Capillary endothelium
+GGTGAAGAGATTACCC.2	Immune cells
+GGTGAAGAGCCTATGT.2	Capillary endothelium
+GGTGAAGCACAGGAGT.2	Ventricular cardiomyocytes
+GGTGAAGTCACTTATC.2	Endothelium / pericytes / adventitia
+GGTGAAGTCTGGGCCA.2	Fibroblast-like
+GGTGCGTGTACCGTTA.2	Endothelium / pericytes / adventitia
+GGTGTTAAGATCTGCT.2	Fibroblast-like
+GGTGTTAGTCATACTG.2	Ventricular cardiomyocytes
+GGTGTTAGTGACAAAT.2	Capillary endothelium
+GGTGTTATCATTTGGG.2	Epicardium-derived cells
+GTAACGTCACACTGCG.2	Fibroblast-like
+GTAACGTCATGACATC.2	Ventricular cardiomyocytes
+GTAACGTGTCATGCAT.2	Epicardium-derived cells
+GTAACGTTCTGCGGCA.2	Fibroblast-like
+GTAACTGCACGAGGTA.2	Fibroblast-like
+GTAACTGGTCGAAAGC.2	Capillary endothelium
+GTAACTGGTGGACGAT.2	Ventricular cardiomyocytes
+GTAACTGTCTTACCTA.2	Capillary endothelium
+GTACGTAAGCTGTCTA.2	Epicardium-derived cells
+GTACGTACAGCGATCC.2	Erythrocytes
+GTACGTACATCCCACT.2	Fibroblast-like
+GTACGTATCTGGTGTA.2	Fibroblast-like
+GTACTCCAGGAATCGC.2	Fibroblast-like
+GTACTCCGTAGCGCTC.2	Capillary endothelium
+GTACTCCGTGTGTGCC.2	Ventricular cardiomyocytes
+GTACTCCTCTTGACGA.2	Capillary endothelium
+GTACTTTAGAAACGCC.2	Fibroblast-like
+GTACTTTCAAGTAGTA.2	Endothelium / pericytes / adventitia
+GTACTTTCACCAGGTC.2	Ventricular cardiomyocytes
+GTACTTTCAGGGCATA.2	Fibroblast-like
+GTACTTTGTGTCGCTG.2	Ventricular cardiomyocytes
+GTAGGCCGTAGGCATG.2	Capillary endothelium
+GTAGGCCTCGCTGATA.2	Ventricular cardiomyocytes
+GTAGTCAAGATGAGAG.2	Endothelium / pericytes / adventitia
+GTAGTCAAGGAGTACC.2	Ventricular cardiomyocytes
+GTAGTCACACCTCGTT.2	Capillary endothelium
+GTAGTCAGTCGTGGCT.2	Fibroblast-like
+GTAGTCATCATCGCTC.2	Fibroblast-like
+GTATCTTAGAGCTGCA.2	Ventricular cardiomyocytes
+GTATCTTCAAATCCGT.2	Erythrocytes
+GTATCTTCAGCTGGCT.2	Ventricular cardiomyocytes
+GTATCTTTCGGTTCGG.2	Ventricular cardiomyocytes
+GTATTCTCACGTCAGC.2	Immune cells
+GTATTCTCATAAAGGT.2	Ventricular cardiomyocytes
+GTCAAGTAGTCATGCT.2	Fibroblast-like
+GTCAAGTCACCTTGTC.2	Epicardium-derived cells
+GTCACAACAATGTAAG.2	Ventricular cardiomyocytes
+GTCACAACACACCGAC.2	Epicardium-derived cells
+GTCACAATCATAAAGG.2	Capillary endothelium
+GTCACAATCTCGGACG.2	Epicardium-derived cells
+GTCACGGAGACAAGCC.2	Epicardium-derived cells
+GTCACGGCAAGCTGTT.2	Epicardial cells
+GTCACGGTCGGGAGTA.2	Fibroblast-like
+GTCATTTAGACGCACA.2	Ventricular cardiomyocytes
+GTCATTTCAATCGGTT.2	Capillary endothelium
+GTCATTTCACTAGTAC.2	Fibroblast-like
+GTCCTCAGTTTGGCGC.2	Ventricular cardiomyocytes
+GTCGGGTCATGACGGA.2	Endothelium / pericytes / adventitia
+GTCGGGTGTTCGGCAC.2	Capillary endothelium
+GTCGTAACACCGAAAG.2	Fibroblast-like
+GTCGTAAGTACAGTGG.2	Fibroblast-like
+GTCGTAAGTGGTCCGT.2	Capillary endothelium
+GTCGTAATCCTTGACC.2	Erythrocytes
+GTCGTAATCTACTATC.2	Capillary endothelium
+GTCTCGTCATCACAAC.2	Fibroblast-like
+GTCTCGTGTAAGTTCC.2	Ventricular cardiomyocytes
+GTCTCGTGTTCCGGCA.2	Epicardium-derived cells
+GTCTCGTTCCGCATCT.2	Capillary endothelium
+GTCTTCGAGGTACTCT.2	Ventricular cardiomyocytes
+GTCTTCGGTAAAGTCA.2	Epicardium-derived cells
+GTCTTCGGTCGTCTTC.2	Fibroblast-like
+GTCTTCGGTGCTGTAT.2	Capillary endothelium
+GTCTTCGTCATTCACT.2	Capillary endothelium
+GTGAAGGCAAGAAGAG.2	Ventricular cardiomyocytes
+GTGAAGGCATCGGGTC.2	Fibroblast-like
+GTGAAGGGTTATGTGC.2	Erythrocytes
+GTGAAGGTCAGAGGTG.2	Fibroblast-like
+GTGAAGGTCGTGACAT.2	Fibroblast-like
+GTGCAGCCATCCTTGC.2	Epicardium-derived cells
+GTGCATAAGCCCTAAT.2	Fibroblast-like
+GTGCATAAGGGTGTGT.2	Immune cells
+GTGCATAAGTAGGCCA.2	Ventricular cardiomyocytes
+GTGCATACAGATGAGC.2	Ventricular cardiomyocytes
+GTGCATAGTCTGATTG.2	Erythrocytes
+GTGCATATCCTAGGGC.2	Fibroblast-like
+GTGCGGTCACCGAAAG.2	Ventricular cardiomyocytes
+GTGCGGTGTACCATCA.2	Capillary endothelium
+GTGCGGTTCGTAGATC.2	Ventricular cardiomyocytes
+GTGCTTCAGCATGGCA.2	Immune cells
+GTGGGTCCACTTCGAA.2	Ventricular cardiomyocytes
+GTGGGTCGTACTTAGC.2	Fibroblast-like
+GTGTGCGGTAGCGCTC.2	Fibroblast-like
+GTGTGCGTCGCAAGCC.2	Capillary endothelium
+GTGTGCGTCTTGGGTA.2	Fibroblast-like
+GTGTTAGAGACTAGGC.2	Capillary endothelium
+GTGTTAGAGTTCGATC.2	Immune cells
+GTGTTAGTCGGAAACG.2	Ventricular cardiomyocytes
+GTTAAGCTCCCAACGG.2	Fibroblast-like
+GTTACAGAGCTGCGAA.2	Capillary endothelium
+GTTACAGGTCTTGCGG.2	Capillary endothelium
+GTTACAGGTGAACCTT.2	Capillary endothelium
+GTTACAGGTGCCTGGT.2	Fibroblast-like
+GTTACAGTCGGCGCTA.2	Ventricular cardiomyocytes
+GTTCATTAGTTAGCGG.2	Erythrocytes
+GTTCATTCAAGAGTCG.2	Fibroblast-like
+GTTCGGGAGGACAGCT.2	Ventricular cardiomyocytes
+GTTCGGGCAATCACAC.2	Fibroblast-like
+GTTCGGGCACATTAGC.2	Ventricular cardiomyocytes
+GTTCTCGGTGCTGTAT.2	Ventricular cardiomyocytes
+GTTCTCGTCTACTATC.2	Capillary endothelium
+GTTTCTAAGCTATGCT.2	Capillary endothelium
+GTTTCTAAGCTCTCGG.2	Ventricular cardiomyocytes
+GTTTCTAAGTCGTTTG.2	Ventricular cardiomyocytes
+GTTTCTACAGAAGCAC.2	Ventricular cardiomyocytes
+GTTTCTACAGGATCGA.2	Ventricular cardiomyocytes
+GTTTCTAGTACCATCA.2	Erythrocytes
+TAAACCGAGGAGTAGA.2	Ventricular cardiomyocytes
+TAAACCGCATGGTCTA.2	Capillary endothelium
+TAAACCGGTAGAAGGA.2	Erythrocytes
+TAAACCGGTCGGATCC.2	Erythrocytes
+TAAGAGACAGCTGGCT.2	Epicardial cells
+TAAGAGAGTTCAGACT.2	Fibroblast-like
+TAAGCGTAGGAATGGA.2	Atrial cardiomyocytes
+TAAGCGTTCATAACCG.2	Fibroblast-like
+TAAGCGTTCCTATGTT.2	Immune cells
+TAAGCGTTCGCCATAA.2	Capillary endothelium
+TAAGTGCGTGACAAAT.2	Ventricular cardiomyocytes
+TAAGTGCTCTGGTGTA.2	Fibroblast-like
+TACACGACAATAAGCA.2	Fibroblast-like
+TACACGACAGCTCGAC.2	Ventricular cardiomyocytes
+TACACGACATCCCATC.2	Capillary endothelium
+TACACGACATCGTCGG.2	Erythrocytes
+TACACGACATGGGACA.2	Epicardium-derived cells
+TACACGATCAGCGATT.2	Ventricular cardiomyocytes
+TACAGTGAGTCCCACG.2	Endothelium / pericytes / adventitia
+TACAGTGGTCAGCTAT.2	Capillary endothelium
+TACCTATAGTGGACGT.2	Fibroblast-like
+TACCTATTCTGAGTGT.2	Ventricular cardiomyocytes
+TACCTTACAAGCCGCT.2	Ventricular cardiomyocytes
+TACCTTACAATTGCTG.2	Epicardium-derived cells
+TACCTTACATTCTCAT.2	Ventricular cardiomyocytes
+TACCTTATCCGCGGTA.2	Ventricular cardiomyocytes
+TACGGATCACTCTGTC.2	Fibroblast-like
+TACGGATCACTTAACG.2	Capillary endothelium
+TACGGATCAGCCAATT.2	Ventricular cardiomyocytes
+TACGGATGTGCAGGTA.2	Erythrocytes
+TACGGATGTGTGGTTT.2	Endothelium / pericytes / adventitia
+TACGGATTCGTACGGC.2	Ventricular cardiomyocytes
+TACGGGCAGATGCGAC.2	Ventricular cardiomyocytes
+TACGGGCAGCTCAACT.2	Capillary endothelium
+TACGGGCCACGGCTAC.2	Ventricular cardiomyocytes
+TACGGGCCATTGTGCA.2	Ventricular cardiomyocytes
+TACGGTACAGCTCGCA.2	Fibroblast-like
+TACTCATAGGTACTCT.2	Ventricular cardiomyocytes
+TACTCATGTTGGTAAA.2	Erythrocytes
+TACTCATTCGGCGCTA.2	Capillary endothelium
+TACTCGCAGAGAACAG.2	Capillary endothelium
+TACTCGCAGATCGGGT.2	Fibroblast-like
+TACTCGCAGCCCAACC.2	Capillary endothelium
+TACTCGCGTGTTTGTG.2	Ventricular cardiomyocytes
+TACTTACTCCCAACGG.2	Capillary endothelium
+TACTTGTCACAGACAG.2	Ventricular cardiomyocytes
+TACTTGTCACTCGACG.2	Erythrocytes
+TACTTGTCACTTAACG.2	Erythrocytes
+TACTTGTCATATGAGA.2	Atrial cardiomyocytes
+TACTTGTCATTCCTGC.2	Fibroblast-like
+TACTTGTGTAAATACG.2	Capillary endothelium
+TACTTGTGTATTAGCC.2	Erythrocytes
+TACTTGTTCCAGGGCT.2	Ventricular cardiomyocytes
+TAGACCAGTCTAGAGG.2	Ventricular cardiomyocytes
+TAGACCATCTCCAGGG.2	Capillary endothelium
+TAGAGCTAGACGCAAC.2	Endothelium / pericytes / adventitia
+TAGAGCTAGTCTTGCA.2	Fibroblast-like
+TAGAGCTGTCGGCTCA.2	Epicardial cells
+TAGAGCTGTGTGTGCC.2	Epicardium-derived cells
+TAGAGCTGTTCGTTGA.2	Epicardium-derived cells
+TAGAGCTTCAGCCTAA.2	Ventricular cardiomyocytes
+TAGAGCTTCATCGGAT.2	Erythrocytes
+TAGCCGGAGAGAGCTC.2	Capillary endothelium
+TAGCCGGAGGTTCCTA.2	Capillary endothelium
+TAGCCGGAGTGGGTTG.2	Ventricular cardiomyocytes
+TAGCCGGAGTTGAGAT.2	Ventricular cardiomyocytes
+TAGCCGGCAGGTTTCA.2	Fibroblast-like
+TAGCCGGGTTTAAGCC.2	Endothelium / pericytes / adventitia
+TAGCCGGTCAGTTCGA.2	Fibroblast-like
+TAGCCGGTCTTCTGGC.2	Epicardial cells
+TAGGCATAGTAGATGT.2	Ventricular cardiomyocytes
+TAGGCATCATGAAGTA.2	Fibroblast-like
+TAGGCATGTGGCGAAT.2	Endothelium / pericytes / adventitia
+TAGGCATGTGTATGGG.2	Ventricular cardiomyocytes
+TAGGCATGTTAAGACA.2	Ventricular cardiomyocytes
+TAGTGGTCACAGAGGT.2	Epicardium-derived cells
+TAGTGGTGTAAGGGAA.2	Capillary endothelium
+TAGTGGTTCAACCAAC.2	Fibroblast-like
+TAGTGGTTCAGAGGTG.2	Erythrocytes
+TAGTGGTTCTGCTTGC.2	Fibroblast-like
+TAGTTGGAGTGTTGAA.2	Fibroblast-like
+TAGTTGGTCTGACCTC.2	Ventricular cardiomyocytes
+TATCAGGAGAAGGGTA.2	Epicardium-derived cells
+TATCAGGGTAGCGCTC.2	Ventricular cardiomyocytes
+TATCAGGGTTCCACTC.2	Epicardial cells
+TATCAGGTCTCGTATT.2	Erythrocytes
+TATCTCAAGAAGGCCT.2	Capillary endothelium
+TATCTCAAGTCGTTTG.2	Capillary endothelium
+TATCTCAGTTCTGGTA.2	Ventricular cardiomyocytes
+TATCTCATCCTGTAGA.2	Fibroblast-like
+TATCTCATCGTCTGCT.2	Fibroblast-like
+TATGCCCAGAACTGTA.2	Ventricular cardiomyocytes
+TATGCCCAGAATTGTG.2	Fibroblast-like
+TATGCCCAGCAGATCG.2	Ventricular cardiomyocytes
+TATGCCCAGGCGCTCT.2	Epicardium-derived cells
+TATGCCCAGTGTCCCG.2	Erythrocytes
+TATGCCCAGTGTCTCA.2	Fibroblast-like
+TATGCCCGTATTCTCT.2	Capillary endothelium
+TATGCCCGTGTGACGA.2	Capillary endothelium
+TATTACCCACAACGTT.2	Epicardium-derived cells
+TATTACCGTCAAAGCG.2	Fibroblast-like
+TATTACCGTCTCCATC.2	Atrial cardiomyocytes
+TATTACCTCGACGGAA.2	Fibroblast-like
+TCAATCTCACCTTGTC.2	Fibroblast-like
+TCAATCTTCCACGAAT.2	Fibroblast-like
+TCACAAGAGTGGACGT.2	Ventricular cardiomyocytes
+TCACAAGGTAGAAGGA.2	Ventricular cardiomyocytes
+TCACAAGTCGATGAGG.2	Ventricular cardiomyocytes
+TCACAAGTCTCCCTGA.2	Capillary endothelium
+TCACGAACAATGAAAC.2	Fibroblast-like
+TCACGAACACGTTGGC.2	Ventricular cardiomyocytes
+TCAGATGAGAGGACGG.2	Erythrocytes
+TCAGATGGTCACTTCC.2	Capillary endothelium
+TCAGATGTCACCGGGT.2	Fibroblast-like
+TCAGCAAAGGTGACCA.2	Ventricular cardiomyocytes
+TCAGCTCAGACACGAC.2	Ventricular cardiomyocytes
+TCAGCTCCAAACAACA.2	Fibroblast-like
+TCAGGATAGAACTCGG.2	Capillary endothelium
+TCAGGATCACCCATGG.2	Fibroblast-like
+TCAGGATGTGACTCAT.2	Ventricular cardiomyocytes
+TCAGGATTCACGACTA.2	Capillary endothelium
+TCAGGATTCGTACGGC.2	Fibroblast-like
+TCAGGATTCTTTAGTC.2	Capillary endothelium
+TCAGGTAAGCAATATG.2	Ventricular cardiomyocytes
+TCAGGTAGTAGAGTGC.2	Fibroblast-like
+TCAGGTAGTGAGTATA.2	Capillary endothelium
+TCAGGTATCTAGCACA.2	Ventricular cardiomyocytes
+TCATTACAGGCCCGTT.2	Fibroblast-like
+TCATTACCACGACGAA.2	Ventricular cardiomyocytes
+TCATTACCATAGTAAG.2	Ventricular cardiomyocytes
+TCATTACCATATGCTG.2	Ventricular cardiomyocytes
+TCATTACTCCGAGCCA.2	Endothelium / pericytes / adventitia
+TCATTTGAGGGCACTA.2	Ventricular cardiomyocytes
+TCATTTGCAAGTAATG.2	Fibroblast-like
+TCATTTGGTAAACACA.2	Epicardium-derived cells
+TCATTTGGTCGAATCT.2	Capillary endothelium
+TCCACACAGAGTACCG.2	Epicardium-derived cells
+TCCACACCAAGTCTGT.2	Capillary endothelium
+TCCACACCAATAACGA.2	Capillary endothelium
+TCCACACCACGTAAGG.2	Ventricular cardiomyocytes
+TCCACACCATCCAACA.2	Fibroblast-like
+TCCACACCATGCCCGA.2	Ventricular cardiomyocytes
+TCCACACGTGCAGGTA.2	Fibroblast-like
+TCCACACGTTCCAACA.2	Ventricular cardiomyocytes
+TCCACACTCCGCAAGC.2	Fibroblast-like
+TCCCGATTCTCCGGTT.2	Capillary endothelium
+TCGAGGCAGACTAAGT.2	Erythrocytes
+TCGAGGCAGCAGACTG.2	Capillary endothelium
+TCGAGGCAGCCCAATT.2	Capillary endothelium
+TCGAGGCCACATGACT.2	Fibroblast-like
+TCGAGGCCAGCTGCAC.2	Erythrocytes
+TCGAGGCTCGTAGGTT.2	Epicardial cells
+TCGAGGCTCTACCAGA.2	Ventricular cardiomyocytes
+TCGAGGCTCTCATTCA.2	Epicardium-derived cells
+TCGCGAGAGTTACCCA.2	Erythrocytes
+TCGCGAGTCATCTGTT.2	Epicardium-derived cells
+TCGCGTTCAGCATACT.2	Ventricular cardiomyocytes
+TCGCGTTGTATTCTCT.2	Immune cells
+TCGCGTTTCCGGGTGT.2	Capillary endothelium
+TCGGGACAGAGGGATA.2	Endothelium / pericytes / adventitia
+TCGGGACAGTACGACG.2	Ventricular cardiomyocytes
+TCGGGACCAGAGCCAA.2	Capillary endothelium
+TCGGGACGTGCAACTT.2	Fibroblast-like
+TCGGGACGTTCTGTTT.2	Fibroblast-like
+TCGGTAAAGGCTCATT.2	Fibroblast-like
+TCGGTAAAGGTCATCT.2	Erythrocytes
+TCGGTAACACTACAGT.2	Epicardial cells
+TCGGTAACACTCAGGC.2	Erythrocytes
+TCGGTAACATTAGGCT.2	Fibroblast-like
+TCGGTAAGTCATCCCT.2	Ventricular cardiomyocytes
+TCGGTAATCCACTCCA.2	Capillary endothelium
+TCGGTAATCTCAAGTG.2	Ventricular cardiomyocytes
+TCGTACCAGCTAGGCA.2	Ventricular cardiomyocytes
+TCGTACCAGGTGATAT.2	Erythrocytes
+TCGTACCCACCGAAAG.2	Capillary endothelium
+TCGTACCTCCCTCAGT.2	Endothelium / pericytes / adventitia
+TCGTAGAAGCGCTCCA.2	Fibroblast-like
+TCGTAGAAGGCATGGT.2	Fibroblast-like
+TCGTAGATCAGTTTGG.2	Ventricular cardiomyocytes
+TCGTAGATCGCAAGCC.2	Fibroblast-like
+TCTATTGAGCGAAGGG.2	Capillary endothelium
+TCTATTGCACTATCTT.2	Erythrocytes
+TCTATTGCAGGGTTAG.2	Fibroblast-like
+TCTCATAAGAGGTAGA.2	Fibroblast-like
+TCTCATAGTTCGTTGA.2	Ventricular cardiomyocytes
+TCTCATATCCACGACG.2	Erythrocytes
+TCTCATATCCATGCTC.2	Capillary endothelium
+TCTCTAAAGAGGTTAT.2	Ventricular cardiomyocytes
+TCTCTAAAGCTCTCGG.2	Capillary endothelium
+TCTCTAAAGGAGTTGC.2	Fibroblast-like
+TCTCTAAAGGATGGTC.2	Immune cells
+TCTCTAACAATCACAC.2	Fibroblast-like
+TCTCTAACATATACCG.2	Fibroblast-like
+TCTCTAATCCAGTATG.2	Fibroblast-like
+TCTCTAATCGTCTGCT.2	Epicardial cells
+TCTGAGACAAGCGAGT.2	Erythrocytes
+TCTGAGACAATGGAGC.2	Fibroblast-like
+TCTGAGACATATACGC.2	Fibroblast-like
+TCTGAGAGTCCGAGTC.2	Fibroblast-like
+TCTGAGAGTGAGGGTT.2	Capillary endothelium
+TCTGAGATCAGCACAT.2	Epicardium-derived cells
+TCTGAGATCTGCGTAA.2	Erythrocytes
+TCTGGAAGTTAGTGGG.2	Epicardium-derived cells
+TCTTCGGAGCCACCTG.2	Fibroblast-like
+TCTTCGGAGCTGGAAC.2	Capillary endothelium
+TCTTCGGCAATCACAC.2	Endothelium / pericytes / adventitia
+TCTTCGGTCCAAACTG.2	Fibroblast-like
+TCTTTCCAGACGCAAC.2	Capillary endothelium
+TCTTTCCTCATTATCC.2	Fibroblast-like
+TGAAAGAAGTGTGGCA.2	Capillary endothelium
+TGAAAGACACGAAAGC.2	Fibroblast-like
+TGAAAGATCGAACGGA.2	Epicardium-derived cells
+TGAAAGATCGCCAAAT.2	Ventricular cardiomyocytes
+TGAAAGATCTCAACTT.2	Ventricular cardiomyocytes
+TGACAACCAGTCGTGC.2	Ventricular cardiomyocytes
+TGACAACCATGAAGTA.2	Endothelium / pericytes / adventitia
+TGACGGCTCCCATTTA.2	Capillary endothelium
+TGACGGCTCGGTTCGG.2	Erythrocytes
+TGACTTTAGTCCATAC.2	Capillary endothelium
+TGACTTTGTACTCAAC.2	Capillary endothelium
+TGACTTTTCAAACAAG.2	Ventricular cardiomyocytes
+TGACTTTTCCCTTGTG.2	Capillary endothelium
+TGACTTTTCTCCTATA.2	Capillary endothelium
+TGAGAGGAGGCATGGT.2	Ventricular cardiomyocytes
+TGAGAGGGTCAACTGT.2	Ventricular cardiomyocytes
+TGAGCATCACCAGGTC.2	Capillary endothelium
+TGAGCATCATTATCTC.2	Ventricular cardiomyocytes
+TGAGCCGAGAGTAATC.2	Capillary endothelium
+TGAGCCGAGGATGGAA.2	Ventricular cardiomyocytes
+TGAGCCGTCACCATAG.2	Fibroblast-like
+TGAGCCGTCCTGTAGA.2	Capillary endothelium
+TGAGCCGTCTTGTACT.2	Capillary endothelium
+TGATTTCAGGGAAACA.2	Capillary endothelium
+TGATTTCCACGCCAGT.2	Capillary endothelium
+TGATTTCGTCTTGCGG.2	Endothelium / pericytes / adventitia
+TGATTTCGTTCCACGG.2	Ventricular cardiomyocytes
+TGATTTCTCGCAAGCC.2	Capillary endothelium
+TGCACCTAGAAACCAT.2	Capillary endothelium
+TGCACCTAGTACGACG.2	Epicardium-derived cells
+TGCACCTGTGCAACGA.2	Erythrocytes
+TGCACCTTCACCCTCA.2	Ventricular cardiomyocytes
+TGCACCTTCAGTACGT.2	Epicardium-derived cells
+TGCACCTTCCCTGACT.2	Ventricular cardiomyocytes
+TGCACCTTCCTCGCAT.2	Ventricular cardiomyocytes
+TGCCAAAAGCGTGAGT.2	Ventricular cardiomyocytes
+TGCCCATAGACTAGAT.2	Fibroblast-like
+TGCCCATAGGTGACCA.2	Fibroblast-like
+TGCCCATCATGCAATC.2	Fibroblast-like
+TGCCCATGTTGCGCAC.2	Endothelium / pericytes / adventitia
+TGCCCTAAGATATGCA.2	Fibroblast-like
+TGCCCTAAGATGTGGC.2	Ventricular cardiomyocytes
+TGCCCTAAGCGTGAGT.2	Capillary endothelium
+TGCCCTAGTACCTACA.2	Ventricular cardiomyocytes
+TGCGCAGCATGTCCTC.2	Erythrocytes
+TGCGCAGGTGCTGTAT.2	Fibroblast-like
+TGCGCAGTCGGATGTT.2	Erythrocytes
+TGCGCAGTCTCCAACC.2	Erythrocytes
+TGCGGGTAGATCTGCT.2	Erythrocytes
+TGCGGGTTCCCTCTTT.2	Ventricular cardiomyocytes
+TGCGTGGAGGTGATTA.2	Fibroblast-like
+TGCGTGGGTACATCCA.2	Endothelium / pericytes / adventitia
+TGCGTGGGTAGGAGTC.2	Fibroblast-like
+TGCGTGGTCGAACTGT.2	Ventricular cardiomyocytes
+TGCGTGGTCGCGGATC.2	Immune cells
+TGCTACCAGCTGAAAT.2	Epicardium-derived cells
+TGCTACCCACTGTCGG.2	Fibroblast-like
+TGCTACCCAGTATCTG.2	Capillary endothelium
+TGCTACCGTTCAACCA.2	Epicardium-derived cells
+TGCTACCTCCGCGCAA.2	Endothelium / pericytes / adventitia
+TGCTGCTAGAGGTACC.2	Endothelium / pericytes / adventitia
+TGCTGCTAGGAATTAC.2	Capillary endothelium
+TGCTGCTAGGCTAGAC.2	Ventricular cardiomyocytes
+TGCTGCTCAAACAACA.2	Capillary endothelium
+TGCTGCTCAGCTTCGG.2	Capillary endothelium
+TGCTGCTGTACAGTGG.2	Epicardium-derived cells
+TGCTGCTTCGGAGGTA.2	Erythrocytes
+TGGACGCCAAGCGTAG.2	Fibroblast-like
+TGGACGCGTGCATCTA.2	Ventricular cardiomyocytes
+TGGACGCTCAGGCCCA.2	Erythrocytes
+TGGACGCTCAGTCAGT.2	Erythrocytes
+TGGCCAGCACAGGTTT.2	Fibroblast-like
+TGGCCAGTCATGTAGC.2	Epicardium-derived cells
+TGGCGCACATGGGACA.2	Ventricular cardiomyocytes
+TGGCGCAGTCGGGTCT.2	Ventricular cardiomyocytes
+TGGCGCAGTCTCTTAT.2	Fibroblast-like
+TGGCGCAGTTCGTCTC.2	Endothelium / pericytes / adventitia
+TGGCTGGAGCTAGTGG.2	Epicardium-derived cells
+TGGCTGGCATGCGCAC.2	Capillary endothelium
+TGGCTGGGTACGACCC.2	Capillary endothelium
+TGGCTGGGTTAAAGTG.2	Capillary endothelium
+TGGCTGGTCACGCATA.2	Endothelium / pericytes / adventitia
+TGGCTGGTCCAGTATG.2	Erythrocytes
+TGGCTGGTCCTAGTGA.2	Fibroblast-like
+TGGCTGGTCTCGTATT.2	Fibroblast-like
+TGGGAAGAGCTCCTCT.2	Capillary endothelium
+TGGGAAGCAGTTCCCT.2	Ventricular cardiomyocytes
+TGGGAAGGTGTAACGG.2	Ventricular cardiomyocytes
+TGGGAAGTCCGTACAA.2	Erythrocytes
+TGGGAAGTCGCGATCG.2	Fibroblast-like
+TGGGCGTAGGTTACCT.2	Ventricular cardiomyocytes
+TGGGCGTGTGCTGTAT.2	Fibroblast-like
+TGGGCGTTCCAGTATG.2	Capillary endothelium
+TGGTTAGGTGAGGGTT.2	Capillary endothelium
+TGGTTAGTCGCACTCT.2	Fibroblast-like
+TGGTTAGTCTGCGACG.2	Erythrocytes
+TGTATTCCATCCGCGA.2	Fibroblast-like
+TGTATTCCATTTCAGG.2	Erythrocytes
+TGTATTCGTGTAACGG.2	Fibroblast-like
+TGTCCCAAGCTATGCT.2	Fibroblast-like
+TGTCCCACAGCCAATT.2	Fibroblast-like
+TGTCCCACATATACCG.2	Endothelium / pericytes / adventitia
+TGTCCCATCCCAAGTA.2	Erythrocytes
+TGTGGTACAAGCGCTC.2	Capillary endothelium
+TGTGGTACACGACGAA.2	Capillary endothelium
+TGTGGTACATTGGCGC.2	Capillary endothelium
+TGTGGTATCCGCTGTT.2	Ventricular cardiomyocytes
+TGTGTTTAGAAAGTGG.2	Epicardium-derived cells
+TGTGTTTAGAACAACT.2	Ventricular cardiomyocytes
+TGTGTTTAGGATTCGG.2	Ventricular cardiomyocytes
+TGTGTTTCAGTCTTCC.2	Epicardium-derived cells
+TTAACTCAGACTGTAA.2	Ventricular cardiomyocytes
+TTAACTCAGTGTACCT.2	Ventricular cardiomyocytes
+TTAACTCCAAGTCTGT.2	Capillary endothelium
+TTAGGACAGGTGATTA.2	Fibroblast-like
+TTAGGACCACAGACTT.2	Fibroblast-like
+TTAGGACCACAGGCCT.2	Epicardium-derived cells
+TTAGGACGTCTAAACC.2	Ventricular cardiomyocytes
+TTAGGACGTTACGTCA.2	Fibroblast-like
+TTAGGACGTTCCACGG.2	Endothelium / pericytes / adventitia
+TTAGGCAAGTGCAAGC.2	Capillary endothelium
+TTAGGCACATTCCTCG.2	Ventricular cardiomyocytes
+TTAGTTCAGGAGTCTG.2	Fibroblast-like
+TTAGTTCAGTGCGTGA.2	Epicardial cells
+TTAGTTCCAAAGAATC.2	Erythrocytes
+TTAGTTCCAAAGGAAG.2	Ventricular cardiomyocytes
+TTAGTTCCAATAAGCA.2	Capillary endothelium
+TTAGTTCCATCACCCT.2	Erythrocytes
+TTAGTTCGTAACGTTC.2	Fibroblast-like
+TTAGTTCGTCCGAGTC.2	Fibroblast-like
+TTAGTTCGTCCGCTGA.2	Epicardial cells
+TTAGTTCTCAACGGCC.2	Ventricular cardiomyocytes
+TTAGTTCTCAGCGATT.2	Ventricular cardiomyocytes
+TTATGCTCAAGGTTTC.2	Capillary endothelium
+TTATGCTGTGACGCCT.2	Capillary endothelium
+TTATGCTGTTACGCGC.2	Capillary endothelium
+TTATGCTTCGTAGGAG.2	Epicardium-derived cells
+TTATGCTTCGTGACAT.2	Capillary endothelium
+TTCCCAGCAGCCACCA.2	Capillary endothelium
+TTCCCAGCATTACGAC.2	Fibroblast-like
+TTCCCAGCATTGTGCA.2	Capillary endothelium
+TTCCCAGTCACCAGGC.2	Ventricular cardiomyocytes
+TTCGAAGAGTGAACAT.2	Fibroblast-like
+TTCGAAGCATATGAGA.2	Ventricular cardiomyocytes
+TTCGAAGGTAAGGGAA.2	Capillary endothelium
+TTCGAAGGTTTAGGAA.2	Fibroblast-like
+TTCGGTCGTAGAAGGA.2	Ventricular cardiomyocytes
+TTCGGTCGTTACGACT.2	Fibroblast-like
+TTCGGTCTCCACTGGG.2	Capillary endothelium
+TTCTACAAGACAAAGG.2	Capillary endothelium
+TTCTACAAGGCTATCT.2	Capillary endothelium
+TTCTACAAGGTGATTA.2	Capillary endothelium
+TTCTACACAGTATAAG.2	Epicardial cells
+TTCTACATCATGTGGT.2	Fibroblast-like
+TTCTCAACACCAACCG.2	Epicardium-derived cells
+TTCTCAATCCCTAACC.2	Capillary endothelium
+TTCTCAATCTGCGACG.2	Ventricular cardiomyocytes
+TTCTCCTCATGTTGAC.2	Fibroblast-like
+TTCTCCTTCGGCTTGG.2	Capillary endothelium
+TTCTCCTTCTCAAGTG.2	Ventricular cardiomyocytes
+TTCTTAGAGTGGTCCC.2	Capillary endothelium
+TTCTTAGGTCCAGTTA.2	Fibroblast-like
+TTCTTAGTCAAGAAGT.2	Ventricular cardiomyocytes
+TTGAACGCACGAGAGT.2	Erythrocytes
+TTGAACGCAGGCAGTA.2	Erythrocytes
+TTGAACGCAGGGAGAG.2	Epicardium-derived cells
+TTGAACGTCGCCAGCA.2	Fibroblast-like
+TTGACTTAGCAATATG.2	Fibroblast-like
+TTGACTTCAGCGTCCA.2	Epicardium-derived cells
+TTGACTTGTTATTCTC.2	Fibroblast-like
+TTGACTTGTTTGTTTC.2	Epicardium-derived cells
+TTGACTTTCTACCTGC.2	Ventricular cardiomyocytes
+TTGACTTTCTTAGCCC.2	Epicardium-derived cells
+TTGCCGTCAACACCCG.2	Erythrocytes
+TTGCCGTCAATACGCT.2	Capillary endothelium
+TTGCCGTGTTCTCATT.2	Capillary endothelium
+TTGCGTCGTACAGCAG.2	Capillary endothelium
+TTGCGTCTCCTCTAGC.2	Fibroblast-like
+TTGCGTCTCGGTTCGG.2	Epicardium-derived cells
+TTGGAACGTGTGACGA.2	Epicardium-derived cells
+TTGGAACTCATGTCCC.2	Erythrocytes
+TTGGAACTCTTCGAGA.2	Epicardial cells
+TTGGCAAAGTTGTCGT.2	Ventricular cardiomyocytes
+TTGGCAACAACACGCC.2	Ventricular cardiomyocytes
+TTGGCAAGTCTCCATC.2	Capillary endothelium
+TTGGCAAGTCTTCAAG.2	Immune cells
+TTGGCAAGTTTGGCGC.2	Capillary endothelium
+TTGGCAATCTCCGGTT.2	Ventricular cardiomyocytes
+TTGGCAATCTGGTTCC.2	Ventricular cardiomyocytes
+TTGTAGGAGACGCACA.2	Fibroblast-like
+TTGTAGGAGCAAATCA.2	Ventricular cardiomyocytes
+TTGTAGGAGGACCACA.2	Capillary endothelium
+TTGTAGGAGGGTTCCC.2	Erythrocytes
+TTGTAGGCAAGCGCTC.2	Capillary endothelium
+TTGTAGGCATCTACGA.2	Capillary endothelium
+TTGTAGGGTCCGAGTC.2	Ventricular cardiomyocytes
+TTTACTGCAAGTACCT.2	Capillary endothelium
+TTTACTGGTACCATCA.2	Fibroblast-like
+TTTACTGGTGATGTGG.2	Ventricular cardiomyocytes
+TTTACTGTCTAGCACA.2	Fibroblast-like
+TTTATGCAGCGTTCCG.2	Erythrocytes
+TTTATGCAGTCATCCA.2	Capillary endothelium
+TTTATGCCATCAGTAC.2	Erythrocytes
+TTTATGCCATCGTCGG.2	Erythrocytes
+TTTATGCCATTGCGGC.2	Endothelium / pericytes / adventitia
+TTTATGCGTCTCATCC.2	Fibroblast-like
+TTTATGCGTGCTCTTC.2	Fibroblast-like
+TTTATGCTCACATACG.2	Capillary endothelium
+TTTCCTCAGATGCCTT.2	Capillary endothelium
+TTTCCTCAGTCCAGGA.2	Capillary endothelium
+TTTCCTCCAACTGGCC.2	Fibroblast-like
+TTTCCTCCACTTACGA.2	Capillary endothelium
+TTTGCGCCAGGATCGA.2	Erythrocytes
+TTTGCGCGTATCAGTC.2	Ventricular cardiomyocytes
+TTTGCGCTCCGTCATC.2	Capillary endothelium
+TTTGCGCTCGGCGCTA.2	Fibroblast-like
+TTTGGTTAGTGTCCAT.2	Epicardium-derived cells
+TTTGTCAAGGAATCGC.2	Fibroblast-like
+TTTGTCACACGGTAAG.2	Fibroblast-like
