@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-07 22:11:05
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-09-01 10:51:16
+# @Last Modified time: 2021-09-01 13:55:22
 
 
 import os
@@ -213,7 +213,8 @@ def ModelSelect(sc_corpus, genes_dict, genes_shared, ntopics_list, cell_gene_lis
     metrics_df = evaluate_res["metrics_df"]
     metrics_df.to_csv(os.path.join(out_dir, "Model_selection.txt"), sep="\t", index = False)
     # select the model and the optimal topic number
-    model_selected = metrics_df.iloc[:, range(4,9)].max().idxmax()
+    # model_selected = metrics_df.iloc[:, range(4,9)].max().idxmax()
+    model_selected = metrics_df.iloc[:, range(4,9)].mean(0).idxmax()
     ntopic_selected = metrics_df.iloc[metrics_df.loc[:, model_selected].idxmax(), 0]
     sns.set(style="white")
     f, ax = plt.subplots(figsize=(6, 4))
@@ -245,7 +246,8 @@ def ModelSelect(sc_corpus, genes_dict, genes_shared, ntopics_list, cell_gene_lis
 def ModelRetrieve(model_dir, st_count_genes):
     metrics_df = pd.read_csv(os.path.join(model_dir, "..", "Model_selection.txt"), sep="\t", index_col=False, header=0)
     # select the model and the optimal topic number
-    model_selected = metrics_df.iloc[:, range(4,9)].max().idxmax()
+    # model_selected = metrics_df.iloc[:, range(4,9)].max().idxmax()
+    model_selected = metrics_df.iloc[:, range(4,9)].mean(0).idxmax()
     ntopic_selected = metrics_df.iloc[metrics_df.loc[:, model_selected].idxmax(), 0]
     genes_dict_file = os.path.join(model_dir, "..", "Gene_dict.txt")
     genes_dict = Dictionary.load_from_text(genes_dict_file)
