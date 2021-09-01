@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 08:42:54
 # @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-08-02 23:22:34
+# @Last Modified time: 2021-09-01 13:59:45
 
 
 import os
@@ -65,7 +65,7 @@ def ClusterParser(subparsers):
 def FindNeighbours(st_loc_df):
     st_loc_df = st_loc_df.iloc[:,0:2]
     dist_mat = distance.pdist(st_loc_df, "euclidean")
-    dist_min = np.quantile(dist_mat, q = st_loc_df.shape[0]/len(dist_mat))
+    dist_min = np.quantile(dist_mat, q = 2*st_loc_df.shape[0]/len(dist_mat)) + 1
     kd_tree = KDTree(st_loc_df)
     neighbour_list = kd_tree.query_ball_tree(kd_tree, r = dist_min)
     neighbour_dict = {}
