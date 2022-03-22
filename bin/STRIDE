@@ -16,6 +16,7 @@ from STRIDE.Deconvolution import DeconvolveParser, Deconvolve
 from STRIDE.Plot import PlotParser, Plot
 from STRIDE.Clustering import ClusterParser, Clustering
 from STRIDE.Integration import IntegrateParser, Integrate
+from STRIDE.Mapping import MappingParser, Mapping
 
 
 def main():
@@ -30,6 +31,7 @@ def main():
     PlotParser(subparsers)
     ClusterParser(subparsers)
     IntegrateParser(subparsers)
+    MappingParser(subparsers)
 
     logging.basicConfig(format="%(levelname)s: %(message)s", stream=sys.stderr)
     args = parser.parse_args()
@@ -58,6 +60,8 @@ def main():
             deconv_res_file_list = args.deconv_res_file_list, st_loc_file_list = args.st_loc_file_list,
              alpha = args.alpha, plot = args.plot, pt_size = args.pt_size,
              out_dir = args.out_dir, out_prefix = args.out_prefix)
+    elif args.subcommand == "map":
+        Mapping(topic_st_file = args.topic_st_file, model_dir = args.model_dir, ntop = args.ntop, out_dir = args.out_dir, out_prefix = args.out_prefix)
     else:
         parser.print_help()
         exit(1)
