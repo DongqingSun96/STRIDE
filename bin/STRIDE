@@ -16,7 +16,7 @@ from STRIDE.Deconvolution import DeconvolveParser, Deconvolve
 from STRIDE.Plot import PlotParser, Plot
 from STRIDE.Clustering import ClusterParser, Clustering
 from STRIDE.Integration import IntegrateParser, Integrate
-from STRIDE.Mapping import MappingParser, Mapping
+# from STRIDE.Mapping import MappingParser, Mapping 
 
 
 def main():
@@ -31,7 +31,7 @@ def main():
     PlotParser(subparsers)
     ClusterParser(subparsers)
     IntegrateParser(subparsers)
-    MappingParser(subparsers)
+    # MappingParser(subparsers)
 
     logging.basicConfig(format="%(levelname)s: %(message)s", stream=sys.stderr)
     args = parser.parse_args()

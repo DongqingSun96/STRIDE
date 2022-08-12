@@ -3,7 +3,7 @@
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-09 08:56:08
 # @Last Modified by:   dongqing
-# @Last Modified time: 2021-12-17 20:12:31
+# @Last Modified time: 2022-08-12 13:59:18
 
 
 import os
@@ -141,6 +141,7 @@ def SpatialDeconvolveNorm(st_count_spots, ntopics, topic_spot_mat, out_dir, mode
     topic_celltype_df = pd.read_csv(topic_celltype_file, sep="\t", index_col = 0)
     celltype_topic_df = topic_celltype_df.transpose()
     celltype_topic_norm_df = np.divide(celltype_topic_df, np.array([celltype_topic_df.sum(axis = 0)]))
+    celltype_topic_norm_df = celltype_topic_norm_df.fillna(0)
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_norm_df.iloc[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
@@ -198,6 +199,7 @@ def SpatialDeconvolveBayesNorm(st_count_spots, ntopics, topic_spot_mat, out_dir,
     celltype_topic_file = os.path.join(model_dir,"celltype_topic_mat_bayes_%s.txt" %(ntopics))
     celltype_topic_bayes_df = pd.read_csv(celltype_topic_file, sep="\t", index_col = 0)
     celltype_topic_norm_df = np.divide(celltype_topic_bayes_df, np.array([celltype_topic_bayes_df.sum(axis = 0)]))
+    celltype_topic_norm_df = celltype_topic_norm_df.fillna(0)
     # deconvolution
     celltype_spot_array = np.dot(celltype_topic_norm_df.iloc[:,0:topic_spot_mat.shape[0]], topic_spot_mat.toarray())
     spot_celltype_array = celltype_spot_array.transpose()
