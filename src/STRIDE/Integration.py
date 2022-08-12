@@ -2,8 +2,8 @@
 # @Author: Dongqing Sun
 # @E-mail: Dongqingsun96@gmail.com
 # @Date:   2021-06-22 19:54:39
-# @Last Modified by:   Dongqing Sun
-# @Last Modified time: 2021-08-02 23:34:53
+# @Last Modified by:   dongqing
+# @Last Modified time: 2022-03-22 14:52:59
 
 
 import os
@@ -111,7 +111,7 @@ def IntegrationPlot(sample_all_loc_centered_df, st_deconv_df, sample_list, pt_si
     fig = plt.figure()
     ax = fig.add_subplot(projection='3d')
     if len(st_deconv_df.columns) > 15:
-        color_pal = sns.color_palette("Spectral", len(celltypes))
+        color_pal = sns.color_palette("Spectral", len(st_deconv_df.columns))
     else:
         color_pal = DefaulfColorPalette
     for i in sample_all_loc_centered_df.index:
