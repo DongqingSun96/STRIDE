@@ -22,6 +22,8 @@ For full installation and usage of STRIDE, please refer to the [documentation](h
 * Fix bugs of deconvolution with trained topic model.
 ### v1.0.3
 * Update mapping function to make cell mapping consistent with the deconvolved fractions.
+### v1.0.4
+* Fix a bug that produced an empty `*_spot_celltype_frac.txt` when a topic column summed to zero (NaN propagated through the deconvolution). Zero-sum topic columns are now filled with 0 after normalization.
 
 
 ## Install STRIDE

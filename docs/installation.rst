@@ -37,7 +37,7 @@ Step 2 Install STRIDE package from :bash:`pypi`.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 ::
 
-   pip install -U stride
+   pip install stridespatial
 
 
 Install the developing version
